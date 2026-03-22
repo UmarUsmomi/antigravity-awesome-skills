@@ -1,6 +1,13 @@
 ---
+<<<<<<< HEAD
 name: Antigravity-in-chrome-troubleshooting
 description: Diagnose and fix Antigravity in Chrome MCP extension connectivity issues. Use when mcp__Antigravity-in-chrome__* tools fail, return "Browser extension is not connected", or behave erratically.
+=======
+name: claude-in-chrome-troubleshooting
+description: Diagnose and fix Claude in Chrome MCP extension connectivity issues. Use when mcp__claude-in-chrome__* tools fail, return "Browser extension is not connected", or behave erratically.
+risk: unknown
+source: community
+>>>>>>> 9c177eb003f8bf2dfe03f118f04653e7afb5370f
 ---
 
 # Antigravity in Chrome MCP Troubleshooting
@@ -8,8 +15,12 @@ description: Diagnose and fix Antigravity in Chrome MCP extension connectivity i
 Use this skill when Antigravity in Chrome MCP tools fail to connect or work unreliably.
 
 ## When to Use
+<<<<<<< HEAD
 
 - `mcp__Antigravity-in-chrome__*` tools fail with "Browser extension is not connected"
+=======
+- `mcp__claude-in-chrome__*` tools fail with "Browser extension is not connected"
+>>>>>>> 9c177eb003f8bf2dfe03f118f04653e7afb5370f
 - Browser automation works erratically or times out
 - After updating Antigravity Code or Antigravity.app
 - When switching between Antigravity Code CLI and Antigravity.app (Cowork)

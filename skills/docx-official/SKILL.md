@@ -1,6 +1,10 @@
 ---
 name: docx-official
+<<<<<<< HEAD
 description: "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Antigravity needs to work with professional document..."
+=======
+description: "A user may ask you to create, edit, or analyze the contents of a .docx file. A .docx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks."
+>>>>>>> 9c177eb003f8bf2dfe03f118f04653e7afb5370f
 risk: unknown
 source: community
 date_added: "2026-02-27"

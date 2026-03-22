@@ -1,6 +1,13 @@
 ---
 name: devcontainer-setup
+<<<<<<< HEAD
 description: Creates devcontainers with Antigravity Code, language-specific tooling (Python/Node/Rust/Go), and persistent volumes. Use when adding devcontainer support to a project, setting up isolated development environments, or configuring sandboxed Antigravity Code workspaces.
+=======
+description: Creates devcontainers with Claude Code, language-specific tooling (Python/Node/Rust/Go), and persistent volumes. Use when adding devcontainer support to a project, setting up isolated development environments, or configuring sandboxed Claude Code workspaces.
+risk: safe
+source: vibeship-spawner-skills (Apache 2.0)
+date_added: 2026-03-06
+>>>>>>> 9c177eb003f8bf2dfe03f118f04653e7afb5370f
 ---
 
 # Devcontainer Setup Skill
@@ -8,7 +15,6 @@ description: Creates devcontainers with Antigravity Code, language-specific tool
 Creates a pre-configured devcontainer with Antigravity Code and language-specific tooling.
 
 ## When to Use
-
 - User asks to "set up a devcontainer" or "add devcontainer support"
 - User wants a sandboxed Antigravity Code development environment
 - User needs isolated development environments with persistent configuration

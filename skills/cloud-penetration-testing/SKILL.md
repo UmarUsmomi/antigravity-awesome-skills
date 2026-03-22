@@ -1,10 +1,13 @@
 ---
 name: cloud-penetration-testing
-description: "This skill should be used when the user asks to \"perform cloud penetration testing\", \"assess Azure or AWS or GCP security\", \"enumerate cloud resources\", \"exploit cloud misconfiguratio..."
+description: "Conduct comprehensive security assessments of cloud infrastructure across Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP)."
 risk: unknown
 source: community
+author: zebbern
 date_added: "2026-02-27"
 ---
+
+<!-- security-allowlist: curl-pipe-bash -->
 
 # Cloud Penetration Testing
 

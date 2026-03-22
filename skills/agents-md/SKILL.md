@@ -1,6 +1,12 @@
 ---
 name: agents-md
+<<<<<<< HEAD
 description: This skill should be used when the user asks to "create AGENTS.md", "update AGENTS.md", "maintain agent docs", "set up Antigravity.md", or needs to keep agent instructions concise. Enforces research-backed best practices for minimal, high-signal agent documentation.
+=======
+description: This skill should be used when the user asks to "create AGENTS.md", "update AGENTS.md", "maintain agent docs", "set up CLAUDE.md", or needs to keep agent instructions concise. Enforces research-backed best practices for minimal, high-signal agent documentation.
+risk: unknown
+source: community
+>>>>>>> 9c177eb003f8bf2dfe03f118f04653e7afb5370f
 ---
 
 # Maintaining AGENTS.md

@@ -1,6 +1,10 @@
 ---
 name: notebooklm
+<<<<<<< HEAD
 description: "Use this skill to query your Google NotebookLM notebooks directly from Antigravity Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth...."
+=======
+description: "Interact with Google NotebookLM to query documentation with Gemini's source-grounded answers. Each question opens a fresh browser session, retrieves the answer exclusively from your uploaded documents, and closes."
+>>>>>>> 9c177eb003f8bf2dfe03f118f04653e7afb5370f
 risk: unknown
 source: community
 date_added: "2026-02-27"

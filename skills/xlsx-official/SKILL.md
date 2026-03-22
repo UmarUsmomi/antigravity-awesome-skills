@@ -1,6 +1,10 @@
 ---
 name: xlsx-official
+<<<<<<< HEAD
 description: "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Antigravity needs to work with spreadsheets (.xlsx, .xlsm, .csv, ...."
+=======
+description: "Unless otherwise stated by the user or existing template"
+>>>>>>> 9c177eb003f8bf2dfe03f118f04653e7afb5370f
 risk: unknown
 source: community
 date_added: "2026-02-27"

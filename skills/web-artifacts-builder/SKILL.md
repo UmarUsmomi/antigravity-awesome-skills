@@ -1,6 +1,10 @@
 ---
 name: web-artifacts-builder
+<<<<<<< HEAD
 description: "Suite of tools for creating elaborate, multi-component Antigravity.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state ma..."
+=======
+description: "To build powerful frontend claude.ai artifacts, follow these steps:"
+>>>>>>> 9c177eb003f8bf2dfe03f118f04653e7afb5370f
 risk: unknown
 source: community
 date_added: "2026-02-27"

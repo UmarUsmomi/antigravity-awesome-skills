@@ -1,6 +1,10 @@
 ---
 name: loki-mode
+<<<<<<< HEAD
 description: "Multi-agent autonomous startup system for Antigravity Code. Triggers on \"Loki Mode\". Orchestrates 100+ specialized agents across engineering, QA, DevOps, security, data/ML, business operations,..."
+=======
+description: "Version 2.35.0 | PRD to Production | Zero Human Intervention > Research-enhanced: OpenAI SDK, DeepMind, Anthropic, AWS Bedrock, Agent SDK, HN Production (2025)"
+>>>>>>> 9c177eb003f8bf2dfe03f118f04653e7afb5370f
 risk: unknown
 source: community
 date_added: "2026-02-27"

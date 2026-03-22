@@ -1,6 +1,11 @@
 ---
+<<<<<<< HEAD
 name: Antigravity-d3js-skill
 description: "Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisations, or any complex SVG-based data visua..."
+=======
+name: claude-d3js-skill
+description: "This skill provides guidance for creating sophisticated, interactive data visualisations using d3.js."
+>>>>>>> 9c177eb003f8bf2dfe03f118f04653e7afb5370f
 risk: unknown
 source: community
 date_added: "2026-02-27"

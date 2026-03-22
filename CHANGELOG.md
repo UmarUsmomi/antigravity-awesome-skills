@@ -9,7 +9,637 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [8.5.0] - 2026-03-21 - "Installer Safety and Maintainer Automation"
+
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+
+Start here:
+
+- Install: `npx antigravity-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+
+This release captures everything that landed after `v8.4.0`: a safety fix for the installer migration path, two new in-repo bdistill skills, broader maintainer automation for metadata/release hygiene, refreshed generated artifacts for the `1,306+` skill catalog, and a new README community section for five OpenClaw skills.
+
+## New Skills
+
+- **bdistill-behavioral-xray** - self-probe an AI model across refusal, reasoning, formatting, grounding, persona, and tool-use dimensions, then generate a visual HTML report (PR #366)
+- **bdistill-knowledge-extraction** - extract structured domain knowledge in-session or from local Ollama models into searchable/exportable reference datasets (PR #366)
+
+## Improvements
+
+- **Installer migration safety**: Replaced the destructive legacy migration path in `tools/bin/install.js` with a safety-backup flow so rerunning installs no longer wipes unrelated user skills from the target directory (PR #368, fixes issue #367).
+- **Catalog growth and generated sync**: Imported the external marketing, SEO, Obsidian, and Anthropic-adjacent maintainer batch, then refreshed `README.md`, `CATALOG.md`, `skills_index.json`, `data/catalog.json`, bundles, and tracked web assets so `main` now reflects `1,306+` indexed skills.
+- **Maintainer automation**: Added docs/package metadata sync, GitHub About sync, contributor sync, release-state sync, repo-state audits, and a frozen validation warning budget so maintainers can keep release artifacts and repo claims aligned with less manual drift.
+- **Security and workflow hardening**: Tightened skill tooling file handling, clarified install/PR guidance, and kept CI/release automation aligned with the active source-only PR policy and repo hygiene workflows.
+- **Community discovery**: Added a README community section linking five OpenClaw/Claude Code skills from FullStackCrew so users can discover adjacent external tooling from the main repository landing page (PR #370).
+
+## Who should care
+
+- **Claude Code users** get a safer installer migration path and two new bdistill skills for model behavior analysis and knowledge extraction.
+- **Cursor users** benefit from the same new skills plus the refreshed docs/catalog metadata that improve browsing and install guidance.
+- **Codex CLI users** benefit from the maintainer automation and security hardening that keep registry artifacts, docs, and release metadata in sync.
+- **Gemini CLI users** benefit from the synced user docs, updated bundles/workflows metadata, and the safer shared installer maintenance path.
+
+## Credits
+
+- **[@Champbreed](https://github.com/Champbreed)** for the installer migration safety fix in PR #368
+- **[@FrancyJGLisboa](https://github.com/FrancyJGLisboa)** for the new `bdistill-behavioral-xray` and `bdistill-knowledge-extraction` skills in PR #366
+- **[@fullstackcrew-alpha](https://github.com/fullstackcrew-alpha)** for the OpenClaw community discovery links added in PR #370
+
+Upgrade now: `git pull origin main` to fetch the latest skills.
+
+## [8.4.0] - 2026-03-20 - "Discovery, Metadata, and Release Hardening"
+
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+
+Start here:
+
+- Install: `npx antigravity-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+
+This release packages everything that landed after `v8.3.0`: new discovery and SEO surfaces for the catalog, GitHub Pages/web-app reliability fixes, metadata and index curation across the 1,273-skill registry, maintainer release/support polish, and the final merge sweep for PRs #363, #362, and #360.
+
+## New Skills
+
+- **None in this release** - `8.4.0` is a discovery, maintenance, and release-hardening cut rather than a new in-repo skill drop.
+
+## Improvements
+
+- **Catalog discovery and SEO**: Added repo growth discovery pages, finalized the web-app SEO layer for catalog routes, hardened JSON-LD/prerender behavior, expanded the home skills viewport, and improved GitHub Pages/base-path fetch fallbacks so the public catalog is more discoverable and stable.
+- **Registry curation**: Expanded curated and uncategorized category coverage, normalized legacy catalog categories, improved safe-skill categorization, and refreshed generated starter packs/bundles to better organize the 1,273-skill library.
+- **Metadata quality sweep**: Backfilled missing risk/source metadata, repaired actionable skill descriptions, and merged the `gha-security-review` metadata/usage cleanup so repository validation and review prompts stay more consistent.
+- **Infrastructure hardening**: Merged PR #363 to move CI intake to `tools/scripts/pr_preflight.cjs`, localize ESM handling for the Jetski Gemini loader docs, and keep the security/test pipeline green without breaking CommonJS entrypoints.
+- **Credits and repo polish**: Added `privacy-mask` to README credits, added the X/community reference update, refreshed the star-history/support surfaces, and kept release-facing onboarding/docs aligned with the current catalog state.
+
+## Who should care
+
+- **Claude Code users** get a more discoverable catalog, cleaner metadata, and improved release/maintenance hygiene around skill quality and source attribution.
+- **Cursor users** benefit from the same catalog-route SEO and GitHub Pages web-app fixes when browsing skills through the published site or mirrored install flows.
+- **Codex CLI users** benefit from the infrastructure hardening in PR #363 and the continued metadata cleanup that improves routing and maintenance behavior.
+- **Gemini CLI users** benefit from the Jetski Gemini loader hardening and the broader catalog/index curation that makes tool-specific discovery easier.
+
+## Credits
+
+- **[@Champbreed](https://github.com/Champbreed)** for the infrastructure hardening in PR #363 and the `gha-security-review` metadata/usage cleanup in PR #362
+- **[@fullstackcrew-alpha](https://github.com/fullstackcrew-alpha)** for the `privacy-mask` source attribution added in PR #360
+
+Upgrade now: `git pull origin main` to fetch the latest skills.
+
+## [8.3.0] - 2026-03-19 - "Activation and Skill Expansion"
+
+> **Focused follow-up release for post-`v8.2.0` reliability, metadata, and marketplace improvements**
+
+This release closes the post-`v8.2.0` maintainer batch and includes the merged `landing-page-generator` skill (#341), activation/security hardening, and metadata updates from late-cycle contributions.
+
+## 🚀 New Skills
+
+- **landing-page-generator** — high-converting landing-page and campaign copy templates for product launches and marketing work (PR #341)
+- **maxia-ai-to-ai** — MAXIA AI-to-AI marketplace interaction guidance and onboarding patterns (PR #359)
+
+## 📦 Improvements
+
+- **Activation reliability**: Improved activation metadata loading paths and bundle startup behavior to reduce overflow/truncation behavior in local and plugin contexts (PR #358, #359).
+- **Metadata repair batch**: Fixed metadata consistency in `agentic-auditor` and `advanced-evaluation` to align risk/quality labels and schema validation (PR #353, #352).
+- **Bundle and security maintenance**: Refined full-bundle resolution and included follow-up CI/security cleanup to stabilize post-merge behavior.
+
+## 👥 Credits
+
+- **[@halith-smh](https://github.com/halith-smh)** for `landing-page-generator` in PR #341
+- **[@Champbreed](https://github.com/Champbreed)** for metadata fixes in PR #352 and PR #353 (`advanced-evaluation`, `agentic-auditor`)
+- **[@AssassinMaeve](https://github.com/AssassinMaeve)** for `Activation skills` in PR #358
+- **[@majorelalexis-stack](https://github.com/majorelalexis-stack)** for `MAXIA AI-to-AI` updates in PR #359
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
+
+## [8.2.0] - 2026-03-18 - "Community Skill Expansion and Plugin Repair"
+
+> **Added six community skills, repaired Claude marketplace metadata, and closed the 2026-03-18 maintainer sweep with refreshed release docs**
+
+This release captures the maintainer pass completed after `v8.1.0`. It adds six new community skills for Astro, Hono, SvelteKit, PydanticAI, blockchain data access, and GitHub repository cleanup; fixes malformed markdown in `browser-extension-builder`; repairs missing metadata labels in legacy skills; credits an additional upstream skills source; and corrects the Claude Code marketplace plugin manifest so installs remain schema-valid.
+
+## New Skills
+
+- **astro** — Astro implementation guidance for content sites, islands architecture, routing, and performance patterns (PR #336)
+- **hono** — Hono web framework patterns for APIs, middleware, validation, and edge/server runtimes (PR #336)
+- **pydantic-ai** — PydanticAI agent design patterns for typed prompts, tool use, and production workflows (PR #336)
+- **sveltekit** — SvelteKit full-stack patterns for routing, data loading, forms, and deployment (PR #336)
+- **goldrush-api** — GoldRush API usage for blockchain balances, NFTs, transactions, and multi-chain data flows (PR #334)
+- **openclaw-github-repo-commander** — GitHub repository audit and cleanup workflows for issues, PRs, labels, and maintenance automation (PR #340)
+
+## Improvements
+
+- **PR maintenance batch**: Merged PRs #333, #336, #338, #343, #340, #334, and #345 via GitHub squash merge after maintainer workflow approval, checklist normalization, and green CI.
+- **Skill content repair**: Removed malformed nested code fences from `skills/browser-extension-builder/SKILL.md`, resolving the accepted fix path for issue `#335` and the follow-up report in issue `#339` (PR #338).
+- **Metadata hygiene**: Restored missing required frontmatter labels in `skills/skill-anatomy/SKILL.md`, `skills/adapter-patterns/SKILL.md`, and `skills/devcontainer-setup/SKILL.md` (PRs #333 and #343).
+- **Claude plugin stability**: Corrected `.claude-plugin/marketplace.json` so the marketplace entry uses `source: "./"` and added a regression test to catch future schema drift, closing issue `#344`.
+- **Credits and sources**: Added `Wolfe-Jam/faf-skills` to the README source acknowledgements and refreshed contributor thanks for the merged maintenance batch (PR #345).
+- **Release sync**: Updated README release messaging, user onboarding docs, and maintainer walkthroughs so the public docs match the `8.2.0` release path.
+
+## Credits
+
+- **[@suhaibjanjua](https://github.com/suhaibjanjua)** for the metadata fixes in PR #333, the new `astro`, `hono`, `pydantic-ai`, and `sveltekit` skills in PR #336, and the `browser-extension-builder` markdown repair in PR #338
+- **[@JayeHarrill](https://github.com/JayeHarrill)** for the new `goldrush-api` skill in PR #334
+- **[@wd041216-bit](https://github.com/wd041216-bit)** for the new `openclaw-github-repo-commander` skill in PR #340
+- **[@Champbreed](https://github.com/Champbreed)** for the `devcontainer-setup` metadata label repair in PR #343
+- **[@Wolfe-Jam](https://github.com/Wolfe-Jam)** for the `faf-skills` source attribution update in PR #345
+
+## Documentation
+
+- Documented the maintainer handling for fork-gated GitHub Actions runs and stale PR metadata in `.github/MAINTENANCE.md`, then aligned the release-facing onboarding docs with the current `8.2.0` sweep.
+
+## [8.1.0] - 2026-03-17 - "PR Maintenance and Release Sync"
+
+> **Merged the active PR queue, added three new community skills, repaired metadata drift, and refreshed release-facing docs for the next tagged cut**
+
+This release completes the post-merge maintainer pass for the six open pull requests that landed after `8.0.0`. It adds new skills for progressive web apps, tRPC full-stack development, and external AI code review; repairs malformed YAML frontmatter in legacy skills; fixes a broken `data-scientist` reference; and refreshes README, contributor acknowledgements, and linked onboarding docs before the `v8.1.0` tag.
+
+## New Skills
+
+- **progressive-web-app** — practical PWA implementation guidance for manifests, service workers, caching, offline support, and installability (PR #324)
+- **vibers-code-review** — GitHub-based external human review workflow for AI-generated projects, including setup steps and integration guidance (PR #325)
+- **trpc-fullstack** — end-to-end type-safe API development patterns with tRPC across server, client, auth, and Next.js integration (PR #329)
+
+## Improvements
+
+- **PR maintenance batch**: Merged PRs #331, #330, #326, #324, #325, and #329 via GitHub squash merge after maintainer preflight, workflow approval for forked PRs, and green CI.
+- **Docs alignment**: Updated `docs/users/getting-started.md`, README release messaging, and release-facing notes so the public docs reflect the current post-merge state.
+- **Issue and reference hygiene**: Removed the dead `resources/implementation-playbook.md` reference from `skills/data-scientist/SKILL.md` (PR #331, closes #327) and closed the duplicate truncation report in issue `#328` against the documented fix path in issue `#269`.
+- **FAQ polish**: Aligned FAQ risk-label documentation and added `skill-review` troubleshooting guidance for contributors (PR #330).
+- **Legacy metadata repair**: Normalized malformed YAML frontmatter across `astropy`, `biopython`, `cirq`, `citation-management`, `fixing-metadata`, `gmail-automation`, `google-calendar-automation`, `google-docs-automation`, `google-drive-automation`, `google-sheets-automation`, `google-slides-automation`, `networkx`, `qiskit`, `seaborn`, `sympy`, and `varlock` (PR #326).
+- **Contributor flow hardening**: Repaired `skills/vibers-code-review/SKILL.md` on the contributor branch so the skill met repository validation rules before merge, then reran CI and merged normally (PR #325 maintainer refresh).
+- **Registry and release sync**: Refreshed generated registry artifacts, README counts, package metadata, contributor acknowledgements, and release automation inputs on `main` before tagging `v8.1.0`.
+
+## Credits
+
+- **[@suhaibjanjua](https://github.com/suhaibjanjua)** for the `data-scientist` broken-reference fix in PR #331, the FAQ and getting-started docs alignment in PR #330, and the new `trpc-fullstack` skill in PR #329
+- **[@BenZinaDaze](https://github.com/BenZinaDaze)** for the YAML frontmatter repair sweep in PR #326
+- **[@JaskiratAnand](https://github.com/JaskiratAnand)** for the new `progressive-web-app` skill in PR #324
+- **[@marsiandeployer](https://github.com/marsiandeployer)** for the initial `vibers-code-review` contribution in PR #325
+
+## Documentation
+
+- Documented the new `skill-review` GitHub Actions workflow across contributor, maintainer, and README guidance so PR expectations stay aligned with the active CI surface for `SKILL.md` changes.
+
+## [8.0.0] - 2026-03-16 - "Community Merge Sweep"
+
+> **Merged eight maintainer-refreshed community PRs, shipped three new skills plus workflow automation improvements, and synced the repository for the next release train**
+
+This release closes the open PR maintenance batch in one pass. It adds new skills for agent-native CLI work, AI-assisted end-to-end testing, and AI engineering workflows; strengthens the review workflow with a dedicated skill-review check; repairs the `analyze-project` skill content; and ships helper scripts plus documentation for resolving activation/context overload issues on local installs.
+
+## New Skills
+
+- **ai-native-cli** — build agent-friendly CLIs with clearer UX, task flows, and distribution guidance (PR #317)
+- **awt-e2e-testing** — AI-powered end-to-end testing patterns and beta workflow guidance (PR #320)
+- **ai-engineering-toolkit** — AI engineering workflow kit for production-oriented implementation loops (PR #314)
+
+## Improvements
+
+- **PR maintenance batch**: Merged PRs #321, #318, #317, #320, #314, #319, #305, and #322 via GitHub squash merge after maintainer refresh, checklist normalization, and green CI.
+- **Credits & sources**: Added `tsilverberg/webapp-uat` to `README.md` as a credited external source and refreshed the repository star history asset (PRs #321 and #318).
+- **Tooling and troubleshooting**: Added `scripts/activate-skills.bat`, `tools/scripts/get-bundle-skills.py`, and related README troubleshooting guidance for activation-script and context-overload recovery (PR #319).
+- **Skill quality repairs**: Restored valid YAML frontmatter and cleaned the structure of `skills/analyze-project/SKILL.md`, preserving the substantive workflow improvements from the contribution (PR #305).
+- **Review workflow hardening**: Improved `skills/comprehensive-review-pr-enhance/SKILL.md` and added a pinned `skill-review` GitHub Actions workflow for PRs that touch `SKILL.md` files (PR #322).
+- **Registry and release sync**: Realigned README/package metadata and generated registry artifacts around the current `1,262+` skill inventory before cutting the release.
+
+## Credits
+
+- **[@tsilverberg](https://github.com/tsilverberg)** for the `webapp-uat` source attribution in PR #321
+- **[@Marvin19700118](https://github.com/Marvin19700118)** for the star-history refresh in PR #318
+- **[@ChaosRealmsAI](https://github.com/ChaosRealmsAI)** for `ai-native-cli` in PR #317
+- **[@ksgisang](https://github.com/ksgisang)** for `awt-e2e-testing` in PR #320
+- **[@viliawang-pm](https://github.com/viliawang-pm)** for `ai-engineering-toolkit` in PR #314
+- **[@AssassinMaeve](https://github.com/AssassinMaeve)** for the activation-script helpers in PR #319
+- **[@Gizzant](https://github.com/Gizzant)** for the `analyze-project` update in PR #305
+- **[@fernandezbaptiste](https://github.com/fernandezbaptiste)** for the review workflow enhancement in PR #322
+
+## [7.9.2] - 2026-03-15 - "npm CLI Packaging Fix"
+
+> **Patch release to fix the published npm CLI bundle so `npx antigravity-awesome-skills` resolves its runtime helper modules correctly**
+
+This release fixes a packaging regression in the published npm artifact. Version `7.9.1` shipped `tools/bin/install.js` without the required `tools/lib` runtime helpers, causing `npx antigravity-awesome-skills` to fail with `MODULE_NOT_FOUND` for `../lib/symlink-safety`.
+
+## New Skills
+
+- **None in this release** — `7.9.2` is a focused patch release for the npm installer bundle.
+
+## Improvements
+
+- **npm package contents**: Expanded the published `files` whitelist to ship `tools/lib/*` alongside `tools/bin/*`, restoring the runtime dependency required by the installer entrypoint.
+- **Regression coverage**: Added a package-contents test that checks `npm pack --dry-run --json` and asserts the published tarball includes both `tools/bin/install.js` and `tools/lib/symlink-safety.js`.
+- **CLI verification**: Verified the extracted packaged entrypoint runs successfully with `--help`, confirming the published layout no longer reproduces the missing-module crash reported in issue `#315`.
+
+## Credits
+
+- **Issue #315 reporter** for isolating the npm packaging regression in the published CLI artifact.
+
+## [7.9.1] - 2026-03-15 - "Security Hardening Follow-up"
+
+> **Follow-up release to 7.9.0: same security batch, additional hardening focused on mutating endpoints, markdown rendering, and doc-risk enforcement**
+
+This release is a companion follow-up to `7.9.0` and applies security controls for the web app runtime, runtime refresh endpoint, and documentation quality gates.
+
+## New Skills
+
+- **None in this release** — this is a follow-up security maintenance release.
+
+## Improvements
+
+- **Endpoint hardening (mutating API)**: The `/api/refresh-skills` endpoint is now protected by strict local-only ingress rules, explicit token support (`SKILLS_REFRESH_TOKEN` when configured), explicit method validation, and explicit host/Origin checks before any state-changing logic runs.
+- **Front-end hardening**: Added POST-only sync from UI and removed unsafe HTML passthrough (`rehype-raw`) from `SkillDetail`, reducing the runtime XSS surface.
+- **Documentation risk controls**: Added a full-repo `SKILL.md` security scan for dangerous command patterns (`curl|bash`, `wget|sh`, `irm|iex`, obvious command-line token examples), with opt-in comment allowlisting.
+- **Security test coverage**: Added dedicated security tests for endpoint authorization/host/token behavior and markdown rendering behavior, and wired docs security checks into the shared test and CI pipeline.
+- **Tooling robustness**: Improved YAML date normalization for frontmatter parsing and index generation so unquoted ISO dates remain stable as strings across tooling.
+
+## Credits
+
+- **Internal security hardening pass** covering endpoint, rendering, and docs scanning controls.
+
+## [7.9.0] - 2026-03-15 - "Codex Security Remediation Sweep"
+
+> **Verified and remediated the active security batch on `main`, with triage and fixes delivered thanks to Codex Security with Codex for OSS**
+
+This release is a focused security maintenance cut. We used Codex Security with Codex for OSS as the triage input, verified every reported finding against the current default branch, collapsed duplicates and obsolete reports, then shipped the confirmed fixes in remediation buckets before merging the final set onto `main`.
+
+## New Skills
+
+- **None in this release** — `7.9.0` is intentionally a security and maintenance release.
+
+## Improvements
+
+- **Filesystem trust boundaries**: Hardened path, symlink, and archive extraction handling across setup, install, sync, metadata, normalization, indexing, and local dev serving flows.
+- **Auth and integrity defaults**: Disabled shared frontend star writes by default unless explicitly enabled, and restored TLS verification defaults in the `junta-leiloeiros` scrapers with an explicit opt-out for insecure targets.
+- **Shell safety**: Removed pipe-to-shell and token-on-command-line guidance from the Apify docs, and fixed the audio transcription example so shell values are no longer interpolated directly into Python source.
+- **Robustness fixes**: Rejected non-mapping YAML frontmatter in validation paths, moved local state files out of predictable shared `/tmp` locations, repaired malformed metadata, and removed committed Python bytecode artifacts.
+- **Regression coverage**: Added focused JS, Python, and web-app tests that prove the remediations and guard the reported root causes from reappearing.
+- **Security triage artifacts**: Added maintainer-facing triage outputs at `docs/maintainers/security-findings-triage-2026-03-15.{md,csv}` documenting all 33 findings, including why each one was still valid, duplicate, or obsolete on `HEAD`.
+
+## Credits
+
+- **Codex Security with Codex for OSS** for surfacing and structuring the security batch that drove this release.
+
 ---
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
+
+## [7.8.0] - 2026-03-14 - "Marketplace & Merge Sweep"
+
+> **Merged seven community PRs, added Claude Code marketplace manifests, and finished the maintainer sync/release pass**
+
+This release closes the active maintenance batch in one pass. It ships a new Claude Code plugin marketplace entrypoint for the whole repository, merges seven open community pull requests after maintainer preflight, removes stale Windows symlink guidance from the user docs, and refreshes the generated registry artifacts on `main` for a single `7.8.0` cut.
+
+## New Skills
+
+- **analyze-project** — root-cause analyst workflow for full-project diagnosis (PR #297)
+- **latex-paper-conversion** — convert academic papers into reusable engineering artifacts (PR #296)
+- **k6-load-testing** — k6-based API and performance testing guidance (PR #287)
+- **tool-use-guardian** — tool-call reliability wrapper with retries, recovery, and failure classification (PR #298)
+- **recallmax** — long-context memory, summarization, and conversation compression for agents (PR #298)
+
+## Improvements
+
+- **Claude Code marketplace support**: Added `.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json` so the repository can be installed as a single Claude Code marketplace plugin (PR #302, closes #288).
+- **Windows installer/docs alignment**: Removed the stale `core.symlinks=true` / Developer Mode guidance from user docs after the Windows installer cleanup (PR #299, fixes #286, follow-up #281 closed in release).
+- **NotebookLM cleanup**: Removed unused `typing.Optional` / `typing.List` imports from `skills/notebooklm/scripts/browser_utils.py` (PR #301, closes #300).
+- **README/source maintenance**: Added maintained attribution for external-sourced skills and merged the `uberSKILLS` README addition without generated-file drift (PRs #298 and #293).
+- **Batch merge workflow**: Completed a maintainer preflight for PRs #301, #299, #297, #296, #287, #298, and #293, then regenerated `README.md`, `skills_index.json`, `CATALOG.md`, and `data/*.json` once on `main`.
+- **Issue hygiene**: Closed #288, #300, #286, and #281 from the shipped fixes; documented existing support for #294 in the release follow-up.
+
+## Credits
+
+- **[@ronanguilloux](https://github.com/ronanguilloux)** for the NotebookLM cleanup in PR #301
+- **[@yang1002378395-cmyk](https://github.com/yang1002378395-cmyk)** for the Windows installer cleanup in PR #299
+- **[@Gizzant](https://github.com/Gizzant)** for `analyze-project` in PR #297
+- **[@MArbeeGit](https://github.com/MArbeeGit)** for `latex-paper-conversion` in PR #296
+- **[@kage-art](https://github.com/kage-art)** for `k6-load-testing` in PR #287
+- **[@christopherlhammer11-ai](https://github.com/christopherlhammer11-ai)** for `tool-use-guardian` and `recallmax` in PR #298
+- **[@hvasconcelos](https://github.com/hvasconcelos)** for the `uberSKILLS` README addition in PR #293
+
+## [7.7.0] - 2026-03-13 - "Merge Friction Reduction"
+
+> **Shipped four maintained PR outcomes, stabilized generated-file CI, and cut release friction for future contributor merges**
+
+This release turns a noisy maintainer workflow into a predictable one. It merges the latest community skill additions, integrates the cleaned `privacy-by-design` contribution under the maintainer exception path, and removes the biggest source of PR churn by making generated registry drift informational on pull requests while keeping `main` self-healing and strict.
+
+## New Skills
+
+- **llm-structured-output** — structured JSON/schema extraction patterns across OpenAI, Anthropic, and Gemini (PR #280)
+- **electron-development** — secure Electron architecture, IPC hardening, packaging, signing, and updates (PR #282)
+- **privacy-by-design** — privacy-first software design patterns and implementation guidance (PR #283)
+- **antigravity-skill-orchestrator** — meta-skill for selecting and coordinating the best skill set for a task (PR #285)
+
+## Improvements
+
+- **CI determinism**: `tools/scripts/update_readme.py` and `tools/scripts/sync_repo_metadata.py` now preserve volatile README sync metadata during normal runs instead of rewriting stars/timestamps and causing PR drift.
+- **PR merge flow**: `.github/workflows/ci.yml` now reports generated registry drift as informational on PRs while keeping `main` strict and auto-syncing the final artifact set after merge.
+- **Maintainer docs**: Updated `.github/MAINTENANCE.md`, `docs/maintainers/ci-drift-fix.md`, and `docs/maintainers/merging-prs.md` to document the new lower-friction merge procedure.
+- **Windows issue triage**: Clarified that issue `#281` remains open as an installer/symlink problem distinct from truncation-loop issue `#274`, closed `#284` against the shipped recovery guidance, and opened follow-up issue `#286`.
+
+## Credits
+
+- **[@sx4im](https://github.com/sx4im)** for `llm-structured-output` (PR #280)
+- **[@MatheusCampagnolo](https://github.com/MatheusCampagnolo)** for `electron-development` (PR #282)
+- **[@Abdeltoto](https://github.com/Abdeltoto)** for `privacy-by-design` (PR #283)
+- **[@wahidzzz](https://github.com/wahidzzz)** for `antigravity-skill-orchestrator` (PR #285)
+
+## [7.6.0] - 2026-03-12 - "Maintenance Sweep"
+
+> **Merged community PRs, documented Windows truncation recovery, and hardened Metasploit setup guidance**
+
+This release finishes a focused maintenance sweep across open pull requests and issues. It merges four community updates, ships the Jetski/Gemini overflow and path-safety documentation from the context overflow fix, adds a Windows recovery guide for truncation crash loops, and removes the non-deterministic Metasploit installer flow from the security skill.
+
+## New Skills
+
+- **acceptance-orchestrator** — acceptance-driven execution orchestration (PR #277)
+- **closed-loop-delivery** — delivery workflow with feedback loops (PR #277)
+- **create-issue-gate** — issue creation quality gate (PR #277)
+- **interview-coach** — interview preparation and coaching (PR #272)
+
+## Improvements
+
+- **PR maintenance**: Merged PRs #277, #272, #275, #278, and #271 using GitHub squash merge so all contributors receive merge credit.
+- **Jetski/Gemini loader docs**: Documented `overflowBehavior` handling and `skillsRoot`-confined path validation in the reference loader and integration guide (PR #271).
+- **Windows recovery docs**: Added `docs/users/windows-truncation-recovery.md` and linked it from the main user docs for truncation/context crash loops on Windows.
+- **Metasploit safety**: Replaced the remote installer pattern in `skills/metasploit-framework/SKILL.md` with an explicit "Metasploit must already be installed" prerequisite, and marked the skill as `risk: offensive` with the required warning.
+- **Repo sync**: Refreshed README metadata, generated registry files, and contributor acknowledgements before release.
+
+## Credits
+
+- **[@qcwssss](https://github.com/qcwssss)** for `acceptance-orchestrator`, `closed-loop-delivery`, and `create-issue-gate` (PR #277)
+- **[@dbhat93](https://github.com/dbhat93)** for `interview-coach` (PR #272)
+- **[@rafsilva85](https://github.com/rafsilva85)** for the credit source addition (PR #275)
+- **[@iftikharg786](https://github.com/iftikharg786)** for the star-history update branch that was refreshed and merged as PR #278
+- **[@DiggaX](https://github.com/DiggaX)** for the Windows recovery workflow shared in issue #274
+- **[@copilot-swe-agent](https://github.com/apps/copilot-swe-agent)** for the Jetski/Gemini overflow loader changes in PR #271
+
+## [7.5.0] - 2026-03-11 - "Socratic Governance"
+
+> **Introducing Truth Engines, Local Inference optimizations, and Advanced Output Formatting**
+
+This release brings major architectural skills for local inferences, cross-jurisdictional legal logic, and advanced document structuring to help your AI agents operate securely and systematically.
+
+## 🚀 New Skills
+
+### ⚖️ [lex](skills/lex/)
+**Cross-Jurisdictional Legal Logic Engine**
+A truth engine for navigating complex legal contexts across different jurisdictions without hallucinations.
+
+### 🛡️ [skill-check](skills/skill-check/)
+**Validation for agentskills.io Specification**
+A read-only skill that validates SKILL.md files against the agentskills specification and Anthropic best practices.
+
+### 🔑 [keyword-extractor](skills/keyword-extractor/)
+**Extract High-Quality SEO Keywords**
+Provides agents with the ability to extract up to 50 high-quality, ranked keywords from any text payload.
+
+### 🧠 [local-llm-expert](skills/local-llm-expert/)
+**Mastery over Local Inference & VRAM Optimization**
+Authoritative guidance on running, configuring, and optimizing large language models locally on consumer and enterprise hardware.
+
+### ✅ [yes-md](skills/yes-md/)
+**AI Governance at the Formatting Layer**
+Instructs generative agents on how to navigate complex formatting rules with a focus on governance and output fidelity.
+
+### 📝 [ai-md](skills/ai-md/)
+**Convert CLAUDE.md to AI-Native Format**
+A sophisticated transformation skill for AI documentation, battle-tested across 4 frontier models.
+
+### 🤔 [explain-like-socrates](skills/explain-like-socrates/)
+**Socratic-Style Concept Explanations**
+Transforms the agent into a Socratic tutor, engaging users in dialogue to teach complex concepts through questioning.
+
+## 👥 Credits
+
+A huge shoutout to our community contributors for making this release possible:
+- **@sx4im** for `local-llm-expert`
+- **@sstklen** for `yes-md` and `ai-md`
+- **@tejasashinde** for `keyword-extractor` and `explain-like-socrates`
+- **@Olga Safonova** for `skill-check`
+
+---
+
+
+- **pipecat-friday-agent** — Iron Man-inspired tactical voice assistant (F.R.I.D.A.Y.) with Pipecat, Gemini, and OpenAI.
+
+---
+
+## [7.4.1] - 2026-03-10 - "Documentation Consistency & Workflow Fixes"
+
+> **Resolved comprehensive documentation consistency issues and integrated community AI tools.**
+
+This patch release focuses on bringing the entire repository's documentation into strict compliance with the newly established maintenance protocols. It resolves conflicting skill counts, aligns the documentation "trinity", fixes workflow routing paths, and standardizes formats to prevent anchor breakage. It also includes new community skills like the `pipecat-friday-agent` and workflow enhancements.
+
+## 🚀 New Skills
+
+### 🤖 [pipecat-friday-agent](skills/pipecat-friday-agent/)
+
+**Iron Man-inspired tactical voice assistant (F.R.I.D.A.Y.).**
+Built with Pipecat, Google Gemini, and OpenAI, providing a blueprint for creating interactive voice-driven agents.
+
+### ⏱️ [progressive-estimation](skills/progressive-estimation/)
+
+**Agentic workflow for progressive task estimation.**
+Breaks down complex tasks to improve estimation accuracy and project planning.
+
+### 🎥 [seek-and-analyze-video](skills/seek-and-analyze-video/)
+
+**AI-powered video analysis toolkit.**
+Automates seeking and analyzing of video content, extracting key insights and moments.
+
+## 📦 Improvements
+
+- **Documentation Consistency**: Full audit and remediation of `.github/MAINTENANCE.md` rules.
+- **TOC Formatting**: Removed emojis from H2 headers in `README.md` to fix broken markdown anchors.
+- **Statistics Alignment**: Synced skill counts across `package.json` and `README.md` for accurate representation (1,239+).
+- **Workflow Routing**: Added the `design-ddd-core-domain` workflow to required path definitions and copy-paste examples in `skills/antigravity-workflows/SKILL.md`.
+- **Validation**: Passed all sync chains including `npm run validate:references`.
+
+## 👥 Credits
+
+A huge shoutout to our community contributors:
+
+- **@Enreign** for `progressive-estimation`
+- **@kennyzheng-builds** for `seek-and-analyze-video`
+
+---
+
+## [7.4.0] - 2026-03-10 - "Planning & Dashboards"
+
+> **Blueprint planning skill, Sankhya dashboard best‑practices, and registry sync to 1,236+ skills.**
+
+This release focuses on better multi-session planning and domain dashboards. It adds a Blueprint skill for cold-start construction plans that any coding agent can execute, plus a Sankhya dashboard best-practices skill with SQL/JSP and UI guidance. The registry, catalog, and README counts are synced to 1,236+ skills, and the web app build is verified clean for this version.
+
+## 🚀 New Skills
+
+### 🧱 [blueprint](skills/blueprint/)
+
+**Cold-start construction planning for multi-step projects.**
+Generates dependency-aware plans where every step has its own context brief, tasks, rollback, verification, and exit criteria so fresh agents can execute steps independently.
+
+### 📊 [sankhya-dashboard-html-jsp-custom-best-pratices](skills/sankhya-dashboard-html-jsp-custom-best-pratices/)
+
+**Sankhya dashboard structure, SQL/JSP patterns, and UI best practices.**
+Documents resilient dashboard patterns, recommended SQL/JSP layout, and UX guidelines for production Sankhya deployments.
+
+## 📦 Improvements
+
+- **Registry Update**: Now tracking **1,236+** skills across the catalog.
+- **Docs & Catalog**: `README.md`, `skills_index.json`, `data/catalog.json`, and `CATALOG.md` regenerated and validated for 7.4.0.
+- **Web App**: `npm run app:build` run successfully to ensure the skills browser is up to date.
+
+## 👥 Credits
+
+- **@antbotlab** for `blueprint` (PR #259).
+- **@Guilherme-ruy** for the Sankhya dashboard skill (PR #258).
+
+---
+
+## [7.2.0] - 2026-03-08 - "Community PR Harvest & Cleanup"
+
+> **Eight PRs merged: 44 broken skills removed, zebbern attribution restored, Chinese docs, new skills (audit-skills, senior-frontend, shadcn, frontend-slides update, pakistan-payments-stack), and explainable auto-categorization.**
+
+This release cleans up the registry (removal of 44 SKILL.md files that contained only "404: Not Found"), restores `author: zebbern` attribution to 29 security skills, and merges community contributions: Simplified Chinese documentation, audit-skills, senior-frontend and shadcn skills, frontend-slides dependencies and formatting, pakistan-payments-stack for Pakistani SaaS payments, and explainable auto-categorization in the index generator. Bundle references were updated to drop missing skills so reference validation passes.
+
+## New Skills
+
+- **audit-skills** — Audit-safe skills (PR #236)
+- **senior-frontend** — React, Next.js, TypeScript, Tailwind (PR #233)
+- **shadcn** — shadcn/ui ecosystem (PR #233)
+- **pakistan-payments-stack** — JazzCash, Easypaisa, PKR billing (PR #228)
+
+## Improvements
+
+- **Registry cleanup**: 44 broken "404: Not Found" skill files removed (PR #240).
+- **Attribution**: `author: zebbern` restored for 29 security skills (PR #238).
+- **Docs**: frontend-slides updated with missing deps and formatting (PR #234); Simplified Chinese docs added (PR #232).
+- **Index**: Explainable auto-categorization in `generate_index.py` (PR #230).
+- **Bundles**: `data/bundles.json` updated to remove references to removed or missing skills; `npm run validate:references` passes.
+- **Registry**: Now tracking **1,232** skills.
+
+## Credits
+
+- **@munir-abbasi** for Chinese docs (PR #232)
+- **@itsmeares** for senior-frontend, shadcn (PR #233), frontend-slides update (PR #234)
+- **@zebbern** for security skills attribution (PR #238)
+- Contributors behind PRs #228, #230, #236, #240
+
+---
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
+
+---
+
+## [7.1.0] - 2026-03-07 - "PR Harvest & README Integrity"
+
+> **7 new skills merged from the community, README structure restored, and 1,272 skills milestone confirmed.**
+
+This release integrates a fresh batch of community pull requests: a Figma-to-React converter, Stripe payment expert, TanStack Query expert, Vercel AI SDK expert, Uncle Bob Clean Architecture guide, Antigravity premium design skills, and an AI agent toolkit. It also restores the structural integrity of README.md, which had picked up nested conflict markers from the batch-merge process.
+
+## 🚀 New Skills
+
+### 🎨 [figma-to-react](skills/figma-to-react/)
+
+**Convert Figma designs to production-ready React components.**
+Automatic conversion with pixel-perfect fidelity, responsive layouts, and Tailwind/CSS Modules support.
+
+> **Try it:** `Use @figma-to-react to turn this Figma component into a React component.`
+
+### 💳 [stripe-expert](skills/stripe-expert/)
+
+**Production-grade Stripe integration guidance.**
+Covers one-time payments, subscriptions, webhooks, and tax/compliance patterns.
+
+> **Try it:** `Use @stripe-expert to implement a SaaS subscription with annual billing.`
+
+### ⚡ [tanstack-query-expert](skills/tanstack-query-expert/)
+
+**Advanced data fetching and server state with TanStack Query v5.**
+Optimistic updates, infinite queries, and SSR/Next.js integration.
+
+> **Try it:** `Use @tanstack-query-expert to refactor this fetch call with caching and optimistic updates.`
+
+### 🤖 [vercel-ai-sdk-expert](skills/vercel-ai-sdk-expert/)
+
+**Generative UI and tool calling with the Vercel AI SDK.**
+Streaming, multi-step tools, and edge deployment patterns.
+
+> **Try it:** `Use @vercel-ai-sdk-expert to add streaming chat with tool calls.`
+
+### 📐 [uncle-bob-craft](skills/uncle-bob-craft/)
+
+**Clean Code, Clean Architecture, and TDD guidance from Uncle Bob's books.**
+Code reviews, refactoring, SOLID principles, and design pattern references.
+
+> **Try it:** `Use @uncle-bob-craft to review this class for SRP violations.`
+
+### ✨ [antigravity-premium-design](skills/antigravity-premium-design/)
+
+**Premium UI/UX patterns and motion design for Antigravity IDE.**
+
+> **Try it:** `Use @antigravity-premium-design to redesign this component.`
+
+## 📦 Improvements
+
+- **Registry Update**: Now tracking **1,272** skills.
+- **README Integrity**: Removed all nested merge conflict markers introduced during the batch-merge phase; restored original section layout.
+- **Stats Sync**: `package.json` description updated to `1,272+`.
+
+## 👥 Credits
+
+A huge shoutout to our community contributors:
+
+- **@GuppyTheCat** for `obsidian-clipper-template-creator` (PR #226)
+- **@sraphaz** for `uncle-bob-craft` (PR #225)
+- **@ziuus** for `antigravity-premium-design` (PR #224)
+- **@sx4im** for `git-hooks-automation` (PR #223), `tanstack-query-expert` (PR #222), `vercel-ai-sdk-expert` (PR #220)
+- **@Sayeem3051** for skill filtering utility (PR #219)
+- **@AlmogBaku** for `debug-skill` (PR #218)
+- **@ProgramadorBrasil** for 52 specialized AI agent skills (PR #217)
+- **@shubhamdevx** for web app markdown rendering improvements (PR #213)
+
+---
+
+_Upgrade now: `git pull origin main` to fetch the latest skills._
+
+---
+
+## [7.0.1] - 2026-03-06 - "Markdown & Wallet Patch"
+
+> **Patch release with web markdown improvements and new wallet skills, plus catalog sync.**
+
+This patch release adds new skills for AI-writing cleanup and multi-chain crypto wallets, while improving how markdown is rendered in the web app. It also syncs the generated catalog and metadata for a clean 7.0.1 state.
+
+## 🚀 New Skills
+
+### ✍️ avoid-ai-writing (skills/avoid-ai-writing/)
+
+**Remove AI-isms from generated prose**
+Audits and rewrites content to remove 21 categories of AI writing patterns, using a 43-entry replacement table and a structured four-step audit workflow.
+
+> **Try it:** `Use @avoid-ai-writing to clean up this AI-generated blog post before publishing.`
+
+### 🪙 emblemai-crypto-wallet (skills/emblemai-crypto-wallet/)
+
+**Multi-chain crypto wallet management via EmblemAI**
+Manages crypto wallets across 7 blockchains (Solana, Ethereum, Base, BSC, Polygon, Hedera, Bitcoin) for balance checks, swaps, transfers, and portfolio analysis via the EmblemAI Agent Hustle API.
+
+> **Try it:** `Use @emblemai-crypto-wallet to summarize my portfolio and estimate gas costs for a swap.`
+
+## 📦 Improvements
+
+- **Registry Update**: Catalog and bundles regenerated after adding the new skills.
+- **Risk Metadata**: `emblemai-crypto-wallet` now uses a `critical` risk level to reflect real-value asset operations.
+- **Validation**: Full validation chain and catalog build run successfully for 7.0.1.
+
+## 👥 Credits
+
+- **@conorbronsdon** for `avoid-ai-writing`.
+- **@decentraliser** for `emblemai-crypto-wallet`.
 
 ## [7.0.0] - 2026-03-06 - "20k Stars Celebration"
 
@@ -24,7 +654,9 @@ Thank you to our incredible community! From 0 to 20,000 stars, this journey has 
 ## 🚀 New Skill Categories (300+ Skills)
 
 ### UI/UX & Frontend (35+ skills)
+
 Complete UI/UX polish toolkit and 3D graphics suite:
+
 - **[baseline-ui](skills/baseline-ui/)**, **[fixing-accessibility](skills/fixing-accessibility/)**, **[fixing-metadata](skills/fixing-metadata/)**, **[fixing-motion-performance](skills/fixing-motion-performance/)** - UI validation and accessibility
 - **[swiftui-expert-skill](skills/swiftui-expert-skill/)** - iOS SwiftUI development with 14 reference guides
 - **[threejs-fundamentals](skills/threejs-fundamentals/)** through **[threejs-interaction](skills/threejs-interaction/)** - Complete Three.js 3D graphics (10 skills)
@@ -34,7 +666,9 @@ Complete UI/UX polish toolkit and 3D graphics suite:
 - **[favicon](skills/favicon/)**, **[chat-widget](skills/chat-widget/)** - UI utilities
 
 ### Automation & Integration (35+ skills)
+
 Full workflow automation toolkit:
+
 - **[gmail-automation](skills/gmail-automation/)**, **[google-calendar-automation](skills/google-calendar-automation/)**, **[google-docs-automation](skills/google-docs-automation/)**, **[google-sheets-automation](skills/google-sheets-automation/)**, **[google-drive-automation](skills/google-drive-automation/)**, **[google-slides-automation](skills/google-slides-automation/)** - Complete Google Workspace integration
 - **[n8n-expression-syntax](skills/n8n-expression-syntax/)**, **[n8n-mcp-tools-expert](skills/n8n-mcp-tools-expert/)**, **[n8n-workflow-patterns](skills/n8n-workflow-patterns/)**, **[n8n-validation-expert](skills/n8n-validation-expert/)**, **[n8n-node-configuration](skills/n8n-node-configuration/)**, **[n8n-code-javascript](skills/n8n-code-javascript/)**, **[n8n-code-python](skills/n8n-code-python/)** - n8n workflow automation (7 skills)
 - **[automate-whatsapp](skills/automate-whatsapp/)**, **[integrate-whatsapp](skills/integrate-whatsapp/)**, **[observe-whatsapp](skills/observe-whatsapp/)** - WhatsApp automation
@@ -44,7 +678,9 @@ Full workflow automation toolkit:
 - **[build](skills/build/)**, **[conductor-setup](skills/conductor-setup/)**, **[issues](skills/issues/)**, **[new-rails-project](skills/new-rails-project/)** - Development project management
 
 ### Security & Auditing (40+ skills)
+
 Comprehensive security toolkit from Trail of Bits and community:
+
 - **[semgrep-rule-creator](skills/semgrep-rule-creator/)**, **[semgrep-rule-variant-creator](skills/semgrep-rule-variant-creator/)**, **[static-analysis](skills/static-analysis/)**, **[variant-analysis](skills/variant-analysis/)** - Code security analysis
 - **[golang-security-auditor](skills/golang-security-auditor/)**, **[python-security-auditor](skills/python-security-auditor/)**, **[rust-security-auditor](skills/rust-security-auditor/)** - Language-specific security auditing
 - **[burpsuite-project-parser](skills/burpsuite-project-parser/)**, **[agentic-actions-auditor](skills/agentic-actions-auditor/)**, **[audit-context-building](skills/audit-context-building/)**, **[proof-of-vulnerability](skills/proof-of-vulnerability/)**, **[yara-authoring](skills/yara-authoring/)** - Security testing tools
@@ -53,7 +689,9 @@ Comprehensive security toolkit from Trail of Bits and community:
 - **[ask-questions-if-underspecified](skills/ask-questions-if-underspecified/)**, **[building-secure-contracts](skills/building-secure-contracts/)**, **[claude-in-chrome-troubleshooting](skills/claude-in-chrome-troubleshooting/)**, **[constant-time-analysis](skills/constant-time-analysis/)**, **[culture-index](skills/culture-index/)**, **[debug-buttercup](skills/debug-buttercup/)**, **[devcontainer-setup](skills/devcontainer-setup/)**, **[differential-review](skills/differential-review/)**, **[dwarf-expert](skills/dwarf-expert/)**, **[grimoire](skills/grimoire/)**, **[it-depends](skills/it-depends/)**, **[monte-carlo-treasury](skills/monte-carlo-treasury/)**, **[monte-carlo-vulnerability-detection](skills/monte-carlo-vulnerability-detection/)**, **[open-source-context](skills/open-source-context/)**, **[operational-guidelines](skills/operational-guidelines/)**, **[osint-evals](skills/osint-evals/)**, **[polyfile](skills/polyfile/)**, **[publish-and-summary](skills/publish-and-summary/)**, **[security-skill-creator](skills/security-skill-creator/)**, **[sharp-edges](skills/sharp-edges/)**, **[skill-improver](skills/skill-improver/)**, **[spec-to-code-compliance](skills/spec-to-code-compliance/)**, **[supply-chain-risk-auditor](skills/supply-chain-risk-auditor/)**, **[testing-handbook-skills](skills/testing-handbook-skills/)**, **[workflow-skill-design](skills/workflow-skill-design/)**, **[zeroize-audit](skills/zeroize-audit/)** - Additional Trail of Bits security skills
 
 ### Machine Learning & Data Science (35+ skills)
+
 Complete scientific computing suite:
+
 - **[hugging-face-dataset-viewer](skills/hugging-face-dataset-viewer/)**, **[hugging-face-datasets](skills/hugging-face-datasets/)**, **[hugging-face-evaluation](skills/hugging-face-evaluation/)**, **[hugging-face-model-trainer](skills/hugging-face-model-trainer/)**, **[hugging-face-paper-publisher](skills/hugging-face-paper-publisher/)**, **[hugging-face-tool-builder](skills/hugging-face-tool-builder/)** - HuggingFace ML platform
 - **[numpy](skills/numpy/)**, **[pandas](skills/pandas/)**, **[scipy](skills/scipy/)**, **[matplotlib](skills/matplotlib/)**, **[scikit-learn](skills/scikit-learn/)**, **[jupyter-workflow](skills/jupyter-workflow/)** - Data science essentials
 - **[biopython](skills/biopython/)**, **[scanpy](skills/scanpy/)**, **[uniprot-database](skills/uniprot-database/)**, **[pubmed-database](skills/pubmed-database/)** - Bioinformatics tools
@@ -63,26 +701,35 @@ Complete scientific computing suite:
 - **[research-engineer](skills/research-engineer/)**, **[scientific-writing](skills/scientific-writing/)**, **[paper-analysis](skills/paper-analysis/)** - Academic research
 
 ### Health & Wellness (20+ skills)
+
 Comprehensive health management from Claude-Ally-Health:
+
 - **[sleep-analyzer](skills/sleep-analyzer/)**, **[nutrition-analyzer](skills/nutrition-analyzer/)**, **[fitness-analyzer](skills/fitness-analyzer/)** - Core health tracking
 - **[ai-analyzer](skills/ai-analyzer/)**, **[emergency-card](skills/emergency-card/)**, **[family-health-analyzer](skills/family-health-analyzer/)**, **[food-database-query](skills/food-database-query/)**, **[goal-analyzer](skills/goal-analyzer/)**, **[health-trend-analyzer](skills/health-trend-analyzer/)**, **[mental-health-analyzer](skills/mental-health-analyzer/)**, **[occupational-health-analyzer](skills/occupational-health-analyzer/)**, **[oral-health-analyzer](skills/oral-health-analyzer/)**, **[rehabilitation-analyzer](skills/rehabilitation-analyzer/)**, **[sexual-health-analyzer](skills/sexual-health-analyzer/)**, **[skin-health-analyzer](skills/skin-health-analyzer/)**, **[tcm-constitution-analyzer](skills/tcm-constitution-analyzer/)**, **[travel-health-analyzer](skills/travel-health-analyzer/)**, **[weightloss-analyzer](skills/weightloss-analyzer/)**, **[wellally-tech](skills/wellally-tech/)** - Specialized health analyzers
 
 ### Context Engineering & AI (15+ skills)
+
 Advanced agent patterns from muratcankoylan and community:
+
 - **[context-fundamentals](skills/context-fundamentals/)**, **[context-degradation](skills/context-degradation/)**, **[context-compression](skills/context-compression/)**, **[context-optimization](skills/context-optimization/)**, **[multi-agent-patterns](skills/multi-agent-patterns/)**, **[filesystem-context](skills/filesystem-context/)** - Context engineering patterns
 - **[hosted-agents](skills/hosted-agents/)**, **[advanced-evaluation](skills/advanced-evaluation/)**, **[project-development](skills/project-development/)**, **[bdi-mental-states](skills/bdi-mental-states/)** - Advanced agent patterns
 - **[agents-md](skills/agents-md/)**, **[blog-writing-guide](skills/blog-writing-guide/)**, **[brand-guidelines](skills/brand-guidelines/)**, **[claude-settings-audit](skills/claude-settings-audit/)** - Sentry workflow skills
 
 ### Functional Programming (12+ skills)
+
 Complete fp-ts guide:
+
 - **[fp-pragmatic](skills/fp-pragmatic/)**, **[fp-errors](skills/fp-errors/)**, **[fp-async](skills/fp-async/)**, **[fp-react](skills/fp-react/)**, **[fp-data-transforms](skills/fp-data-transforms/)**, **[fp-backend](skills/fp-backend/)**, **[fp-refactor](skills/fp-refactor/)** - Core functional programming
 - **[fp-types-ref](skills/fp-types-ref/)**, **[fp-pipe-ref](skills/fp-pipe-ref/)**, **[fp-option-ref](skills/fp-option-ref/)**, **[fp-either-ref](skills/fp-either-ref/)**, **[fp-taskeither-ref](skills/fp-taskeither-ref/)** - Quick reference guides
 
 ### AWS Development (6+ skills)
+
 AWS expertise from zxkane:
+
 - **[aws-agentic-ai](skills/aws-agentic-ai/)**, **[aws-cdk-development](skills/aws-cdk-development/)**, **[aws-common](skills/aws-common/)**, **[aws-cost-ops](skills/aws-cost-ops/)**, **[aws-mcp-setup](skills/aws-mcp-setup/)**, **[aws-serverless-eda](skills/aws-serverless-eda/)**
 
 ### Utilities & Developer Tools (10+ skills)
+
 - **[vexor-cli](skills/vexor-cli/)** - Semantic file discovery
 - **[clarity-gate](skills/clarity-gate/)** - RAG quality verification
 - **[speckit-updater](skills/speckit-updater/)** - SpecKit template updates
@@ -104,6 +751,7 @@ AWS expertise from zxkane:
 ## 👥 Credits
 
 ### Official Team Contributions
+
 - **Vercel Labs**: `vercel-deploy-claimable`
 - **Google Labs**: `enhance-prompt`, `remotion`, `stitch-loop`
 - **HuggingFace**: `hugging-face-dataset-viewer`, `hugging-face-datasets`, `hugging-face-evaluation`, `hugging-face-model-trainer`, `hugging-face-paper-publisher`, `hugging-face-tool-builder`
@@ -112,6 +760,7 @@ AWS expertise from zxkane:
 - **Trail of Bits**: 40+ security skills including `semgrep-rule-creator`, `static-analysis`, `variant-analysis`, and specialized auditors
 
 ### Community Contributors
+
 - **[ibelick](https://github.com/ibelick/ui-skills)**: UI/UX polish skills
 - **[expo](https://github.com/expo/skills)**: React Native development skills
 - **[sanjay3290](https://github.com/sanjay3290/ai-skills)**: Google Workspace integration
@@ -138,6 +787,7 @@ AWS expertise from zxkane:
 - **[neondatabase](https://github.com/neondatabase/agent-skills)**: Neon Postgres
 
 ### Top Repository Contributors
+
 - [@sck_0](https://github.com/sck_0) - 377 commits
 - [@github-actions[bot]](https://github.com/apps/github-actions) - 145 commits
 - [@sickn33](https://github.com/sickn33) - 54 commits

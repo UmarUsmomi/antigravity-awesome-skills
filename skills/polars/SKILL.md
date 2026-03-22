@@ -4,6 +4,8 @@ description: Fast in-memory DataFrame library for datasets that fit in RAM. Use 
 license: https://github.com/pola-rs/polars/blob/main/LICENSE
 metadata:
     skill-author: K-Dense Inc.
+risk: unknown
+source: community
 ---
 
 # Polars
@@ -382,5 +384,8 @@ This skill includes comprehensive reference documentation:
 - `best_practices.md` - Performance optimization tips and common patterns
 
 Load these references as needed when users require detailed information about specific topics.
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 9c177eb003f8bf2dfe03f118f04653e7afb5370f

@@ -1,6 +1,10 @@
 ---
 name: react-flow-architect
+<<<<<<< HEAD
 description: "Expert ReactFlow architect for building interactive graph applications with hierarchical node-edge systems, performance optimization, and auto-layout integration. Use when Antigravity needs to create or..."
+=======
+description: "Build production-ready ReactFlow applications with hierarchical navigation, performance optimization, and advanced state management."
+>>>>>>> 9c177eb003f8bf2dfe03f118f04653e7afb5370f
 risk: unknown
 source: community
 date_added: "2026-02-27"

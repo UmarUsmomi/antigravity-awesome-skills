@@ -1,6 +1,10 @@
 ---
 name: internal-comms-anthropic
+<<<<<<< HEAD
 description: "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Antigravity should use this skill whenever asked to write some sort of internal ..."
+=======
+description: "To write internal communications, use this skill for:"
+>>>>>>> 9c177eb003f8bf2dfe03f118f04653e7afb5370f
 risk: unknown
 source: community
 date_added: "2026-02-27"

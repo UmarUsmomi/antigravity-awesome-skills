@@ -1,6 +1,10 @@
 ---
 name: context7-auto-research
+<<<<<<< HEAD
 description: "Automatically fetch latest library/framework documentation for Antigravity Code via Context7 API"
+=======
+description: "Automatically fetch latest library/framework documentation for Claude Code via Context7 API. Use when you need up-to-date documentation for libraries and frameworks or asking about React, Next.js, Prisma, or any other popular library."
+>>>>>>> 9c177eb003f8bf2dfe03f118f04653e7afb5370f
 risk: unknown
 source: community
 date_added: "2026-02-27"
