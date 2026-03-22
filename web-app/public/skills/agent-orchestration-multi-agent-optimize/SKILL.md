@@ -180,8 +180,8 @@ class CostOptimizer:
         self.token_usage = 0
         self.model_costs = {
             'gpt-5': 0.03,
-            'claude-4-sonnet': 0.015,
-            'claude-4-haiku': 0.0025
+            'Antigravity-4-sonnet': 0.015,
+            'Antigravity-4-haiku': 0.0025
         }
 
     def select_optimal_model(self, complexity):
@@ -240,3 +240,4 @@ class CostOptimizer:
 - Implement gradual, reversible changes
 
 Target Optimization: $ARGUMENTS
+

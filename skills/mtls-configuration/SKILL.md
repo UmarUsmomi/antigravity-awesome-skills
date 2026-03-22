@@ -360,3 +360,4 @@ linkerd viz tap deploy/my-app --to deploy/my-backend
 - [SPIFFE/SPIRE](https://spiffe.io/)
 - [cert-manager](https://cert-manager.io/)
 - [Zero Trust Architecture (NIST)](https://www.nist.gov/publications/zero-trust-architecture)
+

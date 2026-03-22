@@ -44,7 +44,7 @@ Create a complete business case including:
 8. Risks and mitigation
 9. Funding ask and use of proceeds
 
-## Instructions for Claude
+## Instructions for Antigravity
 
 When this command is invoked, follow these steps:
 
@@ -468,7 +468,7 @@ This command synthesizes outputs from:
 ```
 User: /business-case
 
-Claude: I'll create a comprehensive business case document. Let me gather the key information first.
+Antigravity: I'll create a comprehensive business case document. Let me gather the key information first.
 
 Company name and description?
 → "AcmeCorp - AI-powered email marketing for e-commerce"
@@ -479,7 +479,7 @@ Who is the audience?
 What materials do you have?
 → "We have market sizing and financial model done"
 
-[Claude creates comprehensive 15-20 page business case with all sections]
+[Antigravity creates comprehensive 15-20 page business case with all sections]
 ```
 
 ## Notes
@@ -490,3 +490,4 @@ What materials do you have?
 - Update quarterly or for funding rounds
 - Customize sections based on audience
 - Keep executive summary to 2 pages max
+

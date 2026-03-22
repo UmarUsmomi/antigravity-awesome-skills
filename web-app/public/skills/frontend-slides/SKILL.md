@@ -122,10 +122,10 @@ Based on their mood selection, generate **3 distinct style previews** as mini HT
 
 ### Step 2.3: Present Previews
 
-Create the previews in: `.claude-design/slide-previews/`
+Create the previews in: `.Antigravity-design/slide-previews/`
 
 ```
-.claude-design/slide-previews/
+.Antigravity-design/slide-previews/
 ├── style-a.html   # First style option
 ├── style-b.html   # Second style option
 ├── style-c.html   # Third style option
@@ -147,9 +147,9 @@ I've created 3 style previews for you to compare:
 **Style C: [Name]** — [1 sentence description]
 
 Open each file to see them in action:
-- .claude-design/slide-previews/style-a.html
-- .claude-design/slide-previews/style-b.html
-- .claude-design/slide-previews/style-c.html
+- .Antigravity-design/slide-previews/style-a.html
+- .Antigravity-design/slide-previews/style-b.html
+- .Antigravity-design/slide-previews/style-c.html
 
 Take a look and tell me:
 1. Which style resonates most?
@@ -530,7 +530,7 @@ Convert the extracted content into the chosen style, preserving:
 When the presentation is complete:
 
 1. **Clean up temporary files**
-   - Delete `.claude-design/slide-previews/` if it exists
+   - Delete `.Antigravity-design/slide-previews/` if it exists
 
 2. **Open the presentation**
    - Use `open [filename].html` to launch in browser
@@ -772,3 +772,4 @@ class TiltEffect {
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

@@ -122,3 +122,4 @@ class TestPatientController(HttpCase):
 - `HttpCase` tests are significantly slower than `TransactionCase` — use them only for controller/route verification.
 - Does not cover **mocking external services** (e.g., mocking an SMTP server or payment gateway in tests).
 - Test isolation is at the **transaction level**, not database level — tests that commit data (e.g., via `cr.commit()`) can leak state between tests.
+

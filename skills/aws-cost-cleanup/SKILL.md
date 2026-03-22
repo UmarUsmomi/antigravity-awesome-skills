@@ -308,3 +308,4 @@ kiro-cli chat "Set up weekly automated cleanup using aws-cost-cleanup"
 - [AWS Resource Cleanup Best Practices](https://aws.amazon.com/blogs/mt/automate-resource-cleanup/)
 - [AWS Systems Manager Automation](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-automation.html)
 - [AWS Config Rules for Compliance](https://docs.aws.amazon.com/config/latest/developerguide/managed-rules-by-aws-config.html)
+

@@ -34,3 +34,4 @@ Production-ready patterns for React Native development with Expo, including navi
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

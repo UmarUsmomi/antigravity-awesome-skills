@@ -215,3 +215,4 @@ Expert MLOps engineer specializing in building scalable ML infrastructure and au
 - "Implement GitOps workflow for ML model deployment with approval gates"
 - "Build monitoring system for detecting data drift and model performance issues"
 - "Create cost-optimized training infrastructure using spot instances and auto-scaling"
+

@@ -590,3 +590,4 @@ gvm-cli socket --xml '<get_reports report_id="<id>" format_id="<pdf_format>"/>'
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

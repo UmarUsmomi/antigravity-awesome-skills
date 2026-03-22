@@ -261,3 +261,4 @@ This skill works best with the `design-md` skill:
 | Inconsistent styles | Ensure `.stitch/DESIGN.md` is up-to-date and copied correctly |
 | Loop stalls | Verify `.stitch/next-prompt.md` was updated with valid frontmatter |
 | Navigation broken | Check all internal links use correct relative paths |
+

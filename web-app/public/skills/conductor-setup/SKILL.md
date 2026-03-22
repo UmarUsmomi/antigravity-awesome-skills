@@ -377,7 +377,7 @@ Template populated with:
 
 ### 7. conductor/code_styleguides/
 
-Generate selected style guides from `$CLAUDE_PLUGIN_ROOT/templates/code_styleguides/`
+Generate selected style guides from `$Antigravity_PLUGIN_ROOT/templates/code_styleguides/`
 
 ## State Management
 
@@ -428,3 +428,4 @@ If `--resume` argument or resuming from state:
 - If file write fails: Halt and report error, do not update state
 - If user cancels: Save current state for future resume
 - If state file corrupted: Offer to start fresh or attempt recovery
+

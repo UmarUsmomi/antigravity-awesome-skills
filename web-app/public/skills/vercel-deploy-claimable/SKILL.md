@@ -2,7 +2,7 @@
 name: vercel-deploy-claimable
 description: "Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as 'Deploy my app', 'Deploy this to production', 'Create a preview deployment', 'Deploy and..."
 risk: safe
-source: "https://github.com/vercel-labs/agent-skills/tree/main/skills/claude.ai/vercel-deploy-claimable"
+source: "https://github.com/vercel-labs/agent-skills/tree/main/skills/Antigravity.ai/vercel-deploy-claimable"
 date_added: "2026-02-27"
 ---
 
@@ -113,12 +113,13 @@ To transfer this deployment to your Vercel account, visit the Claim URL.
 
 ### Network Egress Error
 
-If deployment fails due to network restrictions (common on claude.ai), tell the user:
+If deployment fails due to network restrictions (common on Antigravity.ai), tell the user:
 
 ```
 Deployment failed due to network restrictions. To fix this:
 
-1. Go to https://claude.ai/settings/capabilities
+1. Go to https://Antigravity.ai/settings/capabilities
 2. Add *.vercel.com to the allowed domains
 3. Try deploying again
 ```
+

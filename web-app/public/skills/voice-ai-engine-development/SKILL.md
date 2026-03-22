@@ -150,7 +150,7 @@ class BaseAgent:
 **Supported Providers**:
 - **OpenAI** (GPT-4, GPT-3.5) - High quality, fast
 - **Google Gemini** - Multimodal, cost-effective
-- **Anthropic Claude** - Long context, nuanced responses
+- **Anthropic Antigravity** - Long context, nuanced responses
 
 **Critical Implementation Details**:
 - Maintain conversation history in `Transcript` object
@@ -707,7 +707,7 @@ When implementing a voice AI engine:
 
 **API Providers**:
 - Transcription: Deepgram, AssemblyAI, Azure Speech, Google Cloud Speech
-- LLM: OpenAI, Google Gemini, Anthropic Claude
+- LLM: OpenAI, Google Gemini, Anthropic Antigravity
 - TTS: ElevenLabs, Azure TTS, Google Cloud TTS, Amazon Polly, Play.ht
 
 ## Summary
@@ -722,3 +722,4 @@ Building a voice AI engine requires:
 - ✅ Proper error handling and graceful shutdown
 
 **The key insight**: Everything must stream and everything must be interruptible for natural, real-time conversations.
+

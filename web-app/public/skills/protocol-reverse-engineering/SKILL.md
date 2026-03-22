@@ -30,3 +30,4 @@ Comprehensive techniques for capturing, analyzing, and documenting network proto
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

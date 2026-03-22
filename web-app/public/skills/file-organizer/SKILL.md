@@ -251,3 +251,4 @@ When a user requests file organization help:
 - Completed work that might be referenced later
 - Old versions after migration to new systems
 - Files you're hesitant to delete (archive first)
+

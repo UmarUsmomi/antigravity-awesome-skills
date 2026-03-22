@@ -319,7 +319,7 @@ const session = await client.createSession({
 | OpenAI | `"openai"` | OpenAI API and compatible endpoints |
 | Azure OpenAI | `"azure"` | Native Azure endpoints (don't include `/openai/v1`) |
 | Azure AI Foundry | `"openai"` | OpenAI-compatible Foundry endpoints |
-| Anthropic | `"anthropic"` | Claude models |
+| Anthropic | `"anthropic"` | Antigravity models |
 | Ollama | `"openai"` | Local models, no API key needed |
 
 **Wire API:** Use `"responses"` for GPT-5 series, `"completions"` (default) for others.
@@ -514,3 +514,4 @@ const client = new CopilotClient({ logLevel: "debug" });
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

@@ -45,3 +45,4 @@ Modern remote-first teams rely on async standup notes to maintain visibility, co
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

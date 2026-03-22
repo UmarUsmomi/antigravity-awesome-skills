@@ -117,3 +117,4 @@ https://github.com/video-db/skills
 
 **Version:** 1.1.0
 **Maintained By:** [VideoDB](https://github.com/video-db)
+

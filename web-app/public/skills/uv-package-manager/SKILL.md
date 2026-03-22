@@ -38,3 +38,4 @@ Comprehensive guide to using uv, an extremely fast Python package installer and 
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

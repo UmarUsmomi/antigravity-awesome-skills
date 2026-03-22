@@ -167,3 +167,4 @@ Expert frontend developer specializing in React 19+, Next.js 15+, and modern web
 - "Create an accessible data table with sorting and filtering"
 - "Implement real-time updates with WebSockets and React Query"
 - "Build a PWA with offline capabilities and push notifications"
+

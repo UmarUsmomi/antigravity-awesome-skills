@@ -35,8 +35,9 @@ Calculate 32 SaaS metrics with exact formulas: MRR, ARR, Churn Rate, LTV, CAC, L
 
 ## Compatibility
 
-Works with Claude Code, Cursor, Windsurf, OpenAI Codex, Gemini CLI, GitHub Copilot, Antigravity, and 14+ AI coding tools.
+Works with Antigravity Code, Cursor, Windsurf, OpenAI Codex, Gemini CLI, GitHub Copilot, Antigravity, and 14+ AI coding tools.
 
 ## Source
 
 GitHub: https://github.com/Digidai/product-manager-skills
+

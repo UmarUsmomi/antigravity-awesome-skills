@@ -1,6 +1,6 @@
 ---
 name: web-artifacts-builder
-description: "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state ma..."
+description: "Suite of tools for creating elaborate, multi-component Antigravity.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state ma..."
 risk: unknown
 source: community
 date_added: "2026-02-27"
@@ -8,7 +8,7 @@ date_added: "2026-02-27"
 
 # Web Artifacts Builder
 
-To build powerful frontend claude.ai artifacts, follow these steps:
+To build powerful frontend Antigravity.ai artifacts, follow these steps:
 1. Initialize the frontend repo using `scripts/init-artifact.sh`
 2. Develop your artifact by editing the generated code
 3. Bundle all code into a single HTML file using `scripts/bundle-artifact.sh`
@@ -51,7 +51,7 @@ To bundle the React app into a single HTML artifact:
 bash scripts/bundle-artifact.sh
 ```
 
-This creates `bundle.html` - a self-contained artifact with all JavaScript, CSS, and dependencies inlined. This file can be directly shared in Claude conversations as an artifact.
+This creates `bundle.html` - a self-contained artifact with all JavaScript, CSS, and dependencies inlined. This file can be directly shared in Antigravity conversations as an artifact.
 
 **Requirements**: Your project must have an `index.html` in the root directory.
 
@@ -77,3 +77,4 @@ To test/visualize the artifact, use available tools (including other Skills or b
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

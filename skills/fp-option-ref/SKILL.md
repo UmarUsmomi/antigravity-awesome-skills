@@ -77,3 +77,4 @@ pipe(
 ```
 
 Use Option when you need to **chain** operations on optional values.
+

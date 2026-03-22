@@ -56,3 +56,4 @@ gitGraph, journey, quadrantChart, timeline
 - Export recommendations
 
 Always provide both basic and styled versions. Include comments explaining complex syntax.
+

@@ -21,15 +21,16 @@ Launch the RSVP speed reader to display text one word at a time with Spritz-styl
    - Escape quotes and backslashes for JavaScript
 
 3. **Write and launch:**
-   - Read `~/.claude/skills/speed/data/reader.html`
+   - Read `~/.Antigravity/skills/speed/data/reader.html`
    - Replace `<!-- CONTENT_PLACEHOLDER -->` with:
      ```html
      <script>window.SPEED_READER_CONTENT = "your escaped text";</script>
      <!-- CONTENT_PLACEHOLDER -->
      ```
-   - Run: `open ~/.claude/skills/speed/data/reader.html`
+   - Run: `open ~/.Antigravity/skills/speed/data/reader.html`
 
 4. **Confirm:** Tell the user it's opening. Mention `Space` to play/pause.
 
 ## Arguments
 $ARGUMENTS
+

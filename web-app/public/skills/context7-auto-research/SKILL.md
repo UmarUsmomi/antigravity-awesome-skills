@@ -1,6 +1,6 @@
 ---
 name: context7-auto-research
-description: "Automatically fetch latest library/framework documentation for Claude Code via Context7 API"
+description: "Automatically fetch latest library/framework documentation for Antigravity Code via Context7 API"
 risk: unknown
 source: community
 date_added: "2026-02-27"
@@ -9,7 +9,7 @@ date_added: "2026-02-27"
 # context7-auto-research
 
 ## Overview
-Automatically fetch latest library/framework documentation for Claude Code via Context7 API
+Automatically fetch latest library/framework documentation for Antigravity Code via Context7 API
 
 ## When to Use
 - When you need up-to-date documentation for libraries and frameworks
@@ -23,7 +23,7 @@ npx skills add -g BenedictKing/context7-auto-research
 ## Step-by-Step Guide
 1. Install the skill using the command above
 2. Configure API key (optional, see GitHub repo for details)
-3. Use naturally in Claude Code conversations
+3. Use naturally in Antigravity Code conversations
 
 ## Examples
 See [GitHub Repository](https://github.com/BenedictKing/context7-auto-research) for examples.
@@ -37,3 +37,4 @@ See the GitHub repository for troubleshooting guides.
 
 ## Related Skills
 - tavily-web, exa-search, firecrawl-scraper, codex-review
+

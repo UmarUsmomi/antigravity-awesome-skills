@@ -220,3 +220,4 @@ Expert data engineer specializing in building robust, scalable data pipelines an
 - "Build a change data capture pipeline for real-time synchronization between databases"
 - "Implement a data mesh architecture with domain-specific data products"
 - "Create a scalable ETL pipeline that handles late-arriving and out-of-order data"
+

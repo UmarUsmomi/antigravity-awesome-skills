@@ -479,3 +479,4 @@ decorMesh.castShadow = false; // Small objects often don't need to cast
 - `threejs-materials` - Material light response
 - `threejs-textures` - Lightmaps and environment maps
 - `threejs-postprocessing` - Bloom and other light effects
+

@@ -396,3 +396,4 @@ contract OptimizedNFT is ERC721A {
 - LooksRare: Royalty enforcement
 - Rarible: Protocol fees, lazy minting
 - Blur: Gas-optimized trading
+

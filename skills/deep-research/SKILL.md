@@ -113,3 +113,4 @@ python3 scripts/research.py --list
 - **0**: Success
 - **1**: Error (API error, config issue, timeout)
 - **130**: Cancelled by user (Ctrl+C)
+

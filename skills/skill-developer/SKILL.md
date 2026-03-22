@@ -1,6 +1,6 @@
 ---
 name: skill-developer
-description: "Create and manage Claude Code skills following Anthropic best practices. Use when creating new skills, modifying skill-rules.json, understanding trigger patterns, working with hooks, debugging skil..."
+description: "Create and manage Antigravity Code skills following Anthropic best practices. Use when creating new skills, modifying skill-rules.json, understanding trigger patterns, working with hooks, debugging skil..."
 risk: unknown
 source: community
 date_added: "2026-02-27"
@@ -10,7 +10,7 @@ date_added: "2026-02-27"
 
 ## Purpose
 
-Comprehensive guide for creating and managing skills in Claude Code with auto-activation system, following Anthropic's official best practices including the 500-line rule and progressive disclosure pattern.
+Comprehensive guide for creating and managing skills in Antigravity Code with auto-activation system, following Anthropic's official best practices including the 500-line rule and progressive disclosure pattern.
 
 ## When to Use This Skill
 
@@ -21,7 +21,7 @@ Automatically activates when you mention:
 - Debugging skill activation issues
 - Working with skill-rules.json
 - Hook system mechanics
-- Claude Code best practices
+- Antigravity Code best practices
 - Progressive disclosure
 - YAML frontmatter
 - 500-line rule
@@ -33,15 +33,15 @@ Automatically activates when you mention:
 ### Two-Hook Architecture
 
 **1. UserPromptSubmit Hook** (Proactive Suggestions)
-- **File**: `.claude/hooks/skill-activation-prompt.ts`
-- **Trigger**: BEFORE Claude sees user's prompt
+- **File**: `.Antigravity/hooks/skill-activation-prompt.ts`
+- **Trigger**: BEFORE Antigravity sees user's prompt
 - **Purpose**: Suggest relevant skills based on keywords + intent patterns
-- **Method**: Injects formatted reminder as context (stdout → Claude's input)
+- **Method**: Injects formatted reminder as context (stdout → Antigravity's input)
 - **Use Cases**: Topic-based skills, implicit work detection
 
 **2. Stop Hook - Error Handling Reminder** (Gentle Reminders)
-- **File**: `.claude/hooks/error-handling-reminder.ts`
-- **Trigger**: AFTER Claude finishes responding
+- **File**: `.Antigravity/hooks/error-handling-reminder.ts`
+- **Trigger**: AFTER Antigravity finishes responding
 - **Purpose**: Gentle reminder to self-assess error handling in code written
 - **Method**: Analyzes edited files for risky patterns, displays reminder if needed
 - **Use Cases**: Error handling awareness without blocking friction
@@ -50,7 +50,7 @@ Automatically activates when you mention:
 
 ### Configuration File
 
-**Location**: `.claude/skills/skill-rules.json`
+**Location**: `.Antigravity/skills/skill-rules.json`
 
 Defines:
 - All skills and their trigger conditions
@@ -113,7 +113,7 @@ Defines:
 
 ### Step 1: Create Skill File
 
-**Location:** `.claude/skills/{skill-name}/SKILL.md`
+**Location:** `.Antigravity/skills/{skill-name}/SKILL.md`
 
 **Template:**
 ```markdown
@@ -165,12 +165,12 @@ See [SKILL_RULES_REFERENCE.md](SKILL_RULES_REFERENCE.md) for complete schema.
 **Test UserPromptSubmit:**
 ```bash
 echo '{"session_id":"test","prompt":"your test prompt"}' | \
-  npx tsx .claude/hooks/skill-activation-prompt.ts
+  npx tsx .Antigravity/hooks/skill-activation-prompt.ts
 ```
 
 **Test PreToolUse:**
 ```bash
-cat <<'EOF' | npx tsx .claude/hooks/skill-verification-guard.ts
+cat <<'EOF' | npx tsx .Antigravity/hooks/skill-verification-guard.ts
 {"session_id":"test","tool_name":"Edit","tool_input":{"file_path":"test.ts"}}
 EOF
 ```
@@ -199,16 +199,16 @@ Based on testing:
 ### BLOCK (Critical Guardrails)
 
 - Physically prevents Edit/Write tool execution
-- Exit code 2 from hook, stderr → Claude
-- Claude sees message and must use skill to proceed
+- Exit code 2 from hook, stderr → Antigravity
+- Antigravity sees message and must use skill to proceed
 - **Use For**: Critical mistakes, data integrity, security issues
 
 **Example:** Database column name verification
 
 ### SUGGEST (Recommended)
 
-- Reminder injected before Claude sees prompt
-- Claude is aware of relevant skills
+- Reminder injected before Antigravity sees prompt
+- Antigravity is aware of relevant skills
 - Not enforced, just advisory
 - **Use For**: Domain guidance, best practices, how-to guides
 
@@ -235,7 +235,7 @@ Based on testing:
 - Second edit (same session) → Hook allows
 - Different session → Blocks again
 
-**State File:** `.claude/hooks/state/skills-used-{session_id}.json`
+**State File:** `.Antigravity/hooks/state/skills-used-{session_id}.json`
 
 ### 2. File Markers
 
@@ -273,7 +273,7 @@ export SKIP_ERROR_REMINDER=true
 
 When creating a new skill, verify:
 
-- [ ] Skill file created in `.claude/skills/{name}/SKILL.md`
+- [ ] Skill file created in `.Antigravity/skills/{name}/SKILL.md`
 - [ ] Proper frontmatter with name and description
 - [ ] Entry added to `skill-rules.json`
 - [ ] Keywords tested with real prompts
@@ -352,8 +352,8 @@ Future enhancements and ideas:
 
 ### Create New Skill (5 Steps)
 
-1. Create `.claude/skills/{name}/SKILL.md` with frontmatter
-2. Add entry to `.claude/skills/skill-rules.json`
+1. Create `.Antigravity/skills/{name}/SKILL.md` with frontmatter
+2. Add entry to `.Antigravity/skills/skill-rules.json`
 3. Test with `npx tsx` commands
 4. Refine patterns based on testing
 5. Keep SKILL.md under 500 lines
@@ -394,10 +394,10 @@ See [TRIGGER_TYPES.md](TRIGGER_TYPES.md) for complete details.
 Test hooks manually:
 ```bash
 # UserPromptSubmit
-echo '{"prompt":"test"}' | npx tsx .claude/hooks/skill-activation-prompt.ts
+echo '{"prompt":"test"}' | npx tsx .Antigravity/hooks/skill-activation-prompt.ts
 
 # PreToolUse
-cat <<'EOF' | npx tsx .claude/hooks/skill-verification-guard.ts
+cat <<'EOF' | npx tsx .Antigravity/hooks/skill-verification-guard.ts
 {"tool_name":"Edit","tool_input":{"file_path":"test.ts"}}
 EOF
 ```
@@ -409,16 +409,16 @@ See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for complete debugging guide.
 ## Related Files
 
 **Configuration:**
-- `.claude/skills/skill-rules.json` - Master configuration
-- `.claude/hooks/state/` - Session tracking
-- `.claude/settings.json` - Hook registration
+- `.Antigravity/skills/skill-rules.json` - Master configuration
+- `.Antigravity/hooks/state/` - Session tracking
+- `.Antigravity/settings.json` - Hook registration
 
 **Hooks:**
-- `.claude/hooks/skill-activation-prompt.ts` - UserPromptSubmit
-- `.claude/hooks/error-handling-reminder.ts` - Stop event (gentle reminders)
+- `.Antigravity/hooks/skill-activation-prompt.ts` - UserPromptSubmit
+- `.Antigravity/hooks/error-handling-reminder.ts` - Stop event (gentle reminders)
 
 **All Skills:**
-- `.claude/skills/*/SKILL.md` - Skill content files
+- `.Antigravity/skills/*/SKILL.md` - Skill content files
 
 ---
 
@@ -427,3 +427,4 @@ See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for complete debugging guide.
 **Progressive Disclosure**: Reference files for detailed information ✅
 
 **Next**: Create more skills, refine patterns based on usage
+

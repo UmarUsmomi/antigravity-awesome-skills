@@ -1,11 +1,11 @@
 ---
 name: skill-improver
-description: Iteratively reviews and fixes Claude Code skill quality issues until they meet standards. Runs automated fix-review cycles using the skill-reviewer agent. Use to fix skill quality issues, improve skill descriptions, run automated skill review loops, or iteratively refine a...
+description: Iteratively reviews and fixes Antigravity Code skill quality issues until they meet standards. Runs automated fix-review cycles using the skill-reviewer agent. Use to fix skill quality issues, improve skill descriptions, run automated skill review loops, or iteratively refine a...
 ---
 
 # Skill Improvement Methodology
 
-Iteratively improve a Claude Code skill using the skill-reviewer agent until it meets quality standards.
+Iteratively improve a Antigravity Code skill using the skill-reviewer agent until it meets quality standards.
 
 ## Prerequisites
 
@@ -41,17 +41,17 @@ Verify it's enabled: run `/plugins` — `plugin-dev` should appear in the list. 
 
 These block skill loading or cause runtime failures:
 
-- Missing required frontmatter fields (name, description) — Claude cannot index or trigger the skill
+- Missing required frontmatter fields (name, description) — Antigravity cannot index or trigger the skill
 - Invalid YAML frontmatter syntax — Parsing fails, skill won't load
-- Referenced files that don't exist — Runtime errors when Claude follows links
+- Referenced files that don't exist — Runtime errors when Antigravity follows links
 - Broken file paths — Same as above, leads to tool failures
 
 ### Major Issues (MUST fix)
 
 These significantly degrade skill effectiveness:
 
-- Weak or vague trigger descriptions — Claude may not recognize when to use the skill
-- Wrong writing voice (second person "you" instead of imperative) — Inconsistent with Claude's execution model
+- Weak or vague trigger descriptions — Antigravity may not recognize when to use the skill
+- Wrong writing voice (second person "you" instead of imperative) — Inconsistent with Antigravity's execution model
 - SKILL.md exceeds 500 lines without using references/ — Overloads context, reduces comprehension
 - Missing "When to Use" or "When NOT to Use" sections — Required by project quality standards
 - Description doesn't specify when to trigger — Skill may never be selected
@@ -71,13 +71,13 @@ Before implementing any minor issue fix, evaluate:
 
 1. **Is this a genuine improvement?** - Does it add real value or just satisfy a preference?
 2. **Could this be a false positive?** - Is the reviewer misunderstanding context?
-3. **Would this actually help Claude use the skill?** - Focus on functional improvements
+3. **Would this actually help Antigravity use the skill?** - Focus on functional improvements
 
 Only implement minor fixes that are clearly beneficial. Skill-reviewer may produce false positives.
 
 ## Invoking skill-reviewer
 
-Use the skill-reviewer agent from the plugin-dev plugin. Request a review by asking Claude to:
+Use the skill-reviewer agent from the plugin-dev plugin. Request a review by asking Antigravity to:
 
 > Review the skill at [SKILL_PATH] using the plugin-dev:skill-reviewer agent. Provide a detailed quality assessment with issues categorized by severity.
 
@@ -143,3 +143,4 @@ The marker is the ONLY way to complete the loop. Natural language like "looks go
 - "This minor issue seems wrong, I'll skip all of them" - Evaluate each one individually
 - "The reviewer is being too strict" - The quality bar exists for a reason
 - "It's good enough" - If there are major issues, it's not good enough
+

@@ -1,12 +1,12 @@
 ---
-name: claude-win11-speckit-update-skill
+name: Antigravity-win11-speckit-update-skill
 description: "Windows 11 system management"
 risk: safe
-source: "https://github.com/NotMyself/claude-win11-speckit-update-skill"
+source: "https://github.com/NotMyself/Antigravity-win11-speckit-update-skill"
 date_added: "2026-02-27"
 ---
 
-# Claude Win11 Speckit Update Skill
+# Antigravity Win11 Speckit Update Skill
 
 ## Overview
 
@@ -20,4 +20,5 @@ Use this skill when you need to work with windows 11 system management.
 
 This skill provides guidance and patterns for windows 11 system management.
 
-For more information, see the [source repository](https://github.com/NotMyself/claude-win11-speckit-update-skill).
+For more information, see the [source repository](https://github.com/NotMyself/Antigravity-win11-speckit-update-skill).
+

@@ -34,3 +34,4 @@ Connect threats to controls for effective security planning.
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

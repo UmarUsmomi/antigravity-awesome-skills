@@ -80,3 +80,4 @@ Tokens stored securely using the system keyring:
 Service name: `google-docs-skill-oauth`
 
 Access tokens are automatically refreshed when expired using Google's cloud function.
+

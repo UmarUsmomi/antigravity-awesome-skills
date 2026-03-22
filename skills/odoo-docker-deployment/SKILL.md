@@ -137,3 +137,4 @@ docker compose exec odoo odoo -d odoo --update my_module --stop-after-init
 - **Horizontal scaling** (multiple Odoo containers behind a load balancer) requires shared filestore (NFS or S3-compatible storage) not covered here.
 - Does not include an Nginx configuration template — consult the [official Odoo Nginx docs](https://www.odoo.com/documentation/17.0/administration/install/deploy.html) for the full reverse proxy config.
 - The `addons_path` inside the Docker image may change with new base image versions — always verify after upgrading the Odoo image.
+

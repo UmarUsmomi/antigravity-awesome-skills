@@ -1,20 +1,20 @@
 ---
-name: claude-code-guide
-description: "Master guide for using Claude Code effectively. Includes configuration templates, prompting strategies \\\"Thinking\\\" keywords, debugging techniques, and best practices for interacting wit..."
+name: Antigravity-code-guide
+description: "Master guide for using Antigravity Code effectively. Includes configuration templates, prompting strategies \\\"Thinking\\\" keywords, debugging techniques, and best practices for interacting wit..."
 risk: unknown
 source: community
 date_added: "2026-02-27"
 ---
 
-# Claude Code Guide
+# Antigravity Code Guide
 
 ## Purpose
 
-To provide a comprehensive reference for configuring and using Claude Code (the agentic coding tool) to its full potential. This skill synthesizes best practices, configuration templates, and advanced usage patterns.
+To provide a comprehensive reference for configuring and using Antigravity Code (the agentic coding tool) to its full potential. This skill synthesizes best practices, configuration templates, and advanced usage patterns.
 
-## Configuration (`CLAUDE.md`)
+## Configuration (`Antigravity.md`)
 
-When starting a new project, create a `CLAUDE.md` file in the root directory to guide the agent.
+When starting a new project, create a `Antigravity.md` file in the root directory to guide the agent.
 
 ### Template (General)
 
@@ -64,11 +64,12 @@ If the agent is stuck or behaving unexpectedly:
 
 1. **Small Contexts**: Don't dump the entire codebase into the context. Use `grep` or `find` to locate relevant files first.
 2. **Iterative Development**: Ask for small changes, verify, then proceed.
-3. **Feedback Loop**: If the agent makes a mistake, correct it immediately and ask it to "add a lesson" to its memory (if supported) or `CLAUDE.md`.
+3. **Feedback Loop**: If the agent makes a mistake, correct it immediately and ask it to "add a lesson" to its memory (if supported) or `Antigravity.md`.
 
 ## Reference
 
-Based on [Claude Code Guide by zebbern](https://github.com/zebbern/claude-code-guide).
+Based on [Antigravity Code Guide by zebbern](https://github.com/zebbern/Antigravity-code-guide).
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

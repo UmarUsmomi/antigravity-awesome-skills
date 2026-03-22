@@ -51,3 +51,4 @@ class Order {
 - This skill does not define deployment architecture.
 - It does not choose databases or transport protocols.
 - It should be paired with testing patterns for invariant coverage.
+

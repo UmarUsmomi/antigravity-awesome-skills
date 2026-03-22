@@ -633,3 +633,4 @@ export class DataService {
 - [NgRx Documentation](https://ngrx.io/)
 - [NgRx SignalStore](https://ngrx.io/guide/signals)
 - [RxAngular](https://www.rx-angular.io/)
+

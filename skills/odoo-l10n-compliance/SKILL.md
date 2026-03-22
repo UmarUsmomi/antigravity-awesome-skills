@@ -99,3 +99,4 @@ Fiscal Position (created separately):
 - ✅ **Do:** Test e-invoicing in the **SAT/tax authority test environment** before going live.
 - ❌ **Don't:** Manually create a chart of accounts if a localization module exists for your country.
 - ❌ **Don't:** Mix localization tax accounts with custom accounts — it breaks fiscal reports.
+

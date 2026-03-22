@@ -59,3 +59,4 @@ Para ambos escenarios, tras recibir las respuestas:
 
 1. **Contexto Inteligente**: No mezcles datos de proyectos anteriores. Cada carpeta es una entidad única.
 2. **Estándar de Diamante**: Prioriza siempre soluciones escalables, seguras y estéticamente superiores.
+

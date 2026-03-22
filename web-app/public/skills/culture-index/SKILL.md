@@ -42,3 +42,4 @@ When working with culture documentation:
 ## Resources
 
 For more information, see the [source repository](https://github.com/trailofbits/skills/tree/main/plugins/culture-index).
+

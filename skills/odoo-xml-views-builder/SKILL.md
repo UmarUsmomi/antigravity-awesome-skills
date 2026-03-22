@@ -100,3 +100,4 @@ This skill generates and reviews Odoo XML view definitions for Kanban, Form, Lis
 - **Search panel views** (`<searchpanel>`) are not fully covered — those require frontend knowledge.
 - Does not address **website QWeb views** — use `@odoo-qweb-templates` for those.
 - **Cohort and Map views** (Enterprise-only) are not covered by this skill.
+

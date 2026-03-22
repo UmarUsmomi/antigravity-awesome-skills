@@ -61,3 +61,4 @@ Expert in threat modeling methodologies, security architecture review, and risk 
 - Link threats to security requirements
 - Track mitigations to implementation
 - Review regularly, not just at design time
+

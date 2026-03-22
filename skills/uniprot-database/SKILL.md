@@ -191,3 +191,4 @@ See `/references/query_syntax.md` for comprehensive syntax documentation.
 - **Query Syntax Help**: https://www.uniprot.org/help/query-fields
 - **SPARQL Endpoint**: https://sparql.uniprot.org/ (for advanced graph queries)
 
+

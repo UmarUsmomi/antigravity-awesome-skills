@@ -397,3 +397,4 @@ If interrupted mid-task:
 8. **Preserve history**: Use git to track context evolution over time
 9. **Question staleness**: If context feels wrong, investigate and update
 10. **Keep it actionable**: Every context item should inform a decision or behavior
+

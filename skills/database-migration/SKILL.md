@@ -437,3 +437,4 @@ module.exports = {
 - Not considering index performance
 - Ignoring foreign key constraints
 - Migrating too much data at once
+

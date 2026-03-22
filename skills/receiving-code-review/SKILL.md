@@ -30,7 +30,7 @@ WHEN receiving code review feedback:
 ## Forbidden Responses
 
 **NEVER:**
-- "You're absolutely right!" (explicit CLAUDE.md violation)
+- "You're absolutely right!" (explicit Antigravity.md violation)
 - "Great point!" / "Excellent feedback!" (performative)
 - "Let me implement that now" (before verification)
 
@@ -217,3 +217,4 @@ No performative agreement. Technical rigor always.
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

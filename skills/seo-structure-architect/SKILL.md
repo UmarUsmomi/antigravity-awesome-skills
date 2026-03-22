@@ -105,3 +105,4 @@ H1: Primary Keyword Focus
 - Step-by-step for processes
 
 Focus on logical flow and scannable content. Create clear information hierarchy for users and search engines.
+

@@ -736,7 +736,7 @@ class LLMWithFallback:
 # Usage
 llm_client = LLMWithFallback(
     primary="gpt-4-turbo",
-    fallbacks=["gpt-3.5-turbo", "claude-3-sonnet"]
+    fallbacks=["gpt-3.5-turbo", "Antigravity-3-sonnet"]
 )
 ```
 
@@ -761,3 +761,4 @@ llm_client = LLMWithFallback(
 - [LangChain Docs](https://python.langchain.com/)
 - [LlamaIndex](https://www.llamaindex.ai/)
 - [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook)
+

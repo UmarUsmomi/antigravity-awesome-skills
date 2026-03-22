@@ -191,3 +191,4 @@ kiro-cli chat "Create a cost optimization plan using aws-cost-optimizer"
 - [AWS Cost Optimization Best Practices](https://aws.amazon.com/pricing/cost-optimization/)
 - [AWS Well-Architected Framework - Cost Optimization](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html)
 - [AWS Cost Explorer API](https://docs.aws.amazon.com/cost-management/latest/APIReference/Welcome.html)
+

@@ -409,3 +409,4 @@ Use `search_templates` and `get_template` from n8n-mcp tools to find examples!
 - n8n Expression Syntax - Write expressions correctly
 - n8n Validation Expert - Validate and fix errors
 - n8n Node Configuration - Configure specific operations
+

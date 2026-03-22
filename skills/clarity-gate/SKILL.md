@@ -373,7 +373,7 @@ When producing a Clarity-Gated Document, use this format per CLARITY_GATE_FORMAT
 ---
 clarity-gate-version: 2.1
 processed-date: 2026-01-12
-processed-by: Claude + Human Review
+processed-by: Antigravity + Human Review
 clarity-status: CLEAR
 hitl-status: REVIEWED
 hitl-pending-count: 0
@@ -710,3 +710,4 @@ Reply "confirmed" or flag any I misread.
 **Spec Version:** 2.1
 **Author:** Francesco Marinoni Moretto
 **License:** CC-BY-4.0
+

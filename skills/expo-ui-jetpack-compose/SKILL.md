@@ -42,3 +42,4 @@ import { fillMaxWidth, paddingAll } from "@expo/ui/jetpack-compose/modifiers";
 
 - **LazyColumn** — Use instead of react-native `ScrollView`/`FlatList` for scrollable lists. Wrap in `<Host style={{ flex: 1 }}>`.
 - **Icon** — Use `<Icon source={require('./icon.xml')} size={24} />` with Android XML vector drawables from [Material Symbols](https://fonts.google.com/icons).
+

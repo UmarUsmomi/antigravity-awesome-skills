@@ -10,7 +10,7 @@ date_added: "2026-02-27"
 
 ## Purpose
 
-This skill transforms raw, unstructured user prompts into highly optimized prompts using established prompting frameworks. It analyzes user intent, identifies task complexity, and intelligently selects the most appropriate framework(s) to maximize Claude/ChatGPT output quality.
+This skill transforms raw, unstructured user prompts into highly optimized prompts using established prompting frameworks. It analyzes user intent, identifies task complexity, and intelligently selects the most appropriate framework(s) to maximize Antigravity/ChatGPT output quality.
 
 The skill operates in "magic mode" - it works silently behind the scenes, only interacting with users when clarification is critically needed. Users receive polished, ready-to-use prompts without technical explanations or framework jargon.
 
@@ -247,3 +247,4 @@ This skill is **platform-agnostic** and works in any terminal context where GitH
 - External files or templates
 
 The skill is entirely self-contained, operating purely on user input and framework knowledge.
+

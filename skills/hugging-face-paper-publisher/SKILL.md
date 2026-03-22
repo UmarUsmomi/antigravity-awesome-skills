@@ -620,3 +620,4 @@ Planned features for future versions:
 - Integration with LaTeX workflows
 - Automated figure and table extraction
 - Paper metrics and impact tracking
+

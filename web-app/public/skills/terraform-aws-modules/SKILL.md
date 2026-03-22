@@ -76,3 +76,4 @@ terraform {
 
 **Problem:** State lock not released after a failed apply
 **Solution:** Run `terraform force-unlock <LOCK_ID>` after confirming no other operations are running.
+

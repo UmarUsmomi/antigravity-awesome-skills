@@ -76,3 +76,4 @@ export class ServerlessApiPattern extends Construct {
 
 **Problem:** Circular dependency between stacks
 **Solution:** Extract shared resources into a dedicated base stack and pass references via constructor props.
+

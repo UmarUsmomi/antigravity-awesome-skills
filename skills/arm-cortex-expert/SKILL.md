@@ -300,3 +300,4 @@ __set_BASEPRI(basepri);
 - **STM32**: `HAL_SPI_Transmit()` / `HAL_SPI_Receive()` or LL drivers
 - **nRF52**: `nrfx_spi_xfer()` or `nrf_drv_spi_transfer()`
 - **SAMD**: Configure SERCOM in SPI master mode with `SERCOM_SPI_MODE_MASTER`
+

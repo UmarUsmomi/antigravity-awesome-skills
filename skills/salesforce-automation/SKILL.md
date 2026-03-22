@@ -192,3 +192,4 @@ SELECT Id, Name FROM Opportunity WHERE CloseDate = NEXT_MONTH
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

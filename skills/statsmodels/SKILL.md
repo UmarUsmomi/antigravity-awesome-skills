@@ -610,3 +610,4 @@ For detailed documentation and examples:
 - Examples: https://www.statsmodels.org/stable/examples/index.html
 - API reference: https://www.statsmodels.org/stable/api.html
 
+

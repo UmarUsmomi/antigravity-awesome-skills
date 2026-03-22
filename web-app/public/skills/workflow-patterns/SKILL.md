@@ -35,3 +35,4 @@ Guide for implementing tasks using Conductor's TDD workflow, managing phase chec
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

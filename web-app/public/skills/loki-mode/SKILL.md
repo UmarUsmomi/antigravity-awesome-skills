@@ -1,6 +1,6 @@
 ---
 name: loki-mode
-description: "Multi-agent autonomous startup system for Claude Code. Triggers on \"Loki Mode\". Orchestrates 100+ specialized agents across engineering, QA, DevOps, security, data/ML, business operations,..."
+description: "Multi-agent autonomous startup system for Antigravity Code. Triggers on \"Loki Mode\". Orchestrates 100+ specialized agents across engineering, QA, DevOps, security, data/ML, business operations,..."
 risk: unknown
 source: community
 date_added: "2026-02-27"
@@ -33,7 +33,7 @@ date_added: "2026-02-27"
 | `.loki/memory/episodic/` | Specific interaction traces | After each action |
 | `.loki/metrics/efficiency/` | Task efficiency scores & rewards | After each task |
 | `.loki/specs/openapi.yaml` | API spec - source of truth | Architecture changes |
-| `CLAUDE.md` | Project context - arch & patterns | Significant changes |
+| `Antigravity.md` | Project context - arch & patterns | Significant changes |
 | `.loki/queue/*.json` | Task states | Every task change |
 
 ### Decision Tree: What To Do Next?
@@ -97,7 +97,7 @@ Development <- QA <- Deployment <- Business Ops <- Growth Loop
 
 ```bash
 # Launch with autonomous permissions
-claude --dangerously-skip-permissions
+Antigravity --dangerously-skip-permissions
 ```
 
 ---
@@ -120,7 +120,7 @@ These files are part of the running Loki Mode process. Editing them will crash t
 
 | File | Reason |
 |------|--------|
-| `~/.claude/skills/loki-mode/autonomy/run.sh` | Currently executing bash script |
+| `~/.Antigravity/skills/loki-mode/autonomy/run.sh` | Currently executing bash script |
 | `.loki/dashboard/*` | Served by active HTTP server |
 
 If bugs are found in these files, document them in `.loki/CONTINUITY.md` under "Pending Fixes" for manual repair after the session ends.
@@ -311,7 +311,7 @@ mcp_servers = {
 5. Test user interactions (clicks, forms, navigation)
 6. Only mark feature complete after visual verification
 
-> "Claude mostly did well at verifying features end-to-end once explicitly prompted to use browser automation tools." - Anthropic Engineering
+> "Antigravity mostly did well at verifying features end-to-end once explicitly prompted to use browser automation tools." - Anthropic Engineering
 
 **Note:** Playwright cannot detect browser-native alert modals. Use custom UI for confirmations.
 
@@ -506,7 +506,7 @@ See `references/openai-patterns.md` for full fallback implementation.
 ```
 Context Priority:
 1. AGENTS.md (closest to current file)
-2. CLAUDE.md (Claude-specific)
+2. Antigravity.md (Antigravity-specific)
 3. .loki/CONTINUITY.md (session state)
 4. Package docs
 5. README.md
@@ -715,7 +715,7 @@ Detailed documentation is split into reference files for progressive loading:
 | `references/spec-driven-dev.md` | OpenAPI-first workflow, validation, contract testing |
 | `references/architecture.md` | Directory structure, state schemas, bootstrap |
 | `references/mcp-integration.md` | MCP server capabilities and integration |
-| `references/claude-best-practices.md` | Boris Cherny patterns, thinking mode, ledgers |
+| `references/Antigravity-best-practices.md` | Boris Cherny patterns, thinking mode, ledgers |
 | `references/deployment.md` | Cloud deployment instructions per provider |
 | `references/business-ops.md` | Business operation workflows |
 
@@ -725,3 +725,4 @@ Detailed documentation is split into reference files for progressive loading:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

@@ -87,3 +87,4 @@ for partner in partners:
 - **Stored computed fields** can cause significant write overhead at scale; this skill does not cover partitioning strategies.
 - Does not cover **transient models** (`models.TransientModel`) or wizard patterns.
 - ORM behavior can differ slightly between Odoo SaaS and On-Premise due to config overrides.
+

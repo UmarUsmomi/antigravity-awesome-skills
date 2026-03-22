@@ -72,3 +72,4 @@ Then route to the right next skill and list artifacts we must produce this week.
 - This skill does not replace direct workshops with domain experts.
 - It does not provide framework-specific code generation.
 - It should not be used as a justification to over-engineer simple systems.
+

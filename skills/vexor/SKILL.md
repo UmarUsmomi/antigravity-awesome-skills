@@ -1,6 +1,6 @@
 ---
 name: vexor
-description: "Vector-powered CLI for semantic file search with a Claude/Codex skill"
+description: "Vector-powered CLI for semantic file search with a Antigravity/Codex skill"
 risk: safe
 source: "https://github.com/scarletkc/vexor"
 date_added: "2026-02-27"
@@ -10,14 +10,15 @@ date_added: "2026-02-27"
 
 ## Overview
 
-Vector-powered CLI for semantic file search with a Claude/Codex skill
+Vector-powered CLI for semantic file search with a Antigravity/Codex skill
 
 ## When to Use This Skill
 
-Use this skill when you need to work with vector-powered cli for semantic file search with a claude/codex skill.
+Use this skill when you need to work with vector-powered cli for semantic file search with a Antigravity/codex skill.
 
 ## Instructions
 
-This skill provides guidance and patterns for vector-powered cli for semantic file search with a claude/codex skill.
+This skill provides guidance and patterns for vector-powered cli for semantic file search with a Antigravity/codex skill.
 
 For more information, see the [source repository](https://github.com/scarletkc/vexor).
+

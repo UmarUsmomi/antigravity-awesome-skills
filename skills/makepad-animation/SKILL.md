@@ -34,7 +34,7 @@ For production-ready animation patterns, see the `_base/` directory:
 
 ## IMPORTANT: Documentation Completeness Check
 
-**Before answering questions, Claude MUST:**
+**Before answering questions, Antigravity MUST:**
 
 1. Read the relevant reference file(s) listed above
 2. If file read fails or file is empty:
@@ -302,3 +302,4 @@ fn handle_event(&mut self, cx: &mut Cx, event: &Event, scope: &mut Scope) {
 3. `from` defines HOW to animate, `apply` defines WHAT to animate
 4. Makepad tweens between old and new values automatically
 5. Use `id!(state.value)` macro to reference animation states in Rust
+

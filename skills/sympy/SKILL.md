@@ -496,3 +496,4 @@ f(np.array([1, 2, 3]))
 - API Reference: https://docs.sympy.org/latest/reference/index.html
 - Examples: https://github.com/sympy/sympy/tree/master/examples
 
+

@@ -479,3 +479,4 @@ PCI_COMPLIANCE_CHECKLIST = {
 5. **No Storage**: Never store full card details
 
 By minimizing systems that touch card data, you reduce compliance burden significantly.
+

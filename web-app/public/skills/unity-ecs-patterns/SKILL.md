@@ -34,3 +34,4 @@ Production patterns for Unity's Data-Oriented Technology Stack (DOTS) including 
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

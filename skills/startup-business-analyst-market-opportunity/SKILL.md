@@ -42,7 +42,7 @@ This command guides through an interactive market sizing process to:
 6. Estimate realistic SOM (3-5 year opportunity)
 7. Present findings in a formatted report
 
-## Instructions for Claude
+## Instructions for Antigravity
 
 When this command is invoked, follow these steps:
 
@@ -217,7 +217,7 @@ Offer to save the report as a markdown file:
 ```
 User: /market-opportunity
 
-Claude: I'll help you create a comprehensive market opportunity analysis. Let me start by gathering some context.
+Antigravity: I'll help you create a comprehensive market opportunity analysis. Let me start by gathering some context.
 
 What product or service are you analyzing?
 → "AI-powered email marketing for e-commerce companies"
@@ -228,7 +228,7 @@ Who are your target customers?
 What's your pricing model?
 → "Subscription: $50-500/month based on email volume, average $300/month"
 
-[Claude proceeds with analysis, gathering data, calculating TAM/SAM/SOM, and generating report]
+[Antigravity proceeds with analysis, gathering data, calculating TAM/SAM/SOM, and generating report]
 ```
 
 ## Integration with Other Commands
@@ -243,3 +243,4 @@ This command pairs well with:
 - Quality depends on data availability - explain limitations
 - Update annually as market evolves
 - Conservative estimates build credibility with investors
+

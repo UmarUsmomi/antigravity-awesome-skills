@@ -52,3 +52,4 @@ When reviewing fix commits:
 ## Resources
 
 For more information, see the [source repository](https://github.com/trailofbits/skills/tree/main/plugins/fix-review).
+

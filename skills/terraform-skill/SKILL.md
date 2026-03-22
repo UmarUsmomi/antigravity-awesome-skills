@@ -5,7 +5,7 @@ risk: safe
 source: "https://github.com/antonbabenko/terraform-skill"
 date_added: "2026-02-27"
 ---
-# Terraform Skill for Claude
+# Terraform Skill for Antigravity
 
 Comprehensive Terraform and OpenTofu guidance covering testing, modules, CI/CD, and production patterns. Based on terraform-best-practices.com and enterprise experience.
 
@@ -21,7 +21,7 @@ Comprehensive Terraform and OpenTofu guidance covering testing, modules, CI/CD, 
 - Choosing between module patterns or state management approaches
 
 **Don't use this skill for:**
-- Basic Terraform/OpenTofu syntax questions (Claude knows this)
+- Basic Terraform/OpenTofu syntax questions (Antigravity knows this)
 - Provider-specific API reference (link to docs instead)
 - Cloud platform questions unrelated to Terraform/OpenTofu
 
@@ -505,10 +505,11 @@ This skill uses **progressive disclosure** - essential information is in this ma
 - **Security & Compliance** - Trivy/Checkov integration, secrets management, compliance testing
 - **Quick Reference** - Command cheat sheets, decision flowcharts, troubleshooting guide
 
-**How to use:** When you need detailed information on a topic, reference the appropriate guide. Claude will load it on demand to provide comprehensive guidance.
+**How to use:** When you need detailed information on a topic, reference the appropriate guide. Antigravity will load it on demand to provide comprehensive guidance.
 
 ## License
 
 This skill is licensed under the **Apache License 2.0**. See the LICENSE file for full terms.
 
 **Copyright © 2026 Anton Babenko**
+

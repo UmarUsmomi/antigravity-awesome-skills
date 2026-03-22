@@ -239,3 +239,4 @@ az network vpn-connection show-device-config-script
 
 - `multi-cloud-architecture` - For architecture decisions
 - `terraform-module-library` - For IaC implementation
+

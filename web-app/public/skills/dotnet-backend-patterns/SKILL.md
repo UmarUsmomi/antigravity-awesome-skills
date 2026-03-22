@@ -38,3 +38,4 @@ Master C#/.NET patterns for building production-grade APIs, MCP servers, and ent
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed .NET patterns and examples.
+

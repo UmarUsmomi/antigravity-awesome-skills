@@ -261,3 +261,4 @@ When designing architecture, provide:
 - Code examples for ORM integration and migration scripts
 - Monitoring and alerting recommendations
 - Documentation of trade-offs and alternative approaches considered
+

@@ -166,3 +166,4 @@ When synthesizing containers, provide:
 - Links to deployment configurations (Dockerfiles, K8s manifests, etc.)
 - Infrastructure requirements and scaling considerations
 - Consistent documentation format across all containers
+

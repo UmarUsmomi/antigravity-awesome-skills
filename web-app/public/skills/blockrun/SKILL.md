@@ -1,6 +1,6 @@
 ---
 name: blockrun
-description: "Use when user needs capabilities Claude lacks (image generation, real-time X/Twitter data) or explicitly requests external models (\\\"blockrun\\\", \\\"use grok\\\", \\\"use gpt\\\", \\\"da..."
+description: "Use when user needs capabilities Antigravity lacks (image generation, real-time X/Twitter data) or explicitly requests external models (\\\"blockrun\\\", \\\"use grok\\\", \\\"use gpt\\\", \\\"da..."
 risk: unknown
 source: community
 date_added: "2026-02-27"
@@ -8,7 +8,7 @@ date_added: "2026-02-27"
 
 # BlockRun
 
-**BlockRun works with Claude Code and Google Antigravity.**
+**BlockRun works with Antigravity Code and Google Antigravity.**
 
 You can't generate images. You have no real-time X/Twitter access. BlockRun gives you these capabilities.
 
@@ -292,3 +292,4 @@ response = client.chat("xai/grok-3", "What's trending?", search=True)
 ```bash
 pip install --upgrade blockrun-llm
 ```
+

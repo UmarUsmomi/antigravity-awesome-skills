@@ -372,3 +372,4 @@ kubectl rollout undo deployment/my-app --to-revision=3
 - `github-actions-templates` - For GitHub Actions implementation
 - `gitlab-ci-patterns` - For GitLab CI implementation
 - `secrets-management` - For secrets handling
+

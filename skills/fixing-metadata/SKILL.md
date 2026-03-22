@@ -109,3 +109,4 @@ Reference these guidelines when:
 - verify social cards on a real URL, not localhost
 - prefer stable, boring metadata over clever or dynamic
 - keep diffs minimal and scoped to metadata only
+

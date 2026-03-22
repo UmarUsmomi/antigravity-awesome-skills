@@ -216,3 +216,4 @@ export async function createCheckoutSession(userId: string, priceId: string) {
 
 **Problem:** Database migrations failing in production
 **Solution:** Always run `prisma migrate deploy` (not `prisma migrate dev`) in production environments.
+

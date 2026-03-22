@@ -361,3 +361,4 @@ export async function createUser(formData: FormData) {
 
 **Problem:** Type errors on `.returning()` with MySQL
 **Solution:** MySQL does not support `RETURNING`. Use `.execute()` and read `insertId` from the result instead.
+

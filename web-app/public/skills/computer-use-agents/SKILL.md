@@ -41,7 +41,7 @@ class ComputerUseAgent:
     Based on Anthropic Computer Use patterns.
     """
 
-    def __init__(self, client: Anthropic, model: str = "claude-sonnet-4-20250514"):
+    def __init__(self, client: Anthropic, model: str = "Antigravity-sonnet-4-20250514"):
         self.client = client
         self.model = model
         self.max_steps = 50  # Prevent runaway loops
@@ -213,9 +213,9 @@ from dataclasses im
 
 ### Anthropic Computer Use Implementation
 
-Official implementation pattern using Claude's computer use capability.
-Claude 3.5 Sonnet was the first frontier model to offer computer use.
-Claude Opus 4.5 is now the "best model in the world for computer use."
+Official implementation pattern using Antigravity's computer use capability.
+Antigravity 3.5 Sonnet was the first frontier model to offer computer use.
+Antigravity Opus 4.5 is now the "best model in the world for computer use."
 
 Key capabilities:
 - screenshot: Capture current screen state
@@ -229,7 +229,7 @@ Tool versions:
 - computer_20250124 (All other models): Standard capabilities
 
 Critical limitation: "Some UI elements (like dropdowns and scrollbars)
-might be tricky for Claude to manipulate" - Anthropic docs
+might be tricky for Antigravity to manipulate" - Anthropic docs
 
 
 **When to use**: ['Building production computer use agents', 'Need highest quality vision understanding', 'Full desktop control (not just browser)']
@@ -258,7 +258,7 @@ class AnthropicComputerUse:
 
     def __init__(self):
         self.client = Anthropic()
-        self.model = "claude-sonnet-4-20250514"  # Best for computer use
+        self.model = "Antigravity-sonnet-4-20250514"  # Best for computer use
         self.screen_size = (1280, 800)
 
     def get_tools(self) -> list:
@@ -318,3 +318,4 @@ class AnthropicComputerUse:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

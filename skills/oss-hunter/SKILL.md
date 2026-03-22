@@ -73,3 +73,4 @@ Generate a structured report for the human:
 Build a better hunter by adding new heuristics to Phase 3. Submit your improvements to the [ClawForge](https://github.com/jackjin1997/ClawForge).
 
 *Powered by OpenClaw & ClawForge.*
+

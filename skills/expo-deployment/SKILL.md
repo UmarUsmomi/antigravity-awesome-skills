@@ -71,3 +71,4 @@ This skill provides guidance for deploying Expo apps:
 ## Resources
 
 For more information, see the [source repository](https://github.com/expo/skills/tree/main/plugins/expo-deployment).
+

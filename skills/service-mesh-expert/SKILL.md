@@ -59,3 +59,4 @@ Expert service mesh architect specializing in Istio, Linkerd, and cloud-native n
 - Monitor mesh overhead (latency, resource usage)
 - Keep sidecar resources appropriately sized
 - Use destination rules for consistent load balancing
+

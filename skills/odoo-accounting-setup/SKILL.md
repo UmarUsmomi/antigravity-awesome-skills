@@ -103,3 +103,4 @@ Action:
 - **Country-specific e-invoicing** (CFDI, FatturaPA, SAF-T) requires additional localization modules — use `@odoo-l10n-compliance` for those.
 - Payroll accounting integration (salary journals, deduction accounts) is not covered here — use `@odoo-hr-payroll-setup`.
 - Odoo Community Edition does not include the full **lock dates** feature; some controls are Enterprise-only.
+

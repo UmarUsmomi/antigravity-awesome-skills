@@ -31,13 +31,13 @@ Follow these steps **in order**. Do not skip ahead.
 Stop the gateway first to avoid hot-reload issues during configuration.
 
 ```bash
-claude gateway stop
+Antigravity gateway stop
 ```
 
 ### Step 2 — Install the plugin
 
 ```bash
-claude plugins install manifest
+Antigravity plugins install manifest
 ```
 
 If it fails, check that the CLI is installed and available in the PATH.
@@ -58,7 +58,7 @@ Wait for a key starting with `mnfst_`. If the key doesn't match, tell the user t
 ### Step 4 — Configure the plugin
 
 ```bash
-claude config set plugins.entries.manifest.config.apiKey "USER_API_KEY"
+Antigravity config set plugins.entries.manifest.config.apiKey "USER_API_KEY"
 ```
 
 Replace `USER_API_KEY` with the actual key the user provided.
@@ -66,13 +66,13 @@ Replace `USER_API_KEY` with the actual key the user provided.
 Ask the user if they have a custom endpoint. If not, the default (`https://app.manifest.build/api/v1/otlp`) is used automatically. If they do:
 
 ```bash
-claude config set plugins.entries.manifest.config.endpoint "USER_ENDPOINT"
+Antigravity config set plugins.entries.manifest.config.endpoint "USER_ENDPOINT"
 ```
 
 ### Step 5 — Start the gateway
 
 ```bash
-claude gateway install
+Antigravity gateway install
 ```
 
 ### Step 6 — Verify
@@ -80,7 +80,7 @@ claude gateway install
 Wait 3 seconds for the gateway to fully start, then check the logs:
 
 ```bash
-grep "manifest" ~/.claude/logs/gateway.log | tail -5
+grep "manifest" ~/.Antigravity/logs/gateway.log | tail -5
 ```
 
 Look for:
@@ -103,7 +103,7 @@ If it appears, tell the user setup is complete. If not, check the error messages
 | Missing apiKey | Re-run step 4 |
 | Invalid apiKey format | The key must start with `mnfst_` |
 | Connection refused | The endpoint is unreachable. Check the URL or ask if they self-host |
-| Duplicate OTel registration | Disable the conflicting built-in plugin: `claude plugins disable diagnostics-otel` |
+| Duplicate OTel registration | Disable the conflicting built-in plugin: `Antigravity plugins disable diagnostics-otel` |
 
 ## Examples
 
@@ -125,3 +125,4 @@ Use @manifest to connect my agent to my self-hosted Manifest instance at https:/
 - The default endpoint works for most users — only change it if self-hosting
 - API keys always start with `mnfst_` — any other format is invalid
 - Check gateway logs first when debugging any plugin issue
+

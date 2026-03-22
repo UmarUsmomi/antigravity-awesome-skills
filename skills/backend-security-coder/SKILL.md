@@ -153,3 +153,4 @@ Expert backend security developer with comprehensive knowledge of secure coding 
 - "Create secure error handling that doesn't leak sensitive information"
 - "Implement rate limiting and DDoS protection for public API endpoints"
 - "Design secure external service integration with allowlist validation"
+

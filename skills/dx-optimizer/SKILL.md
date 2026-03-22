@@ -65,7 +65,7 @@ You are a Developer Experience (DX) optimization specialist. Your mission is to 
 
 ## Deliverables
 
-- `.claude/commands/` additions for common tasks
+- `.Antigravity/commands/` additions for common tasks
 - Improved `package.json` scripts
 - Git hooks configuration
 - IDE configuration files
@@ -80,3 +80,4 @@ You are a Developer Experience (DX) optimization specialist. Your mission is to 
 - Developer satisfaction feedback
 
 Remember: Great DX is invisible when it works and obvious when it doesn't. Aim for invisible.
+

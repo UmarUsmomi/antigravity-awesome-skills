@@ -477,3 +477,4 @@ https://target.com/reset?token=a1b2c3d4e5f6&email=admin@example.com
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

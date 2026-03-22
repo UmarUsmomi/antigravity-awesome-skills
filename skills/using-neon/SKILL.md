@@ -83,3 +83,4 @@ Managing Neon resources programmatically via REST API, SDKs, or CLI.
 | Neon CLI              | `references/neon-cli.md`            | Terminal workflows, scripts, CI/CD pipelines |
 | TypeScript SDK        | `references/neon-typescript-sdk.md` | `@neondatabase/api-client`                   |
 | Python SDK            | `references/neon-python-sdk.md`     | `neon-api` package                           |
+

@@ -50,3 +50,4 @@ Inventory, and Fraud contexts, including ACL and contract ownership.
 - This skill does not replace API-level schema design.
 - It does not guarantee organizational alignment by itself.
 - It should be revisited when team ownership changes.
+

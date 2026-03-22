@@ -109,3 +109,4 @@ Operations created automatically:
 - Does not cover **landed costs** (import duties, freight allocation to product cost) — that requires the `stock_landed_costs` module.
 - **Cross-warehouse stock transfers** have routing complexities (transit locations, intercompany invoicing) not fully covered here.
 - Automated inventory valuation requires the **Accounting** module; Community Edition installations without it cannot post stock journal entries.
+

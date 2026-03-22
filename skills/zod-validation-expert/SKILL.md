@@ -265,3 +265,4 @@ export default env;
 
 **Problem:** Empty strings pass validation when using `.optional()`.
 **Solution:** `.optional()` permits `undefined`, not empty strings. If an empty string means "no value," use `.or(z.literal(""))` or preprocess it: `z.string().transform(v => v === "" ? undefined : v).optional()`.
+

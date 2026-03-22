@@ -7,7 +7,7 @@ description: SpecKit Safe Update
 
 This skill provides safe update capabilities for GitHub SpecKit installations, preserving customizations while applying template updates.
 
-**Installation**: Available via plugin (`/plugin marketplace add NotMyself/claude-plugins` then `/plugin install speckit-updater`) or manual Git clone. See README.md for details.
+**Installation**: Available via plugin (`/plugin marketplace add NotMyself/Antigravity-plugins` then `/plugin install speckit-updater`) or manual Git clone. See README.md for details.
 
 ## What to do when this skill is invoked
 
@@ -15,7 +15,7 @@ When the user invokes `/speckit-updater`, you should:
 
 1. **Run the update orchestrator script** without any flags (conversational mode):
    ```powershell
-   pwsh -NoProfile -Command "& 'C:\Users\bobby\.claude\skills\speckit-updater\scripts\update-wrapper.ps1'"
+   pwsh -NoProfile -Command "& 'C:\Users\bobby\.Antigravity\skills\speckit-updater\scripts\update-wrapper.ps1'"
    ```
 
 2. **Parse the output** for markers:
@@ -44,7 +44,7 @@ When the user invokes `/speckit-updater`, you should:
 
 5. **Execute approved action** by re-running with `-Proceed` flag:
    ```powershell
-   pwsh -NoProfile -Command "& 'C:\Users\bobby\.claude\skills\speckit-updater\scripts\update-wrapper.ps1' -Proceed"
+   pwsh -NoProfile -Command "& 'C:\Users\bobby\.Antigravity\skills\speckit-updater\scripts\update-wrapper.ps1' -Proceed"
    ```
 
 **Special cases:**
@@ -59,8 +59,8 @@ When the user invokes `/speckit-updater`, you should:
 Updates SpecKit templates, commands, and scripts while preserving customizations.
 
 **Usage:**
-- `/speckit-updater` - Interactive update/install with conversational approval workflow (recommended for Claude Code)
-- `/speckit-updater -Proceed` - Proceed with update/install after approval (used by Claude after user confirms)
+- `/speckit-updater` - Interactive update/install with conversational approval workflow (recommended for Antigravity Code)
+- `/speckit-updater -Proceed` - Proceed with update/install after approval (used by Antigravity after user confirms)
 - `/speckit-updater -CheckOnly` - Check for updates without applying
 - `/speckit-updater -Version v0.0.72` - Update to specific version
 - `/speckit-updater -Force` - Force overwrite SpecKit files (preserves custom commands)
@@ -69,9 +69,9 @@ Updates SpecKit templates, commands, and scripts while preserving customizations
 
 **Fresh Installation (No .specify/ directory):**
 - First invocation shows installation offer with `[PROMPT_FOR_INSTALL]` marker
-- Claude Code presents natural question to user (e.g., "Would you like me to install SpecKit?")
+- Antigravity Code presents natural question to user (e.g., "Would you like me to install SpecKit?")
 - User approves via conversational response (e.g., "yes", "proceed", "install it")
-- Claude re-invokes with `-Proceed` flag automatically (implementation detail hidden from user)
+- Antigravity re-invokes with `-Proceed` flag automatically (implementation detail hidden from user)
 - Script creates `.specify/` structure, downloads templates, creates manifest
 - Exit code 0 throughout (awaiting approval is not an error)
 - Consistent with update flow: both use conversational approval workflow
@@ -101,12 +101,12 @@ Updates SpecKit templates, commands, and scripts while preserving customizations
 
 **Conversational Workflow:** The skill uses a two-step approval process:
 - **Step 1**: Outputs summary → script exits → waits for approval
-- **Step 2**: After approval, Claude re-invokes with `-Proceed` → applies updates
+- **Step 2**: After approval, Antigravity re-invokes with `-Proceed` → applies updates
 
 **Requirements:**
 - Git installed and in PATH
 - Internet connection for fetching updates from GitHub
-- Write permissions to .specify/ and .claude/ directories
+- Write permissions to .specify/ and .Antigravity/ directories
 - Clean or staged Git working directory
 
 **The script is located at:** `{skill_path}/scripts/update-wrapper.ps1` (entry point) and `{skill_path}/scripts/update-orchestrator.ps1` (main logic)
@@ -163,3 +163,4 @@ pwsh -NoProfile -Command "& '{skill_path}/scripts/update-wrapper.ps1' [parameter
 | 4 | Git error |
 | 5 | User cancelled |
 | 6 | Rollback required (automatic) |
+

@@ -687,3 +687,4 @@ For comprehensive error catalogs and false positive examples:
 - n8n MCP Tools Expert - Use validation tools correctly
 - n8n Expression Syntax - Fix expression errors
 - n8n Node Configuration - Understand required fields
+

@@ -263,3 +263,4 @@ public class EmailSenderService : BackgroundService
 - Assumes modern .NET (ASP.NET Core 8+); older .NET Framework projects may require different patterns.
 - Does not cover client-side/frontend implementations.
 - Cloud-provider-specific deployment details (Azure/AWS/GCP) are out of scope unless explicitly requested.
+

@@ -380,3 +380,4 @@ Effective Stitch prompts are specific, context-rich, and visually descriptive. B
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

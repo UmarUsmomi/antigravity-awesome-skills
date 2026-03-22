@@ -37,3 +37,4 @@ Comprehensive guide to profiling, analyzing, and optimizing Python code for bett
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

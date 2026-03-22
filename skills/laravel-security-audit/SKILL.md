@@ -222,3 +222,4 @@ Refactored Example:
 $post = Post::where('user_id', auth()->id())
     ->findOrFail($id);
 ```
+

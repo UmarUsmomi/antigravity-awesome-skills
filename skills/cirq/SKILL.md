@@ -342,3 +342,4 @@ results = noise_comparison_study(circuit, noise_levels)
 - Use noise models selectively on critical operations only
 - See `simulation.md` for performance optimization
 
+

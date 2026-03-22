@@ -34,3 +34,4 @@ Transform threat analysis into actionable security requirements.
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

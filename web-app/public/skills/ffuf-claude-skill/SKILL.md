@@ -1,12 +1,12 @@
 ---
-name: ffuf-claude-skill
+name: ffuf-Antigravity-skill
 description: "Web fuzzing with ffuf"
 risk: safe
-source: "https://github.com/jthack/ffuf_claude_skill"
+source: "https://github.com/jthack/ffuf_Antigravity_skill"
 date_added: "2026-02-27"
 ---
 
-# Ffuf Claude Skill
+# Ffuf Antigravity Skill
 
 ## Overview
 
@@ -20,4 +20,5 @@ Use this skill when you need to work with web fuzzing with ffuf.
 
 This skill provides guidance and patterns for web fuzzing with ffuf.
 
-For more information, see the [source repository](https://github.com/jthack/ffuf_claude_skill).
+For more information, see the [source repository](https://github.com/jthack/ffuf_Antigravity_skill).
+

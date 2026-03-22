@@ -505,3 +505,4 @@ Works well with: `event-sourcing-architect`, `workflow-automation`, `dbos-*`
 
 - [Saga Pattern](https://microservices.io/patterns/data/saga.html)
 - [Designing Data-Intensive Applications](https://dataintensive.net/)
+

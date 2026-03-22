@@ -409,3 +409,4 @@ To plan team composition:
 8. **Allocate equity** - Fair allocation that preserves pool
 
 For detailed compensation benchmarks and hiring plan templates, see `references/` and `examples/`.
+

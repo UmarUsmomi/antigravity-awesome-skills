@@ -287,3 +287,4 @@ resource "aws_cloudwatch_metric_alarm" "cpu_high" {
 
 - `terraform-module-library` - For resource provisioning
 - `multi-cloud-architecture` - For cloud selection
+

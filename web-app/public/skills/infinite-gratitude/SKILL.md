@@ -25,3 +25,4 @@ This is an external skill. Please refer to the [official repository](https://git
 ```bash
 git clone https://github.com/sstklen/infinite-gratitude
 ```
+

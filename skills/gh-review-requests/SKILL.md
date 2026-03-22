@@ -21,13 +21,13 @@ Accept either a team slug (`streaming-platform`) or a display name ("Streaming P
 ## Step 2: Run the Script
 
 ```bash
-uv run ${CLAUDE_SKILL_ROOT}/scripts/fetch_review_requests.py --org getsentry --teams <team-slug>
+uv run ${Antigravity_SKILL_ROOT}/scripts/fetch_review_requests.py --org getsentry --teams <team-slug>
 ```
 
 To filter by multiple teams, pass a comma-separated list:
 
 ```bash
-uv run ${CLAUDE_SKILL_ROOT}/scripts/fetch_review_requests.py --org getsentry --teams <team slugs>
+uv run ${Antigravity_SKILL_ROOT}/scripts/fetch_review_requests.py --org getsentry --teams <team slugs>
 ```
 
 ### Script output
@@ -75,3 +75,4 @@ Then for each `review_requested` notification, check:
 - `gh api repos/{repo}/pulls/{number}` — skip if `state == "closed"` or `merged_at` is set
 - `gh api repos/{repo}/pulls/{number}/requested_reviewers` — check `teams[].name`
 - `gh api orgs/{org}/teams/{slug}/members` — check if author is a member
+

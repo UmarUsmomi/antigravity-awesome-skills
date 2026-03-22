@@ -70,7 +70,7 @@ jobs:
             const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
             const response = await client.messages.create({
-              model: "claude-3-sonnet-20240229",
+              model: "Antigravity-3-sonnet-20240229",
               max_tokens: 4096,
               messages: [{
                 role: "user",
@@ -847,3 +847,4 @@ Dockerfile @org/devops-team
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)
 - [GitHub REST API](https://docs.github.com/en/rest)
 - [CODEOWNERS Syntax](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
+

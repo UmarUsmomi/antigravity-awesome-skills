@@ -24,7 +24,7 @@ npx skills add -g BenedictKing/tavily-web
 ## Step-by-Step Guide
 1. Install the skill using the command above
 2. Configure Tavily API key
-3. Use naturally in Claude Code conversations
+3. Use naturally in Antigravity Code conversations
 
 ## Examples
 See [GitHub Repository](https://github.com/BenedictKing/tavily-web) for examples.
@@ -37,3 +37,4 @@ See the GitHub repository for troubleshooting guides.
 
 ## Related Skills
 - context7-auto-research, exa-search, firecrawl-scraper, codex-review
+

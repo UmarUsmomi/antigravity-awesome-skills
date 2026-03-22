@@ -104,3 +104,4 @@ Employer taxes (e.g., FUTA, SUTA) post as separate journal entries.
 - US-specific compliance (W2, 941, state SUI/SDI filing) requires additional modules beyond the base localization; Odoo does not generate tax filings directly.
 - Does not cover **multi-country payroll** (employees in different countries require separate structures and localizations).
 - **Expense reimbursements** via payslip (e.g., mileage, home office) require a custom salary rule input and are not covered in standard HR Payroll documentation.
+

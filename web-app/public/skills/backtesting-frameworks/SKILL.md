@@ -40,3 +40,4 @@ Build robust, production-grade backtesting systems that avoid common pitfalls an
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

@@ -773,3 +773,4 @@ def calculate_healthy_eating_index(daily_data):
 **技能版本**: v1.0
 **创建日期**: 2026-01-06
 **维护者**: WellAlly Tech
+

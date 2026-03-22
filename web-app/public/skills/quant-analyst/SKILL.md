@@ -49,3 +49,4 @@ You are a quantitative analyst specializing in algorithmic trading and financial
 - Parameter sensitivity analysis
 
 Use pandas, numpy, and scipy. Include realistic assumptions about market microstructure.
+

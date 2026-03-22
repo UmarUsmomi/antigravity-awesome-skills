@@ -26,7 +26,7 @@ Refer to the local files for detailed documentation:
 
 ## IMPORTANT: Documentation Completeness Check
 
-**Before answering questions, Claude MUST:**
+**Before answering questions, Antigravity MUST:**
 
 1. Read the relevant reference file(s) listed above
 2. If file read fails or file is empty:
@@ -209,3 +209,4 @@ pub trait Widget: WidgetNode {
 2. View is the base container - most visual widgets inherit from it
 3. Draw shaders (`draw_bg`, `draw_text`) control appearance
 4. All widgets support animation through `animator` property
+

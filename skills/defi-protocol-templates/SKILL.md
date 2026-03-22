@@ -467,3 +467,4 @@ contract FlashLoanReceiver is IFlashLoanReceiver {
 - **Vesting**: Lock tokens with gradual release
 - **Multisig**: Require multiple signatures for critical operations
 - **Timelocks**: Delay execution of governance decisions
+

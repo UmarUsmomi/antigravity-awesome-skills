@@ -43,3 +43,4 @@ Master automated billing systems including recurring billing, invoice generation
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns, checklists, and examples.
+

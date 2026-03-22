@@ -162,3 +162,4 @@ Expert hybrid cloud architect with deep expertise in designing, implementing, an
 - "Plan migration strategy from legacy on-premises to hybrid multi-cloud architecture"
 - "Implement unified monitoring and observability across hybrid infrastructure"
 - "Create FinOps strategy for multi-cloud cost optimization and governance"
+

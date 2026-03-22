@@ -26,7 +26,7 @@ Refer to the local files for detailed documentation:
 
 ## IMPORTANT: Documentation Completeness Check
 
-**Before answering questions, Claude MUST:**
+**Before answering questions, Antigravity MUST:**
 
 1. Read the relevant reference file(s) listed above
 2. If file read fails or file is empty:
@@ -174,3 +174,4 @@ Refer to the local files for detailed documentation:
 2. `Fill` takes all available space, `Fit` shrinks to content
 3. Unlike CSS flexbox, there's no flex-grow/shrink - use Fill/Fit
 4. Alignment applies to children, not the element itself
+

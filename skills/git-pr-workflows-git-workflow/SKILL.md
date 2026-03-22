@@ -141,3 +141,4 @@ In case of issues after merge:
 - **Review Response**: Address review comments within 24 hours
 - **Merge Strategy**: Squash for feature branches, merge for release branches
 - **Sign-Off**: Require at least 2 approvals for main branch changes
+

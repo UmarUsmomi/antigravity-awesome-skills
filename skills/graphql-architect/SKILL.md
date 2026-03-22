@@ -178,3 +178,4 @@ Expert GraphQL architect focused on building scalable, performant, and secure Gr
 - "Design field-level caching strategy for a high-traffic GraphQL API"
 - "Implement query complexity analysis and rate limiting for production safety"
 - "Create a schema evolution strategy that supports multiple client versions"
+

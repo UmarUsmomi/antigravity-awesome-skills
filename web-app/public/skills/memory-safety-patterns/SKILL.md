@@ -34,3 +34,4 @@ Cross-language patterns for memory-safe programming including RAII, ownership, s
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

@@ -233,3 +233,4 @@ Expert observability engineer specializing in comprehensive monitoring strategie
 - "Implement machine learning-based anomaly detection for proactive issue identification"
 - "Design observability strategy for serverless architecture with AWS Lambda and API Gateway"
 - "Create custom metrics pipeline for business KPIs integrated with technical monitoring"
+

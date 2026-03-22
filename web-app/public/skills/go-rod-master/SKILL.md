@@ -543,3 +543,4 @@ See the `examples/` directory for complete, runnable Go files:
 - [Chrome DevTools Protocol Docs](https://chromedevtools.github.io/devtools-protocol/) — Underlying protocol reference
 - [Chrome CLI Flags Reference](https://peter.sh/experiments/chromium-command-line-switches) — Launcher flag documentation
 - `references/api-reference.md` — Quick-reference cheat sheet
+

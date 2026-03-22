@@ -40,3 +40,4 @@ Build secure, scalable authentication and authorization systems using industry-s
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

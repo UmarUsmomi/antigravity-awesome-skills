@@ -34,3 +34,4 @@ Comprehensive patterns for Next.js 14+ App Router architecture, Server Component
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

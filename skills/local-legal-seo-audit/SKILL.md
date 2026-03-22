@@ -346,3 +346,4 @@ Same format
 - **schema-markup**: For implementing LegalService, Attorney, and FAQ structured data.
 - **ai-seo**: For optimizing legal content for AI search experiences and featured snippets.
 - **page-cro**: For improving conversion rate on practice area pages and contact forms.
+

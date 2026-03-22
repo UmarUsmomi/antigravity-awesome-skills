@@ -382,3 +382,4 @@ resource "grafana_folder" "monitoring" {
 
 - `prometheus-configuration` - For metric collection
 - `slo-implementation` - For SLO dashboards
+

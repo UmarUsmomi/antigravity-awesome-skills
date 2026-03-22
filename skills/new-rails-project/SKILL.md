@@ -9,7 +9,7 @@ metadata:
   version: "1.0"
 ---
 
-Generate a new Rails project named $1 in the current directory. You may reference @CLAUDE.md for general guidance, though the guidance here takes precedence.
+Generate a new Rails project named $1 in the current directory. You may reference @Antigravity.md for general guidance, though the guidance here takes precedence.
 
 # Tech Stack
 Set up the following tech stack:
@@ -56,3 +56,4 @@ Set up the following tech stack:
 
 # Verify
 Verify the boilerplate is working by running `bin/rails server` and accessing the application at `http://localhost:3000` via playwright MCP.
+

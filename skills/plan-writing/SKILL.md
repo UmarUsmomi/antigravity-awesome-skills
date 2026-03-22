@@ -34,7 +34,7 @@ This skill provides a framework for breaking down work into clear, actionable ta
 ### 4. Dynamic Naming in Project Root
 - Plan files are saved as `{task-slug}.md` in the PROJECT ROOT
 - Name derived from task (e.g., "add auth" → `auth-feature.md`)
-- **NEVER** inside `.claude/`, `docs/`, or temp folders
+- **NEVER** inside `.Antigravity/`, `docs/`, or temp folders
 
 ## Planning Principles (NOT Templates!)
 
@@ -152,3 +152,4 @@ One sentence: What are we building/fixing?
 - Adding a feature
 - Fixing a bug (if complex)
 - Refactoring multiple files
+

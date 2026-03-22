@@ -443,3 +443,4 @@ def download_receipt(request, receipt_id):
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

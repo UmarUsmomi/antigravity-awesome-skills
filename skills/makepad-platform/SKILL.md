@@ -25,7 +25,7 @@ Refer to the local files for detailed documentation:
 
 ## IMPORTANT: Documentation Completeness Check
 
-**Before answering questions, Claude MUST:**
+**Before answering questions, Antigravity MUST:**
 
 1. Read the relevant reference file(s) listed above
 2. If file read fails or file is empty:
@@ -160,3 +160,4 @@ impl AppMain for App {
 3. Platform-specific code is in `platform/src/os/` directory
 4. Use `cx.os_type()` for runtime platform detection
 5. Use `#[cfg(target_os = "...")]` for compile-time platform detection
+

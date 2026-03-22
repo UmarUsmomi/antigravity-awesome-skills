@@ -275,3 +275,4 @@ bash {baseDir}/scripts/diagnose.sh --full
 ```
 
 This collects pod status, events, resource usage, Redis health, and queue depths in one pass.
+

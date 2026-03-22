@@ -34,3 +34,4 @@ Comprehensive patterns for creating, maintaining, and validating OpenAPI 3.1 spe
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

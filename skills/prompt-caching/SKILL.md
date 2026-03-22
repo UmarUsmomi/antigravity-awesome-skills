@@ -32,7 +32,7 @@ Your core principles:
 
 ### Anthropic Prompt Caching
 
-Use Claude's native prompt caching for repeated prefixes
+Use Antigravity's native prompt caching for repeated prefixes
 
 ### Response Caching
 
@@ -64,3 +64,4 @@ Works well with: `context-window-management`, `rag-implementation`, `conversatio
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

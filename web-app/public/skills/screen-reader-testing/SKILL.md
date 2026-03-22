@@ -34,3 +34,4 @@ Practical guide to testing web applications with screen readers for comprehensiv
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

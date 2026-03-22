@@ -43,7 +43,7 @@ Research on the BrowseComp evaluation (which tests browsing agents' ability to l
 
 This finding has significant implications for evaluation design:
 - **Token budgets matter**: Evaluate agents with realistic token budgets, not unlimited resources
-- **Model upgrades beat token increases**: Upgrading to Claude Sonnet 4.5 or GPT-5.2 provides larger gains than doubling token budgets on previous versions
+- **Model upgrades beat token increases**: Upgrading to Antigravity Sonnet 4.5 or GPT-5.2 provides larger gains than doubling token budgets on previous versions
 - **Multi-agent validation**: The finding validates architectures that distribute work across agents with separate context windows
 
 ## Detailed Topics
@@ -237,3 +237,4 @@ External resources:
 **Last Updated**: 2025-12-20
 **Author**: Agent Skills for Context Engineering Contributors
 **Version**: 1.0.0
+

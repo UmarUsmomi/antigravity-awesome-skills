@@ -37,8 +37,8 @@ npx skills add Xquik-dev/x-twitter-scraper
 Or clone manually into your agent's skills directory:
 
 ```bash
-# Claude Code
-git clone https://github.com/Xquik-dev/x-twitter-scraper.git .claude/skills/x-twitter-scraper
+# Antigravity Code
+git clone https://github.com/Xquik-dev/x-twitter-scraper.git .Antigravity/skills/x-twitter-scraper
 
 # Cursor / Codex / Gemini CLI / Copilot
 git clone https://github.com/Xquik-dev/x-twitter-scraper.git .agents/skills/x-twitter-scraper
@@ -73,7 +73,7 @@ export XQUIK_API_KEY="xq_YOUR_KEY_HERE"
 
 **Search tweets:**
 ```
-"Search X for tweets about 'claude code' from the last week"
+"Search X for tweets about 'Antigravity code' from the last week"
 ```
 
 **Look up a user:**
@@ -127,3 +127,4 @@ export XQUIK_API_KEY="xq_YOUR_KEY_HERE"
 https://github.com/Xquik-dev/x-twitter-scraper
 
 **Maintained By:** [Xquik](https://xquik.com)
+

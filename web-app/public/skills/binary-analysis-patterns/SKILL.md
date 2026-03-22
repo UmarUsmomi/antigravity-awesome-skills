@@ -451,3 +451,4 @@ def auto_rename():
 - **Tail call optimization**: `jmp` instead of `call` + `ret`
 - **Dead code**: Unreachable code from optimization
 - **Position-independent code**: RIP-relative addressing
+

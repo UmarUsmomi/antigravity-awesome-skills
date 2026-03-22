@@ -1,8 +1,8 @@
 ---
-name: linear-claude-skill
+name: linear-Antigravity-skill
 description: "Manage Linear issues, projects, and teams"
 risk: safe
-source: "https://github.com/wrsmith108/linear-claude-skill"
+source: "https://github.com/wrsmith108/linear-Antigravity-skill"
 date_added: "2026-02-27"
 ---
 
@@ -56,7 +56,7 @@ Manage Linear issues, projects, and teams
 Use this skill when working with manage linear issues, projects, and teams.
 ## 🔐 Security: Varlock Integration
 
-**CRITICAL**: Never expose API keys in terminal output or Claude's context.
+**CRITICAL**: Never expose API keys in terminal output or Antigravity's context.
 
 ### Safe Commands (Always Use)
 
@@ -74,7 +74,7 @@ cat .env.schema | grep LINEAR
 ### Unsafe Commands (NEVER Use)
 
 ```bash
-# ❌ NEVER - exposes key to Claude's context
+# ❌ NEVER - exposes key to Antigravity's context
 linear config show
 echo $LINEAR_API_KEY
 printenv | grep LINEAR
@@ -113,7 +113,7 @@ cat .env
 Run the setup check to verify your configuration:
 
 ```bash
-npx tsx ~/.claude/skills/linear/scripts/setup.ts
+npx tsx ~/.Antigravity/skills/linear/scripts/setup.ts
 ```
 
 This will check:
@@ -135,10 +135,10 @@ If setup reports a missing API key:
 # Option A: Add to shell profile (~/.zshrc or ~/.bashrc)
 export LINEAR_API_KEY="lin_api_your_key_here"
 
-# Option B: Add to Claude Code environment
-echo 'LINEAR_API_KEY=lin_api_your_key_here' >> ~/.claude/.env
+# Option B: Add to Antigravity Code environment
+echo 'LINEAR_API_KEY=lin_api_your_key_here' >> ~/.Antigravity/.env
 
-# Then reload your shell or restart Claude Code
+# Then reload your shell or restart Antigravity Code
 ```
 
 ### 3. Test Connection
@@ -146,7 +146,7 @@ echo 'LINEAR_API_KEY=lin_api_your_key_here' >> ~/.claude/.env
 Verify everything works:
 
 ```bash
-npx tsx ~/.claude/skills/linear/scripts/query.ts "query { viewer { name } }"
+npx tsx ~/.Antigravity/skills/linear/scripts/query.ts "query { viewer { name } }"
 ```
 
 You should see your name from Linear.
@@ -473,7 +473,7 @@ See **api.md** for complete documentation including:
 **Quick ad-hoc query:**
 
 ```bash
-npx tsx ~/.claude/skills/linear/scripts/query.ts "query { viewer { name } }"
+npx tsx ~/.Antigravity/skills/linear/scripts/query.ts "query { viewer { name } }"
 ```
 
 ## Projects & Initiatives
@@ -540,3 +540,4 @@ npx tsx scripts/linear-ops.ts project-status "My Project" completed
 | docs/labels.md | Label taxonomy |
 
 **External:** [Linear MCP Documentation](https://linear.app/docs/mcp.md)
+

@@ -44,3 +44,4 @@ Confirm the Blue Book includes:
 
 ## Resources
 - `references/bluebook_template.md`
+

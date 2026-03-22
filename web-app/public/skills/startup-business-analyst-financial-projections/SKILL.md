@@ -41,7 +41,7 @@ This command builds a complete financial model including:
 5. Key metrics (CAC, LTV, burn rate, runway)
 6. Three-scenario analysis
 
-## Instructions for Claude
+## Instructions for Antigravity
 
 When this command is invoked, follow these steps:
 
@@ -334,7 +334,7 @@ Pairs well with:
 ```
 User: /financial-projections
 
-Claude: I'll create a comprehensive financial model for your startup. Let me gather the key inputs.
+Antigravity: I'll create a comprehensive financial model for your startup. Let me gather the key inputs.
 
 What's your business model?
 → "B2B SaaS, subscription-based"
@@ -345,7 +345,7 @@ Current state?
 Growth assumptions?
 → "Expect 15% MoM growth, 10% monthly churn, $500 ACV"
 
-[Claude builds complete model with all sections]
+[Antigravity builds complete model with all sections]
 ```
 
 ## Notes
@@ -356,3 +356,4 @@ Growth assumptions?
 - Share with investors and board
 - Use for fundraising decks
 - Basis for budget and hiring decisions
+

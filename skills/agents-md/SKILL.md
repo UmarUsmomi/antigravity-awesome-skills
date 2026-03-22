@@ -1,6 +1,6 @@
 ---
 name: agents-md
-description: This skill should be used when the user asks to "create AGENTS.md", "update AGENTS.md", "maintain agent docs", "set up CLAUDE.md", or needs to keep agent instructions concise. Enforces research-backed best practices for minimal, high-signal agent documentation.
+description: This skill should be used when the user asks to "create AGENTS.md", "update AGENTS.md", "maintain agent docs", "set up Antigravity.md", or needs to keep agent instructions concise. Enforces research-backed best practices for minimal, high-signal agent documentation.
 ---
 
 # Maintaining AGENTS.md
@@ -10,7 +10,7 @@ AGENTS.md is the canonical agent-facing documentation. Keep it minimal—agents 
 ## File Setup
 
 1. Create `AGENTS.md` at project root
-2. Create symlink: `ln -s AGENTS.md CLAUDE.md`
+2. Create symlink: `ln -s AGENTS.md Antigravity.md`
 
 ## Before Writing
 
@@ -60,7 +60,7 @@ AI commits MUST include:
 ```
 Co-Authored-By: (the agent model's name and attribution byline)
 ```
-Example: `Co-Authored-By: Claude Sonnet 4 <noreply@example.com>`
+Example: `Co-Authored-By: Antigravity Sonnet 4 <noreply@example.com>`
 ```
 
 ### Key Conventions
@@ -116,3 +116,4 @@ Co-Authored-By: (the agent model's name and attribution byline)
 |---------|-------------|
 | `pnpm cli sync` | Sync data |
 ```
+

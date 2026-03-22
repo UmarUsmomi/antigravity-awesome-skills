@@ -34,3 +34,4 @@ Patterns for implementing efficient similarity search in production systems.
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

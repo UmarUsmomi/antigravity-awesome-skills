@@ -34,3 +34,4 @@ Comprehensive guide to building projections and read models for event-sourced sy
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

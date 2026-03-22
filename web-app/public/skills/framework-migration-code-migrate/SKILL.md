@@ -49,3 +49,4 @@ Focus on minimizing disruption, maintaining functionality, and providing clear p
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

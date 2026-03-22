@@ -100,3 +100,4 @@ class HospitalPatient(models.Model):
 - **Odoo 13 and below** have a different module structure (no `__manifest__.py` auto-loading) — this skill targets v14+.
 - Does not cover **multi-company** or **multi-website** configuration; those require additional model fields (`company_id`, `website_id`).
 - Does not generate automated test files — use `@odoo-automated-tests` for that.
+

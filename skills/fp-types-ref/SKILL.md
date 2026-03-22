@@ -64,3 +64,4 @@ pipe(result, E.match(
   (val) => `success: ${val}`
 ))
 ```
+

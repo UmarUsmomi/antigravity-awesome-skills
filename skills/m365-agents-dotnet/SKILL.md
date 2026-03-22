@@ -292,3 +292,4 @@ await foreach (var activity in client.AskQuestionAsync("Hello!", null))
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

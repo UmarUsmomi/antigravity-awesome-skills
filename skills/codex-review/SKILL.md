@@ -38,3 +38,4 @@ See the GitHub repository for troubleshooting guides.
 
 ## Related Skills
 - context7-auto-research, tavily-web, exa-search, firecrawl-scraper
+

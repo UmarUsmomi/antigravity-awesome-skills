@@ -23,7 +23,7 @@ Refer to the local files for detailed documentation:
 
 ## IMPORTANT: Documentation Completeness Check
 
-**Before answering questions, Claude MUST:**
+**Before answering questions, Antigravity MUST:**
 
 1. Read the relevant reference file(s) listed above
 2. If file read fails or file is empty:
@@ -211,3 +211,4 @@ create_form([
 3. Splash syntax is similar to JavaScript/Rust hybrid
 4. Scripts run in a sandboxed environment
 5. HTTP and timer APIs enable async operations
+

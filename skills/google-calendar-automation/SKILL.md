@@ -157,3 +157,4 @@ Tokens stored securely using the system keyring:
 Service name: `google-calendar-skill-oauth`
 
 Tokens are automatically refreshed when expired using Google's cloud function.
+

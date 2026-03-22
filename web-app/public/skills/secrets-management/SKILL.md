@@ -365,3 +365,4 @@ secret-scan:
 - `github-actions-templates` - For GitHub Actions integration
 - `gitlab-ci-patterns` - For GitLab CI integration
 - `deployment-pipeline-design` - For pipeline architecture
+

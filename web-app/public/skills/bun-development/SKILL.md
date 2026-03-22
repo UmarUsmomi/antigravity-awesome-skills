@@ -692,3 +692,4 @@ bun run ./dist/index.js
 - [Bun GitHub](https://github.com/oven-sh/bun)
 - [Elysia Framework](https://elysiajs.com/)
 - [Bun Discord](https://bun.sh/discord)
+

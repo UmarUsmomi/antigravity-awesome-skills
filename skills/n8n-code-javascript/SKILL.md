@@ -697,3 +697,4 @@ Before deploying Code nodes, verify:
 ---
 
 **Ready to write JavaScript in n8n Code nodes!** Start with simple transformations, use the error patterns guide to avoid common mistakes, and reference the pattern library for production-ready examples.
+

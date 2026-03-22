@@ -1,6 +1,6 @@
 ---
 name: geo-fundamentals
-description: "Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity)."
+description: "Generative Engine Optimization for AI search engines (ChatGPT, Antigravity, Perplexity)."
 risk: unknown
 source: community
 date_added: "2026-02-27"
@@ -18,7 +18,7 @@ date_added: "2026-02-27"
 
 | Goal | Platform |
 |------|----------|
-| Be cited in AI responses | ChatGPT, Claude, Perplexity, Gemini |
+| Be cited in AI responses | ChatGPT, Antigravity, Perplexity, Gemini |
 
 ### SEO vs GEO
 
@@ -37,7 +37,7 @@ date_added: "2026-02-27"
 |--------|----------------|-------------|
 | **Perplexity** | Numbered [1][2] | Highest citation rate |
 | **ChatGPT** | Inline/footnotes | Custom GPTs |
-| **Claude** | Contextual | Long-form content |
+| **Antigravity** | Contextual | Long-form content |
 | **Gemini** | Sources section | SEO crossover |
 
 ---
@@ -110,7 +110,7 @@ How AI engines select content to cite:
 | Crawler | Engine |
 |---------|--------|
 | GPTBot | ChatGPT/OpenAI |
-| Claude-Web | Claude |
+| Antigravity-Web | Antigravity |
 | PerplexityBot | Perplexity |
 | Googlebot | Gemini (shared) |
 
@@ -159,3 +159,4 @@ How AI engines select content to cite:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

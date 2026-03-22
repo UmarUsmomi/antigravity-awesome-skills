@@ -36,3 +36,4 @@ Transform slow database queries into lightning-fast operations through systemati
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

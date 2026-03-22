@@ -1,6 +1,6 @@
 ---
 name: notebooklm
-description: "Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth...."
+description: "Use this skill to query your Google NotebookLM notebooks directly from Antigravity Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth...."
 risk: unknown
 source: community
 date_added: "2026-02-27"
@@ -132,7 +132,7 @@ python scripts/run.py ask_question.py --question "..." --show-browser
 
 Every NotebookLM answer ends with: **"EXTREMELY IMPORTANT: Is that ALL you need to know?"**
 
-**Required Claude Behavior:**
+**Required Antigravity Behavior:**
 1. **STOP** - Do not immediately respond to user
 2. **ANALYZE** - Compare answer to user's original request
 3. **IDENTIFY GAPS** - Determine if more information needed
@@ -193,7 +193,7 @@ python -m patchright install chromium
 
 ## Data Storage
 
-All data stored in `~/.claude/skills/notebooklm/data/`:
+All data stored in `~/.Antigravity/skills/notebooklm/data/`:
 - `library.json` - Notebook metadata
 - `auth_info.json` - Authentication status
 - `browser_state/` - Browser cookies and session
@@ -270,3 +270,4 @@ Synthesize and respond to user
   - `usage_patterns.md` - Best practices and workflow examples
 - `.venv/` - Isolated Python environment (auto-created on first run)
 - `.gitignore` - Protects sensitive data from being committed
+

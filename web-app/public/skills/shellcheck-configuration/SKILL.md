@@ -467,3 +467,4 @@ shellcheck --format=quiet script.sh
 - **ShellCheck GitHub**: https://github.com/koalaman/shellcheck
 - **ShellCheck Wiki**: https://www.shellcheck.net/wiki/
 - **Error Code Reference**: https://www.shellcheck.net/
+

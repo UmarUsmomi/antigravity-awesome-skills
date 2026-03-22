@@ -424,3 +424,4 @@ impl Widget for ItemsList {
   - Chat line variants (UserLine, BotLine, ErrorLine, etc.)
   - `CommandTextInput` with action buttons
   - Sidebar navigation with radio buttons
+

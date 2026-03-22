@@ -598,3 +598,4 @@ See attached `create_quiz_from_categories.php` for a comprehensive example inclu
 - Consider transaction safety for write operations
 - Purge caches after service registration changes
 - Keep API methods focused and single-purpose
+

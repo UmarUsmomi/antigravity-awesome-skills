@@ -37,3 +37,4 @@ Comprehensive guide to creating, structuring, and distributing Python packages u
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

@@ -11,9 +11,9 @@ This skill can be installed in different locations (plugin system, manual instal
 
 Common installation paths:
 
-- Plugin system: `~/.claude/plugins/marketplaces/playwright-skill/skills/playwright-skill`
-- Manual global: `~/.claude/skills/playwright-skill`
-- Project-specific: `<project>/.claude/skills/playwright-skill`
+- Plugin system: `~/.Antigravity/plugins/marketplaces/playwright-skill/skills/playwright-skill`
+- Manual global: `~/.Antigravity/skills/playwright-skill`
+- Project-specific: `<project>/.Antigravity/skills/playwright-skill`
 
 # Playwright Browser Automation
 
@@ -419,7 +419,7 @@ Add wait: `await page.waitForSelector('.element', { timeout: 10000 })`
 ```
 User: "Test if the marketing page looks good"
 
-Claude: I'll test the marketing page across multiple viewports. Let me first detect running servers...
+Antigravity: I'll test the marketing page across multiple viewports. Let me first detect running servers...
 [Runs: detectDevServers()]
 [Output: Found server on port 3001]
 I found your dev server running on http://localhost:3001
@@ -432,7 +432,7 @@ I found your dev server running on http://localhost:3001
 ```
 User: "Check if login redirects correctly"
 
-Claude: I'll test the login flow. First, let me check for running servers...
+Antigravity: I'll test the login flow. First, let me check for running servers...
 [Runs: detectDevServers()]
 [Output: Found servers on ports 3000 and 3001]
 I found 2 dev servers. Which one should I test?
@@ -457,3 +457,4 @@ User: "Use 3001"
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

@@ -27,14 +27,14 @@ This skill enables makepad-skills to self-improve continuously during developmen
 
 ## Hooks-Based Auto-Triggering
 
-For reliable automatic triggering, use Claude Code hooks. Install with `--with-hooks`:
+For reliable automatic triggering, use Antigravity Code hooks. Install with `--with-hooks`:
 
 ```bash
 # Install makepad-skills with hooks enabled
 curl -fsSL https://raw.githubusercontent.com/ZhangHanDong/makepad-skills/main/install.sh | bash -s -- --with-hooks
 ```
 
-This will install hooks to `.claude/hooks/` and configure `.claude/settings.json`:
+This will install hooks to `.Antigravity/hooks/` and configure `.Antigravity/settings.json`:
 
 ```json
 {
@@ -45,7 +45,7 @@ This will install hooks to `.claude/hooks/` and configure `.claude/settings.json
         "hooks": [
           {
             "type": "command",
-            "command": "bash .claude/hooks/makepad-skill-router.sh"
+            "command": "bash .Antigravity/hooks/makepad-skill-router.sh"
           }
         ]
       }
@@ -56,7 +56,7 @@ This will install hooks to `.claude/hooks/` and configure `.claude/settings.json
         "hooks": [
           {
             "type": "command",
-            "command": "bash .claude/hooks/pre-tool.sh"
+            "command": "bash .Antigravity/hooks/pre-tool.sh"
           }
         ]
       }
@@ -67,7 +67,7 @@ This will install hooks to `.claude/hooks/` and configure `.claude/settings.json
         "hooks": [
           {
             "type": "command",
-            "command": "bash .claude/hooks/post-bash.sh"
+            "command": "bash .Antigravity/hooks/post-bash.sh"
           }
         ]
       }
@@ -231,7 +231,7 @@ When skill content causes errors, automatically correct it.
 ### Trigger Conditions
 
 ```
-User follows skill advice → Code fails to compile/run → Claude identifies skill was wrong
+User follows skill advice → Code fails to compile/run → Antigravity identifies skill was wrong
                                                       ↓
                                          AUTO: Correct skill immediately
 ```
@@ -290,7 +290,7 @@ Provide version-specific guidance for different Makepad branches.
 
 ### Version Detection
 
-Claude should detect Makepad version from:
+Antigravity should detect Makepad version from:
 
 1. **Cargo.toml branch reference**:
    ```toml
@@ -309,7 +309,7 @@ Adapt skill suggestions to project's coding style.
 
 ### Style Detection
 
-Claude analyzes the current project to detect:
+Antigravity analyzes the current project to detect:
 
 | Aspect | Detection Method | Adaptation |
 |--------|------------------|------------|
@@ -416,3 +416,4 @@ If yes to any, evolve the appropriate skill!
 - [makepad-skills repository](https://github.com/ZhangHanDong/makepad-skills)
 - [Makepad documentation](https://github.com/makepad/makepad)
 - [Project Robius](https://github.com/project-robius)
+

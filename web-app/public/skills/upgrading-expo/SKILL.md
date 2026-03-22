@@ -117,3 +117,4 @@ npx expo-doctor
 ## Resources
 
 For more information, see the [source repository](https://github.com/expo/skills/tree/main/plugins/upgrading-expo).
+

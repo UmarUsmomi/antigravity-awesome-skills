@@ -100,7 +100,7 @@ class MultiModelAgent:
         self.models = {
             "fast": "gpt-3.5-turbo",      # Quick decisions
             "smart": "gpt-4-turbo",        # Complex reasoning
-            "code": "claude-3-sonnet",     # Code generation
+            "code": "Antigravity-3-sonnet",     # Code generation
         }
 
     def select_model(self, task_type: str) -> str:
@@ -761,4 +761,5 @@ class MCPAgent:
 - [Cline](https://github.com/cline/cline)
 - [OpenAI Codex](https://github.com/openai/codex)
 - [Model Context Protocol](https://modelcontextprotocol.io/)
-- [Anthropic Tool Use](https://docs.anthropic.com/claude/docs/tool-use)
+- [Anthropic Tool Use](https://docs.anthropic.com/Antigravity/docs/tool-use)
+

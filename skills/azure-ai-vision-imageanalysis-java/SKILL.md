@@ -292,3 +292,4 @@ Caption and Dense Captions require GPU-supported regions. Check [supported regio
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

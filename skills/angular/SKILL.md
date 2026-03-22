@@ -816,3 +816,4 @@ describe("UserCardComponent", () => {
 | Circular dependency            | Use `inject()` with `forwardRef`                    |
 | Zoneless not detecting changes | Trigger via signal updates, not mutations           |
 | SSR fetch fails                | Use `TransferState` or `withFetch()`                |
+

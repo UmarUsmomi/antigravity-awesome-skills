@@ -216,3 +216,4 @@ const allergies = exists('data/allergies.json') ? readFile('data/allergies.json'
 - 增量读取：仅读取指定时间范围的数据文件
 - 数据缓存：避免重复读取同一文件
 - 延迟计算：按需生成图表数据
+

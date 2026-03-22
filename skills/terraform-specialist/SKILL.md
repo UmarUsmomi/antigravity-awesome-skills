@@ -160,3 +160,4 @@ Expert Infrastructure as Code specialist with comprehensive knowledge of Terrafo
 - "Design multi-cloud Terraform architecture with provider abstraction"
 - "Troubleshoot state corruption and implement recovery procedures"
 - "Create enterprise service catalog with approved infrastructure modules"
+

@@ -382,3 +382,4 @@ The template includes all standard steps with configurable parameters and helpfu
 6. **Document parameters**: Record QC thresholds and analysis settings
 7. **Save checkpoints**: Write intermediate results at key steps
 
+

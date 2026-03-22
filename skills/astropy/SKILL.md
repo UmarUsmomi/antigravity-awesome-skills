@@ -327,3 +327,4 @@ For detailed information on specific modules:
 - `references/time.md` - Time formats, scales, and calculations
 - `references/wcs_and_other_modules.md` - WCS, NDData, modeling, visualization, constants, and utilities
 
+

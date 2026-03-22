@@ -304,3 +304,4 @@ argocd app sync my-app --force
 
 - `k8s-manifest-generator` - For creating manifests
 - `helm-chart-scaffolding` - For packaging applications
+

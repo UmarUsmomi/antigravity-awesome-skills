@@ -492,3 +492,4 @@ floss pid.1234.dmp
 - **Symbol issues**: Ensure correct symbol files for OS version
 - **Smear**: Memory may change during acquisition
 - **Encryption**: Some data may be encrypted in memory
+

@@ -197,3 +197,4 @@ This skill connects naturally to:
 - **Full architecture specification**: [ARCHITECTURE.md](https://github.com/k-kolomeitsev/data-structure-protocol/blob/main/ARCHITECTURE.md)
 - **CLI source + reference docs**: [skills/data-structure-protocol](https://github.com/k-kolomeitsev/data-structure-protocol/tree/main/skills/data-structure-protocol)
 - **Introduction article**: [article.md](https://github.com/k-kolomeitsev/data-structure-protocol/blob/main/article.md)
+

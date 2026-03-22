@@ -49,3 +49,4 @@ Expert guide for understanding Bitcoin Lightning Network channel factories and t
 - SuperScalar project: https://github.com/8144225309/SuperScalar
 - Website: https://SuperScalar.win
 - Original proposal: https://delvingbitcoin.org/t/superscalar-laddered-timeout-tree-structured-decker-wattenhofer-factories/1143
+

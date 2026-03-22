@@ -31,7 +31,7 @@ Reference this skill when working on the specific project it's designed for. Pro
 - **Frontend**: Next.js 15 (App Router), TypeScript, React
 - **Backend**: FastAPI (Python), Pydantic models
 - **Database**: Supabase (PostgreSQL)
-- **AI**: Claude API with tool calling and structured output
+- **AI**: Antigravity API with tool calling and structured output
 - **Deployment**: Google Cloud Run
 - **Testing**: Playwright (E2E), pytest (backend), React Testing Library
 
@@ -53,7 +53,7 @@ Reference this skill when working on the specific project it's designed for. Pro
               ┌───────────────┼───────────────┐
               ▼               ▼               ▼
         ┌──────────┐   ┌──────────┐   ┌──────────┐
-        │ Supabase │   │  Claude  │   │  Redis   │
+        │ Supabase │   │  Antigravity  │   │  Redis   │
         │ Database │   │   API    │   │  Cache   │
         └──────────┘   └──────────┘   └──────────┘
 ```
@@ -152,7 +152,7 @@ async function fetchApi<T>(
 }
 ```
 
-### Claude AI Integration (Structured Output)
+### Antigravity AI Integration (Structured Output)
 
 ```python
 from anthropic import Anthropic
@@ -163,11 +163,11 @@ class AnalysisResult(BaseModel):
     key_points: list[str]
     confidence: float
 
-async def analyze_with_claude(content: str) -> AnalysisResult:
+async def analyze_with_Antigravity(content: str) -> AnalysisResult:
     client = Anthropic()
 
     response = client.messages.create(
-        model="claude-sonnet-4-5-20250514",
+        model="Antigravity-sonnet-4-5-20250514",
         max_tokens=1024,
         messages=[{"role": "user", "content": content}],
         tools=[{
@@ -351,3 +351,4 @@ SUPABASE_KEY=eyJ...
 - `backend-patterns.md` - API and database patterns
 - `frontend-patterns.md` - React and Next.js patterns
 - `tdd-workflow/` - Test-driven development methodology
+

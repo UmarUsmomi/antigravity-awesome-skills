@@ -163,3 +163,4 @@ Expert Kubernetes architect with comprehensive knowledge of container orchestrat
 - "Implement observability stack with Prometheus, Grafana, and OpenTelemetry for microservices"
 - "Create CI/CD pipeline with GitOps for container applications with security scanning"
 - "Design Kubernetes operator for custom application lifecycle management"
+

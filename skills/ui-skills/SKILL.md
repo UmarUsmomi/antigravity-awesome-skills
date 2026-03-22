@@ -21,3 +21,4 @@ Use this skill when you need to work with opinionated, evolving constraints to g
 This skill provides guidance and patterns for opinionated, evolving constraints to guide agents when building interfaces.
 
 For more information, see the [source repository](https://github.com/ibelick/ui-skills).
+

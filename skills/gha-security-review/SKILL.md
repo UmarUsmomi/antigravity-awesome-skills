@@ -23,7 +23,7 @@ Review the workflows provided (file, diff, or repo). Research the codebase as ne
 - `.github/workflows/*.yml` — all workflow definitions
 - `action.yml` / `action.yaml` — composite actions in the repo
 - `.github/actions/*/action.yml` — local reusable actions
-- Config files loaded by workflows: `CLAUDE.md`, `AGENTS.md`, `Makefile`, shell scripts under `.github/`
+- Config files loaded by workflows: `Antigravity.md`, `AGENTS.md`, `Makefile`, shell scripts under `.github/`
 
 ### Out of Scope
 
@@ -112,7 +112,7 @@ Are elevated credentials (PATs, deploy keys) accessible to untrusted code?
 ### Check 5: Config File Poisoning
 
 Does the workflow load configuration from PR-supplied files?
-- AI agent instructions: `CLAUDE.md`, `AGENTS.md`, `.cursorrules`
+- AI agent instructions: `Antigravity.md`, `AGENTS.md`, `.cursorrules`
 - Build configuration: `Makefile`, shell scripts
 
 ### Check 6: Supply Chain
@@ -183,3 +183,4 @@ If any link is broken, mark MEDIUM (needs verification) or drop the finding.
 ````
 
 If no findings: "No exploitable vulnerabilities identified. All workflows reviewed and cleared."
+

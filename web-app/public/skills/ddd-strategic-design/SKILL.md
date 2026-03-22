@@ -50,3 +50,4 @@ classify subdomains, and propose team ownership.
 - This skill does not produce executable code.
 - It cannot infer business truth without stakeholder input.
 - It should be followed by tactical design before implementation.
+

@@ -263,3 +263,4 @@ app.run_server(debug=True)
 - API reference: https://plotly.com/python-api-reference/
 - Community forum: https://community.plotly.com/
 
+

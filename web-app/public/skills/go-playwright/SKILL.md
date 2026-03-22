@@ -75,3 +75,4 @@ To bypass anti-bot systems (Cloudflare, Akamai), the generated code must **imita
  - Is it a new user identity? -> `NewContext`, apply new Proxy, rotate `User-Agent`.
  - Is the action critical? -> Wrap in `SafeAction` with Zap logging.
  - Is the target guarded (Cloudflare/Akamai)? -> Enable `HumanType`, `BezierMouse`, and Stealth Scripts.
+

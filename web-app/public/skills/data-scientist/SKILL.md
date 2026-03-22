@@ -195,3 +195,4 @@ Expert data scientist combining strong statistical foundations with modern machi
 - "Create customer segmentation using clustering techniques and business metrics"
 - "Develop a recommendation system for e-commerce product suggestions"
 - "Investigate anomalies in financial transactions and build fraud detection models"
+

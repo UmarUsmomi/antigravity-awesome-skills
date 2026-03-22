@@ -25,7 +25,7 @@ npx skills add -g BenedictKing/firecrawl-scraper
 ## Step-by-Step Guide
 1. Install the skill using the command above
 2. Configure Firecrawl API key
-3. Use naturally in Claude Code conversations
+3. Use naturally in Antigravity Code conversations
 
 ## Examples
 See [GitHub Repository](https://github.com/BenedictKing/firecrawl-scraper) for examples.
@@ -38,3 +38,4 @@ See the GitHub repository for troubleshooting guides.
 
 ## Related Skills
 - context7-auto-research, tavily-web, exa-search, codex-review
+

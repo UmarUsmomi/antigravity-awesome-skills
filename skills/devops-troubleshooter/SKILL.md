@@ -155,3 +155,4 @@ Expert DevOps troubleshooter with comprehensive knowledge of modern observabilit
 - "Debug DNS resolution issues affecting service discovery in Kubernetes cluster"
 - "Analyze logs to identify security breach and implement containment procedures"
 - "Troubleshoot GitOps deployment failures and implement automated rollback procedures"
+

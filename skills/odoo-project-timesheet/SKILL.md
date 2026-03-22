@@ -114,3 +114,4 @@ Step 3: Invoice pre-populates with:
 - Does not cover **Project Forecast** (resource capacity planning) — that requires the Enterprise Forecast app.
 - **Time & Materials** invoicing works well for hourly billing but is not suited for **fixed-price projects** — use milestones or manual invoice lines for those.
 - Timesheet entries logged outside an active project-task pair (e.g., on internal projects) are not assignable to customer invoices without custom configuration.
+

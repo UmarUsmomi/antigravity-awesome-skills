@@ -77,3 +77,4 @@ Outputs:
 
 **Problem:** Stack stuck in `UPDATE_ROLLBACK_FAILED`
 **Solution:** Use `continue-update-rollback` with `--resources-to-skip` for the failing resource, then fix the root cause.
+

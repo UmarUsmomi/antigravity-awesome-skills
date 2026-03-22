@@ -39,3 +39,4 @@ Systematic attack path visualization and analysis.
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns, templates, and examples.
+

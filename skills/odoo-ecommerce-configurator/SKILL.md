@@ -131,3 +131,4 @@ Note: Some Odoo hosting plans may require "Email Marketing" app enabled.
 - Does not cover **multi-website** configuration — running separate storefronts with different pricelists and languages requires Enterprise.
 - **B2B eCommerce** (customer login required, custom catalog and prices per customer) has additional configuration steps not fully covered here.
 - Odoo eCommerce does not support **subscription billing** natively — that requires the Enterprise **Subscriptions** module.
+

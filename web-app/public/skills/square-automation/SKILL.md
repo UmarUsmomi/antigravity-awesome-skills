@@ -178,3 +178,4 @@ Automate Square payment processing, order management, and invoicing through Comp
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

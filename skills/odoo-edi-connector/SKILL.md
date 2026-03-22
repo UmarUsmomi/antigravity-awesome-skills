@@ -109,3 +109,4 @@ IEA*1*{isa_control}~"""
 - ✅ **Do:** Negotiate a test cycle with trading partners before going live — use test ISA qualifier `T`.
 - ❌ **Don't:** Process EDI files synchronously in web requests — queue them for async processing.
 - ❌ **Don't:** Hardcode trading partner qualifiers — store them in a configuration table per partner.
+

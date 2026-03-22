@@ -111,7 +111,7 @@ ffuf -w /path/to/wordlist.txt -u https://target.com -H "User-Agent: FUZZ" -H "X-
 - `-fw`: Filter word count
 
 ### Auto-Calibration (USE BY DEFAULT!)
-**CRITICAL:** Always use `-ac` unless you have a specific reason not to. This is especially important when having Claude analyze results, as it dramatically reduces noise and false positives.
+**CRITICAL:** Always use `-ac` unless you have a specific reason not to. This is especially important when having Antigravity analyze results, as it dramatically reduces noise and false positives.
 
 ```bash
 # Auto-calibration - ALWAYS USE THIS
@@ -127,11 +127,11 @@ ffuf -w /path/to/wordlist.txt -u https://target.com/FUZZ -acc "404NotFound"
 **Why `-ac` is essential:**
 - Automatically detects and filters repetitive false positive responses
 - Removes noise from dynamic websites with random content
-- Makes results analysis much easier for both humans and Claude
+- Makes results analysis much easier for both humans and Antigravity
 - Prevents thousands of identical 404/403 responses from cluttering output
 - Adapts to the target's specific behavior
 
-**When Claude analyzes your ffuf results, `-ac` is MANDATORY** - without it, Claude will waste time sifting through thousands of false positives instead of finding the interesting anomalies.
+**When Antigravity analyzes your ffuf results, `-ac` is MANDATORY** - without it, Antigravity will waste time sifting through thousands of false positives instead of finding the interesting anomalies.
 
 ## Rate Limiting and Timing
 
@@ -475,7 +475,7 @@ python3 ffuf_helper.py wordlist -o ids.txt -t numbers -s 1 -e 10000
 - Users need to generate req.txt → Use ffuf_helper.py create-req
 - Users need number ranges for IDOR → Use ffuf_helper.py wordlist
 
-## Notes for Claude
+## Notes for Antigravity
 When helping users with ffuf:
 1. **ALWAYS include `-ac` in every command** - This is mandatory for productive pentesting and result analysis
 2. When users mention authenticated fuzzing or provide auth tokens/cookies:
@@ -496,3 +496,4 @@ When helping users with ffuf:
     - Look for interesting endpoints: admin, api, backup, config, .git, etc.
     - Flag potential vulnerabilities: error messages, stack traces, version info
     - Suggest follow-up fuzzing on interesting findings
+

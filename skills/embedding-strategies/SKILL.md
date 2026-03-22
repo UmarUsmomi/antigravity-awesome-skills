@@ -492,3 +492,4 @@ def compute_embedding_similarity(
 - [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings)
 - [Sentence Transformers](https://www.sbert.net/)
 - [MTEB Benchmark](https://huggingface.co/spaces/mteb/leaderboard)
+

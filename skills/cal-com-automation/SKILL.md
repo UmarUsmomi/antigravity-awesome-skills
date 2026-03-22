@@ -205,3 +205,4 @@ Automate Cal.com scheduling operations through Composio's Cal toolkit via Rube M
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

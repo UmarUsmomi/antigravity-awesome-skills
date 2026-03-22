@@ -36,3 +36,4 @@ Comprehensive guide for mastering modern JavaScript (ES6+) features, functional 
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

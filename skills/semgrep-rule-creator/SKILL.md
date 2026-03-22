@@ -166,3 +166,4 @@ Semgrep Rule Progress:
 3. [ToB Testing Handbook - Semgrep](https://appsec.guide/docs/static-analysis/semgrep/advanced/)
 4. [Constant propagation](https://semgrep.dev/docs/writing-rules/data-flow/constant-propagation)
 5. [Writing Rules Index](https://github.com/semgrep/semgrep-docs/tree/main/docs/writing-rules/)
+

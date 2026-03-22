@@ -105,3 +105,4 @@ Restore any stashed changes after the branch is created.
 ## References
 
 - [Sentry Branch Naming](https://develop.sentry.dev/sdk/getting-started/standards/code-submission/#branch-naming)
+

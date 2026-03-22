@@ -161,7 +161,7 @@ Find relevant articles from knowledge base index:
 ```javascript
 function searchKnowledgeBase(topic) {
   // Read knowledge base index
-  const kbIndex = readFile('.claude/skills/wellally-tech/knowledge-base/index.md');
+  const kbIndex = readFile('.Antigravity/skills/wellally-tech/knowledge-base/index.md');
 
   // Find matching articles
   const articles = kbIndex.categories.filter(cat =>
@@ -682,3 +682,4 @@ A: No. Knowledge base articles are referenced via URLs, requiring network connec
 
 **Q: Where are API credentials stored?**
 A: API credentials are encrypted and stored in local configuration files, not uploaded to any server.
+

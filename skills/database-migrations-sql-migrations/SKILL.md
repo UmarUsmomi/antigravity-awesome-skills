@@ -47,3 +47,4 @@ The user needs SQL database migrations that ensure data integrity, minimize down
 ## Resources
 
 - Focus on production-ready SQL migrations with zero-downtime deployment strategies, comprehensive validation, and enterprise-grade safety mechanisms.
+

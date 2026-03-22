@@ -100,3 +100,4 @@ record.is_published = True
 - The **Odoo.sh automated upgrade** path has additional steps not covered here; refer to Odoo.sh documentation.
 - **Enterprise-specific modules** (e.g., `account_accountant`, `sign`) may have undocumented breaking changes; test on a staging environment with Enterprise license.
 - JavaScript OWL component migration (v15 Legacy → v16 OWL) is a complex topic not fully covered by this skill.
+

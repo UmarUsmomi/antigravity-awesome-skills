@@ -358,3 +358,4 @@ If not using the wrapper script, invoke directly:
 "$BURP_JAVA" -jar -Djava.awt.headless=true "$BURP_JAR" \
   --project-file=/path/to/project.burp [FLAGS]
 ```
+

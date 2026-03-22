@@ -647,3 +647,4 @@ export async function getStaticProps() {
 ---
 
 **Pro Tip:** Focus on Core Web Vitals (LCP, FID, CLS) first - they have the biggest impact on user experience and SEO rankings!
+

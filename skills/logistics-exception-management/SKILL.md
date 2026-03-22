@@ -203,3 +203,4 @@ Use this skill when you need to **triage and resolve logistics exceptions or des
 - Handling delays, damages, shortages, misdeliveries, and claims across LTL, FTL, parcel, intermodal, ocean, or air.
 - Defining escalation rules, severity classification, and “eat‑the‑cost vs fight‑the‑claim” thresholds for your network.
 - Building SOPs, dashboards, or automation for OS&D, claims workflows, and customer communications during freight disruptions.
+

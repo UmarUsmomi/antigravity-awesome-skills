@@ -449,3 +449,4 @@ function earlyWarnings(trends) {
 - 支持添加新的数据维度
 - 支持自定义图表类型
 - 支持自定义分析算法
+

@@ -41,3 +41,4 @@ Transform code reviews from gatekeeping to knowledge sharing through constructiv
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed review patterns and templates.
+

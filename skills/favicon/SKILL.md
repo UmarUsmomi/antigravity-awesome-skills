@@ -229,3 +229,4 @@ Report completion with:
 - If the source image doesn't exist, report the exact path that was tried and stop
 - If ImageMagick commands fail, report the specific error message
 - If the layout file cannot be found for HTML updates, generate files anyway and instruct on manual HTML addition
+

@@ -25,7 +25,7 @@ Refer to the local files for detailed documentation:
 
 ## IMPORTANT: Documentation Completeness Check
 
-**Before answering questions, Claude MUST:**
+**Before answering questions, Antigravity MUST:**
 
 1. Read the relevant reference file(s) listed above
 2. If file read fails or file is empty:
@@ -152,3 +152,4 @@ Child = <Parent> {
 2. Emphasize that DSL is embedded in Rust via `live_design!` macro
 3. Highlight that changes to DSL are live-reloaded without recompilation
 4. Distinguish between named objects (prototypes) and widget instances
+

@@ -245,3 +245,4 @@ type AttachmentMeta = { id: string; filename: string; contentType: string; size:
 type KarmaBalance = { balance: number; events: KarmaEvent[] };
 type KarmaEvent = { id: string; type: string; amount: number; timestamp: number; metadata?: Record<string, unknown> };
 ```
+

@@ -40,3 +40,4 @@ Templates and patterns for creating legally sound employment documentation inclu
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed templates and checklists.
+

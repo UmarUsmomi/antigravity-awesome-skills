@@ -10,7 +10,7 @@ date_added: "2026-02-27"
 
 ## Overview
 
-This skill generates images using Google Gemini's image generation model (`gemini-3-pro-image-preview`). It enables seamless image creation during any Claude Code session - whether you're building frontend UIs, creating documentation, or need visual representations of concepts.
+This skill generates images using Google Gemini's image generation model (`gemini-3-pro-image-preview`). It enables seamless image creation during any Antigravity Code session - whether you're building frontend UIs, creating documentation, or need visual representations of concepts.
 
 **Cross-Platform**: Works on Windows, macOS, and Linux.
 
@@ -76,3 +76,4 @@ User: "Create a diagram showing microservices architecture"
 User: "Generate a placeholder avatar image for the user profile component"
 -> Creates image in appropriate size for component use
 ```
+

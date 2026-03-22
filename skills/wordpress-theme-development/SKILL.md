@@ -186,3 +186,4 @@ theme-name/
 - `wordpress` - WordPress development
 - `wordpress-plugin-development` - Plugin development
 - `wordpress-woocommerce` - WooCommerce
+

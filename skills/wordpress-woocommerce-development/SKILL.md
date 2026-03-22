@@ -185,3 +185,4 @@ Use @playwright-skill to test WooCommerce checkout flow
 - `wordpress-theme-development` - Theme development
 - `wordpress-plugin-development` - Plugin development
 - `payment-integration` - Payment processing
+

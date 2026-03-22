@@ -34,3 +34,4 @@ Production patterns for Go concurrency including goroutines, channels, synchroni
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

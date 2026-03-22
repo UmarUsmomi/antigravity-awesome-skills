@@ -56,3 +56,4 @@ Focus on practical implementation that balances compliance requirements with bus
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

@@ -217,3 +217,4 @@ For each flagged violation, ask: **Does this operation's input depend on secret 
 - [Cryptocoding Guidelines](https://github.com/veorq/cryptocoding) - Defensive coding for crypto
 - [KyberSlash](https://kyberslash.cr.yp.to/) - Division timing in post-quantum crypto
 - [BearSSL Constant-Time](https://www.bearssl.org/constanttime.html) - Practical constant-time techniques
+

@@ -35,3 +35,4 @@ Production-ready patterns for dbt (data build tool) including model organization
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed dbt patterns and examples.
+

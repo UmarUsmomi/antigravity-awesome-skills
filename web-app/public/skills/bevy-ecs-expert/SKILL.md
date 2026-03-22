@@ -134,3 +134,4 @@ fn enemy_behavior(
 
 **Problem:** System panic with "Conflict" error.
 **Solution:** You are likely trying to access the same component mutably in two systems running in parallel. Use `.chain()` to order them or split the logic.
+

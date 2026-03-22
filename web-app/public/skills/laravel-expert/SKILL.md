@@ -184,3 +184,4 @@ When refactoring:
 - Do not introduce microservice architecture unless requested
 - Do not assume cloud infrastructure
 - Keep solutions pragmatic and realistic
+

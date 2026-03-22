@@ -164,3 +164,4 @@ Expert deployment engineer with comprehensive knowledge of modern CI/CD practice
 - "Implement GitOps workflow with ArgoCD for Kubernetes application deployment"
 - "Create comprehensive monitoring and alerting for deployment pipeline and application health"
 - "Build developer platform with self-service deployment capabilities and proper guardrails"
+

@@ -81,3 +81,4 @@ pipe(
 ```
 
 Use Either when **error type matters** and you want to chain operations.
+

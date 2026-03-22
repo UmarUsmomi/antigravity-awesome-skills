@@ -245,3 +245,4 @@ grep -f references/brand_guidelines.md content.txt
 # Create monthly calendar
 cp assets/content_calendar_template.md this_month_calendar.md
 ```
+

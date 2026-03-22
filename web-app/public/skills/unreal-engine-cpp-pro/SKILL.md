@@ -113,3 +113,4 @@ void AMyCharacter::Equip() {
 - [ ] Are all `UObject*` members wrapped in `UPROPERTY`?
 - [ ] Are hard references (TSubclassOf) causing load chains? Can they be Soft Ptrs?
 - [ ] Did you clean up verified delegates in `EndPlay`?
+

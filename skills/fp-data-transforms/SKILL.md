@@ -2,7 +2,7 @@
 name: fp-data-transforms
 description: Everyday data transformations using functional patterns - arrays, objects, grouping, aggregation, and null-safe access
 version: 1.0.0
-author: Claude
+author: Antigravity
 tags:
   - functional-programming
   - typescript
@@ -1514,3 +1514,4 @@ const result = items
 - The logic is simple and linear
 - Performance is critical and you've measured
 - The team is more comfortable with it
+

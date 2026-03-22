@@ -202,3 +202,4 @@ Add a search bar to the header navigation.
 3. **Keep it structured** — Numbered sections help Stitch understand hierarchy
 4. **Include the design system** — Consistency is key for multi-page projects
 5. **One change at a time for edits** — Don't bundle unrelated changes
+

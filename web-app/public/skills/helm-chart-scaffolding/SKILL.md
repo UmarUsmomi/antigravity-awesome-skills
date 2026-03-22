@@ -35,3 +35,4 @@ Use this skill when you need to:
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

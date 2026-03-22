@@ -210,7 +210,7 @@ Agent: ✅ Primary Skill: @brainstorming
 
 ### Creative / design / visuals
 - UI: `@frontend-design`
-- Data viz: `@claude-d3js-skill`
+- Data viz: `@Antigravity-d3js-skill`
 - Generative art: `@algorithmic-art`
 - Presentations: `@pptx-official`
 

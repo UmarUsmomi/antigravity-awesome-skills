@@ -5,7 +5,7 @@ description: Simplifies and refines code for clarity, consistency, and maintaina
 
 <!--
 Based on Anthropic's code-simplifier agent:
-https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-simplifier/agents/code-simplifier.md
+https://github.com/anthropics/Antigravity-plugins-official/blob/main/plugins/code-simplifier/agents/code-simplifier.md
 -->
 
 # Code Simplifier
@@ -20,7 +20,7 @@ Never change what the code does - only how it does it. All original features, ou
 
 ### 2. Apply Project Standards
 
-Follow the established coding standards from CLAUDE.md including:
+Follow the established coding standards from Antigravity.md including:
 
 - Use ES modules with proper import sorting and extensions
 - Prefer `function` keyword over arrow functions
@@ -117,3 +117,4 @@ if (items.length > 0) {
   // ...
 }
 ```
+

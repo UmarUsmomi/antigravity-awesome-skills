@@ -33,3 +33,4 @@ Production-ready FastAPI project structures with async patterns, dependency inje
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

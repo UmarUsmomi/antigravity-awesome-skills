@@ -1,6 +1,6 @@
 ---
 name: react-flow-architect
-description: "Expert ReactFlow architect for building interactive graph applications with hierarchical node-edge systems, performance optimization, and auto-layout integration. Use when Claude needs to create or..."
+description: "Expert ReactFlow architect for building interactive graph applications with hierarchical node-edge systems, performance optimization, and auto-layout integration. Use when Antigravity needs to create or..."
 risk: unknown
 source: community
 date_added: "2026-02-27"
@@ -617,3 +617,4 @@ This comprehensive skill provides everything needed to build production-ready Re
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

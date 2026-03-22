@@ -603,3 +603,4 @@ def validate_smart_goal(goal):
 ---
 
 **使用此技能时,始终优先考虑用户的健康和安全!**
+

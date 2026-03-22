@@ -36,3 +36,4 @@ Comprehensive guide to implementing CQRS (Command Query Responsibility Segregati
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed CQRS patterns and templates.
+

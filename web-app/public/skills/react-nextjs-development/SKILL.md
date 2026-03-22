@@ -226,3 +226,4 @@ Use @vercel-deployment to deploy Next.js app to production
 - `testing-qa` - Testing workflow
 - `documentation` - Documentation
 - `typescript-development` - TypeScript patterns
+

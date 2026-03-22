@@ -41,3 +41,4 @@ Production patterns for implementing data quality with Great Expectations, dbt t
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed frameworks, templates, and examples.
+

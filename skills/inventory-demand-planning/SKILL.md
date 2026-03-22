@@ -224,3 +224,4 @@ Use this skill when you need to **forecast demand and shape inventory policy acr
 - Selecting and tuning forecasting methods, safety stock policies, and reorder logic for different demand patterns.
 - Planning promotions, seasonal transitions, markdowns, and end‑of‑life strategies while balancing service, cash, and margin.
 - Investigating chronic stockouts, excess inventory, or forecast bias and redesigning the planning process with clearer decision frameworks.
+

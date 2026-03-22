@@ -33,3 +33,4 @@ Patterns for combining vector similarity and keyword-based search.
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

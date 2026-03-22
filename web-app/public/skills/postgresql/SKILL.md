@@ -231,3 +231,4 @@ CREATE TABLE profiles (
 );
 CREATE INDEX profiles_attrs_gin ON profiles USING GIN (attrs);
 ```
+

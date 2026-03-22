@@ -62,3 +62,4 @@ Expert in monorepo architecture, build systems, and dependency management at sca
 - Automate dependency updates
 - Document the dependency graph
 - Set up code ownership rules
+

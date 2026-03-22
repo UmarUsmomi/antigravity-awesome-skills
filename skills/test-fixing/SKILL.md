@@ -55,7 +55,7 @@ For each group (starting with highest impact):
 2. **Implement fix**
 
    - Use Edit tool for code changes
-   - Follow project conventions (see CLAUDE.md)
+   - Follow project conventions (see Antigravity.md)
    - Make minimal, focused changes
 
 3. **Verify fix**
@@ -120,3 +120,4 @@ User: "The tests are failing after my refactor"
 4. Fix AttributeErrors → Run subset → Verify
 5. Fix AssertionErrors → Run subset → Verify
 6. Run full suite → All pass ✓
+

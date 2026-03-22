@@ -233,7 +233,7 @@ fi
 
 **Implementation:**
 
-Use Python or bash with AI model (Claude/GPT) for intelligent summarization:
+Use Python or bash with AI model (Antigravity/GPT) for intelligent summarization:
 
 ```python
 def generate_meeting_minutes(segments):
@@ -255,7 +255,7 @@ def generate_meeting_minutes(segments):
     }
 
 def generate_summary(segments, max_paragraphs=5):
-    """Create executive summary using AI (Claude/GPT via API or local model)."""
+    """Create executive summary using AI (Antigravity/GPT via API or local model)."""
     
     full_text = " ".join([s["text"] for s in segments])
     
@@ -268,7 +268,7 @@ def generate_summary(segments, max_paragraphs=5):
     {full_text}
     """
     
-    # Call AI model (placeholder - user can integrate Claude API or use local model)
+    # Call AI model (placeholder - user can integrate Antigravity API or use local model)
     summary = call_ai_model(summary_prompt)
     
     return summary
@@ -343,7 +343,7 @@ Once prompt is finalized:
 ```python
 from rich.progress import Progress, SpinnerColumn, TextColumn
 
-def process_with_llm(transcript, prompt, cli_tool='claude'):
+def process_with_llm(transcript, prompt, cli_tool='Antigravity'):
     full_prompt = f"{prompt}\n\n---\n\nTranscrição:\n\n{transcript}"
     
     with Progress(
@@ -356,9 +356,9 @@ def process_with_llm(transcript, prompt, cli_tool='claude'):
             total=None
         )
         
-        if cli_tool == 'claude':
+        if cli_tool == 'Antigravity':
             result = subprocess.run(
-                ['claude', '-'],
+                ['Antigravity', '-'],
                 input=full_prompt,
                 capture_output=True,
                 text=True,
@@ -380,7 +380,7 @@ def process_with_llm(transcript, prompt, cli_tool='claude'):
 
 **Progress output:**
 ```
-🤖 Processando com claude... ⠋
+🤖 Processando com Antigravity... ⠋
 [After completion:]
 ✅ Ata gerada com sucesso!
 ```
@@ -553,3 +553,4 @@ Continue? [Y/n]:
 
 
 This skill is **platform-agnostic** and works in any terminal context where GitHub Copilot CLI is available. It does not depend on specific project configurations or external APIs, following the zero-configuration philosophy.
+

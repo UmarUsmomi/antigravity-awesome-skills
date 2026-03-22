@@ -149,3 +149,4 @@ requestAnimationFrame(() => { el.style.transition = 'transform 0.3s'; el.style.t
 - choose the least expensive rendering work that matches the intent
 - for any non-default choice, state the constraint that justifies it (surface size, duration, or interaction requirement)
 - when reviewing, prefer actionable notes and concrete alternatives over theory
+

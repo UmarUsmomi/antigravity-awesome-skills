@@ -409,3 +409,4 @@ pub fn clear_ui_cache(_cx: &mut Cx) {
   - Submodule state managers (Search, Downloads, Chats)
   - Provider syncing status tracking
   - Store action forwarding to submodules
+

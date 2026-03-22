@@ -197,3 +197,4 @@ hf cache rm model/gpt2           # Remove a repo from cache
 
 - **Complete command reference**: See references/commands.md
 - **Workflow examples**: See references/examples.md
+

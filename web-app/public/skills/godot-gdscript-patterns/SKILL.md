@@ -34,3 +34,4 @@ Production patterns for Godot 4.x game development with GDScript, covering archi
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

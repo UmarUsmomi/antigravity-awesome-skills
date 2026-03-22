@@ -8,11 +8,11 @@ date_added: "2026-02-27"
 
 # Native Parallel Agents
 
-> Orchestration through Claude Code's built-in Agent Tool
+> Orchestration through Antigravity Code's built-in Agent Tool
 
 ## Overview
 
-This skill enables coordinating multiple specialized agents through Claude Code's native agent system. Unlike external scripts, this approach keeps all orchestration within Claude's control.
+This skill enables coordinating multiple specialized agents through Antigravity Code's native agent system. Unlike external scripts, this approach keeps all orchestration within Antigravity's control.
 
 ## When to Use Orchestration
 
@@ -115,7 +115,7 @@ Agents: security-auditor → penetration-tester → synthesis
 
 ---
 
-## Claude Code Built-in Agents
+## Antigravity Code Built-in Agents
 
 These work alongside custom agents:
 
@@ -171,7 +171,8 @@ After all agents complete, synthesize:
 ## Key Benefits
 
 - ✅ **Single session** - All agents share context
-- ✅ **AI-controlled** - Claude orchestrates autonomously
+- ✅ **AI-controlled** - Antigravity orchestrates autonomously
 - ✅ **Native integration** - Works with built-in Explore, Plan agents
 - ✅ **Resume support** - Can continue previous agent work
 - ✅ **Context passing** - Findings flow between agents
+

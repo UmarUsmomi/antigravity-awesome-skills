@@ -39,3 +39,4 @@ Patterns and tools for automating changelog generation, release notes, and versi
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns, templates, and examples.
+

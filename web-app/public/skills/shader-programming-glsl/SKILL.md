@@ -120,3 +120,4 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
 
 **Problem:** Shader compiles but screen is black.
 **Solution:** Check if `gl_Position.w` is correct (usually 1.0). Check if uniforms are actually being set from the host application. Verify UV coordinates are within [0, 1].
+

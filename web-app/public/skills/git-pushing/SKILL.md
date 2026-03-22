@@ -33,4 +33,5 @@ With custom message:
 bash skills/git-pushing/scripts/smart_commit.sh "feat: add feature"
 ```
 
-Script handles: staging, conventional commit message, Claude footer, push with -u flag.
+Script handles: staging, conventional commit message, Antigravity footer, push with -u flag.
+

@@ -112,3 +112,4 @@ Before finalizing your NoSQL schema:
 ❌ **Scatter-Gather:** Querying *all* partitions to find one item (Scan).
 ❌ **Hot Keys:** Putting all "Monday" data into one partition.
 ❌ **Relational Modeling:** Creating `Author` and `Book` tables and trying to join them in code. (Instead, embed Book summaries in Author, or duplicate Author info in Books).
+

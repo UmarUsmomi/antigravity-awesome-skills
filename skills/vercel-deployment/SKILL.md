@@ -78,3 +78,4 @@ Optimize build for faster deployments and smaller bundles
 ## Related Skills
 
 Works well with: `nextjs-app-router`, `supabase-backend`
+

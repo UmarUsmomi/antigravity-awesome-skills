@@ -101,3 +101,4 @@ curl -X POST https://myodoo.example.com/web/dataset/call_kw \
 - **Rate limiting** is not built into the Odoo XMLRPC layer; you must implement throttling client-side.
 - The XML-RPC endpoint (`/xmlrpc/2/`) does not support file uploads — use the REST-based `ir.attachment` model via JSON-RPC for binary data.
 - Odoo.sh (SaaS) may block some API calls depending on plan; verify your subscription supports external API access.
+

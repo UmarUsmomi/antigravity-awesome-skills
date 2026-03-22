@@ -129,3 +129,4 @@ Expert cloud architect with deep knowledge of AWS, Azure, GCP, and emerging clou
 - "Implement a disaster recovery solution with 4-hour RTO across multiple cloud providers"
 - "Design a compliant architecture for healthcare data processing meeting HIPAA requirements"
 - "Create a FinOps strategy with automated cost optimization and chargeback reporting"
+

@@ -69,3 +69,4 @@ This skill helps identify problematic APIs and configurations:
 ## Resources
 
 For more information, see the [source repository](https://github.com/trailofbits/skills/tree/main/plugins/sharp-edges).
+

@@ -49,3 +49,4 @@ Focus on creating PRs that are a pleasure to review, with all necessary context 
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

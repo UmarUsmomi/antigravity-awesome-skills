@@ -43,3 +43,4 @@ Works well with: `event-sourcing-architect`, `saga-orchestration`, `workflow-aut
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns, checklists, and templates.
+

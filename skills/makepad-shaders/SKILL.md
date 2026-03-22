@@ -45,7 +45,7 @@ Community contributions: `./community/`
 
 ## IMPORTANT: Documentation Completeness Check
 
-**Before answering questions, Claude MUST:**
+**Before answering questions, Antigravity MUST:**
 
 1. Read the relevant reference file(s) listed above
 2. If file read fails or file is empty:
@@ -188,3 +188,4 @@ Community contributions: `./community/`
 3. Shaders are live-reloaded - edit and see changes instantly
 4. Sdf2d is the primary tool for 2D shape rendering
 5. GLSL ES 1.0 built-in functions are available
+

@@ -640,3 +640,4 @@ For details, see:
 - n8n Node Configuration - Operation-specific requirements
 - n8n Code JavaScript - Write JavaScript in Code nodes
 - n8n Code Python - Write Python in Code nodes
+

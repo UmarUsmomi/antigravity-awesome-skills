@@ -26,7 +26,7 @@ Refer to the local files for detailed documentation:
 
 ## IMPORTANT: Documentation Completeness Check
 
-**Before answering questions, Claude MUST:**
+**Before answering questions, Antigravity MUST:**
 
 1. Read the relevant reference file(s) listed above
 2. If file read fails or file is empty:
@@ -248,3 +248,4 @@ if let Event::NextFrame(ne) = event {
 3. Use `cx.capture_actions()` to intercept child actions
 4. `Cx::post_action()` is thread-safe for async operations
 5. `DefaultNone` derive macro auto-implements Default for enums
+

@@ -49,3 +49,4 @@ Focus on safe, incremental upgrades that maintain system stability while keeping
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

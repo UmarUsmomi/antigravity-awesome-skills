@@ -120,7 +120,7 @@ pip install videodb python-dotenv
 
 The user must set `VIDEO_DB_API_KEY` using **either** method:
 
-- **Export in terminal** (before starting Claude): `export VIDEO_DB_API_KEY=your-key`
+- **Export in terminal** (before starting Antigravity): `export VIDEO_DB_API_KEY=your-key`
 - **Project `.env` file**: Save `VIDEO_DB_API_KEY=your-key` in the project's `.env` file
 
 Get a free API key at https://console.videodb.io (50 free uploads, no credit card).
@@ -370,3 +370,4 @@ For complete capture workflow, see [reference/capture.md](reference/capture.md).
 https://github.com/video-db/skills
 
 **Maintained By:** [VideoDB](https://github.com/video-db)
+

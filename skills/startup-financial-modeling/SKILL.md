@@ -463,3 +463,4 @@ To create a startup financial model:
 9. **Integrate fundraising** - Model funding rounds and milestones
 
 For complete templates and formulas, reference the `references/` and `examples/` files.
+

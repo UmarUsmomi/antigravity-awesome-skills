@@ -200,3 +200,4 @@ Stripe uses smallest currency unit:
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

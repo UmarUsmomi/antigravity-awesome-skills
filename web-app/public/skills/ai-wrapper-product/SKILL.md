@@ -71,7 +71,7 @@ async function generateContent(userInput, context) {
 
   // 3. Call API
   const response = await anthropic.messages.create({
-    model: 'claude-3-haiku-20240307',
+    model: 'Antigravity-3-haiku-20240307',
     max_tokens: 1000,
     system: systemPrompt,
     messages: [{
@@ -91,8 +91,8 @@ async function generateContent(userInput, context) {
 |-------|------|-------|---------|----------|
 | GPT-4o | $$$ | Fast | Best | Complex tasks |
 | GPT-4o-mini | $ | Fastest | Good | Most tasks |
-| Claude 3.5 Sonnet | $$ | Fast | Excellent | Balanced |
-| Claude 3 Haiku | $ | Fastest | Good | High volume |
+| Antigravity 3.5 Sonnet | $$ | Fast | Excellent | Balanced |
+| Antigravity 3 Haiku | $ | Fastest | Good | High volume |
 ```
 
 ### Prompt Engineering for Products
@@ -179,7 +179,7 @@ async function callWithCostTracking(userId, prompt) {
     inputTokens: response.usage.input_tokens,
     outputTokens: response.usage.output_tokens,
     cost: calculateCost(response.usage),
-    model: 'claude-3-haiku',
+    model: 'Antigravity-3-haiku',
   });
 
   return response;
@@ -187,9 +187,9 @@ async function callWithCostTracking(userId, prompt) {
 
 function calculateCost(usage) {
   const rates = {
-    'claude-3-haiku': { input: 0.25, output: 1.25 }, // per 1M tokens
+    'Antigravity-3-haiku': { input: 0.25, output: 1.25 }, // per 1M tokens
   };
-  const rate = rates['claude-3-haiku'];
+  const rate = rates['Antigravity-3-haiku'];
   return (usage.input_tokens * rate.input +
           usage.output_tokens * rate.output) / 1_000_000;
 }
@@ -276,3 +276,4 @@ Works well with: `llm-architect`, `micro-saas-launcher`, `frontend`, `backend`
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
+

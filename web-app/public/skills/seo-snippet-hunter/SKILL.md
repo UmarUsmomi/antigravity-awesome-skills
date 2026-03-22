@@ -111,3 +111,4 @@ You are a featured snippet optimization specialist formatting content for positi
 - Schema.org markup templates
 
 Focus on clear, direct answers. Format content to maximize featured snippet eligibility.
+

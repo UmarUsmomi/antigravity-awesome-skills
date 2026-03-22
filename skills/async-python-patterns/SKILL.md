@@ -40,3 +40,4 @@ Refer to `resources/implementation-playbook.md` for detailed patterns and exampl
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

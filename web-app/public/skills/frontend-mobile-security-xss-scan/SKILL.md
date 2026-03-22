@@ -323,3 +323,4 @@ class XSSReportGenerator {
 5. **Prevention Checklist**: Best practices for XSS prevention
 
 Focus on identifying XSS attack vectors, providing actionable fixes, and establishing secure coding patterns.
+

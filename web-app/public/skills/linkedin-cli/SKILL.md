@@ -535,3 +535,4 @@ linkedin reset --all                             # Remove all accounts
 - **Action limits.** Per-account limits are configurable on the platform. A `limitExceeded` error means the limit was reached.
 - **URL normalization.** All LinkedIn URLs in responses are normalized to `https://www.linkedin.com/...` format without trailing slashes.
 - **Null fields.** Fields that are unavailable are returned as `null` or `[]`, not omitted.
+

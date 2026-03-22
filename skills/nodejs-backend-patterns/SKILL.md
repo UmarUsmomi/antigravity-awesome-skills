@@ -36,3 +36,4 @@ Comprehensive guidance for building scalable, maintainable, and production-ready
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

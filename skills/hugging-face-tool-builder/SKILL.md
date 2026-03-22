@@ -108,3 +108,4 @@ Commands:
 ```
 
 The `hf` CLI command has replaced the now deprecated `huggingface_hub` CLI command.
+

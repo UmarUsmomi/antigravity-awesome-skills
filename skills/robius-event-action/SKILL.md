@@ -357,3 +357,4 @@ if let ItemAction::Selected(item_id) = action.as_widget_action().cast() {
   - External link handling
   - Platform-conditional actions (#[cfg])
   - UiRunner event handling
+

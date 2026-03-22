@@ -1036,3 +1036,4 @@ Add to PEP 723 header:
 | Schedule UV | `hf_jobs("scheduled uv", {...})` | - | `create_scheduled_uv_job()` |
 | Schedule Docker | `hf_jobs("scheduled run", {...})` | - | `create_scheduled_job()` |
 
+

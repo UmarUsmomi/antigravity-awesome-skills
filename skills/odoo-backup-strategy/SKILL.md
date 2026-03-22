@@ -110,3 +110,4 @@ docker compose start odoo
 - This script assumes a **single-database** Odoo setup. Multi-database instances require looping over all databases.
 - Filestore path may differ between installations (Docker volume vs. bare-metal). Always verify the path with `odoo-bin shell` before running a restore.
 - Large filestores (100GB+) may require incremental backup tools like `rsync` or `restic` rather than full `tar.gz` archives.
+

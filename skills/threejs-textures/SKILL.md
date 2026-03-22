@@ -626,3 +626,4 @@ const textureSize = isMobile ? 1024 : 2048;
 - `threejs-materials` - Applying textures to materials
 - `threejs-loaders` - Loading texture files
 - `threejs-shaders` - Custom texture sampling
+

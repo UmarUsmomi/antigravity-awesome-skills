@@ -35,3 +35,4 @@ Comprehensive guidance for writing comprehensive unit tests for shell scripts us
 ## Resources
 
 - `resources/implementation-playbook.md` for detailed patterns and examples.
+

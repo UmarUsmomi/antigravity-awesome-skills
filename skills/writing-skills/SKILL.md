@@ -120,3 +120,4 @@ mkdir -p ~/.config/opencode/skills/my-skill/references/core
 touch ~/.config/opencode/skills/my-skill/{SKILL.md,gotchas.md}
 touch ~/.config/opencode/skills/my-skill/references/core/README.md
 ```
+

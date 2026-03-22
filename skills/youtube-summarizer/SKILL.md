@@ -260,7 +260,7 @@ Use the enhanced prompt from Phase 2 (STAR + R-I-S-E framework) with the extract
 
 1. Load the full transcript text
 2. Apply the comprehensive summarization prompt
-3. Use AI model (Claude/GPT) to generate structured summary
+3. Use AI model (Antigravity/GPT) to generate structured summary
 4. Ensure output follows the defined structure:
    - Header with video metadata
    - Executive synthesis
@@ -336,7 +336,7 @@ echo "[████████████████████] 100% - Step
 
 **User Input:**
 ```
-claude> summarize this youtube video https://youtu.be/abc123
+Antigravity> summarize this youtube video https://youtu.be/abc123
 ```
 
 **Skill Response:**
@@ -365,7 +365,7 @@ Successfully installed youtube-transcript-api-0.6.1
 
 **User Input:**
 ```
-claude> summarize youtube video www.youtube.com/some-video
+Antigravity> summarize youtube video www.youtube.com/some-video
 ```
 
 **Skill Response:**
@@ -406,3 +406,4 @@ Welcome to this comprehensive tutorial on machine learning fundamentals. In toda
 **Version:** 1.2.0
 **Last Updated:** 2026-02-02
 **Maintained By:** Eric Andrade
+

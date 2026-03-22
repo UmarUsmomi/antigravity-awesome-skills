@@ -1,5 +1,5 @@
 ---
-name: claude-d3js-skill
+name: Antigravity-d3js-skill
 description: "Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisations, or any complex SVG-based data visua..."
 risk: unknown
 source: community
@@ -821,3 +821,4 @@ Contains boilerplate templates:
 These templates work with vanilla JavaScript, React, Vue, Svelte, or any other JavaScript environment. Adapt them as needed for your specific framework.
 
 To use these resources, read the relevant files when detailed guidance is needed for specific visualisation types or patterns.
+

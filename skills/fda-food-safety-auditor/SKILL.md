@@ -55,3 +55,4 @@ Required Actions:
 - ✅ **Do:** Use this skill to practice mock FDA inspections before the real thing.
 - ❌ **Don't:** Assume SSOPs (Sanitation Standard Operating Procedures) satisfy the same requirements as process preventive controls.
 - ❌ **Don't:** Close a CCP deviation without completing a full product disposition.
+

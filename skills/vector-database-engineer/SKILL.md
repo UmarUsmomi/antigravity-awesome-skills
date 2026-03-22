@@ -61,3 +61,4 @@ Expert in vector databases, embedding strategies, and semantic search implementa
 - Plan for index rebuilding
 - Cache frequent queries
 - Test recall vs latency tradeoffs
+

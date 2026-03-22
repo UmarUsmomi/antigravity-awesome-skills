@@ -205,3 +205,4 @@ exporter = AzureMonitorTraceExporter(
 4. **Use AAD authentication** instead of instrumentation keys
 5. **Set export intervals** appropriate for your workload
 6. **Use the distro** (`azure-monitor-opentelemetry`) unless you need custom pipelines
+
